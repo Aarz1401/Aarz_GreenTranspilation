@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+
+# venv
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Editors/IDE
+.vscode/
+.idea/
+
+# ⚠️ Secrets / tokens
+.env
+leetcode_cookies_csrftoken.json
+cookies*.json
+
+# Third-party local clone (don’t vendor the whole repo)
+LeetCode-Solutions/
+
+# Generated artifacts & mirrors (remove lines if you DO want them tracked)
+*_mirror*/
+fetched_solutions/
+translations_from_cpp/
+whisk_meta/
+
+# Data outputs (uncomment if you prefer to keep them out)
+*.db
+*.sqlite
+*.summary.json
+batch_verify_results*.csv
+crossref_*.csv
+whisk_*.csv
+whisk_*.jsonl

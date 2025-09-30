@@ -55,10 +55,22 @@ def is_429(stdout: str, stderr: str) -> bool:
     blob = (stdout or "") + "\n" + (stderr or "")
     return ("429" in blob) or ("Too Many Requests" in blob)
 
+def default_verify_script() -> Path:
+    here = Path(__file__).resolve().parent
+    candidates = [
+        here / "verify_on_leetcode.py",
+        here.parent / "verify_on_leetcode.py",
+    ]
+    for candidate in candidates:
+        if candidate.exists():
+            return candidate
+    return candidates[0]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--root", required=True)
-    ap.add_argument("--verify-script", required=True)
+    ap.add_argument("--verify-script", help="Path to verify_on_leetcode.py (defaults to src/verify_on_leetcode.py if present)")
     ap.add_argument("--cookies", required=True)
     ap.add_argument("--out-csv", default="batch_verify_results_py2.csv")
     ap.add_argument("--sleep", type=float, default=12.0)
@@ -68,7 +80,7 @@ def main():
     args = ap.parse_args()
 
     root = Path(args.root).resolve()
-    verify = Path(args.verify_script).resolve()
+    verify = Path(args.verify_script).resolve() if args.verify_script else default_verify_script()
     cookies = Path(args.cookies).resolve()
     out_csv = Path(args.out_csv).resolve()
     if not root.exists(): raise SystemExit(f"root not found: {root}")
@@ -126,9 +138,15 @@ def main():
                     tries += 1
                     continue
 
+                diagnostic = (err or out or "").strip()
+                if diagnostic:
+                    last_line = diagnostic.splitlines()[-1]
+                    msg = f"ERROR: verify failed rc={rc} :: {last_line}"
+                else:
+                    msg = f"ERROR: verify failed rc={rc}"
                 append(out_csv, {
                     "timestamp": now, "slug": slug, "file": pyf.as_posix(), "lang": "python",
-                    "status_msg": f"ERROR: verify failed rc={rc}",
+                    "status_msg": msg,
                     "run_success":"", "total_correct":"", "total_testcases":"",
                     "status_runtime":"", "status_memory":"", "runtime_percentile":"", "memory_percentile":"",
                     "question_id":"", "submission_id":"", "state":"ERROR"

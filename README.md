@@ -89,8 +89,29 @@ source .venv/bin/activate
 python translate_py2_to_cpp.py \
   --root kamyu_hard_mirror \
   --out-subdir cpp_gpt \
-  --model gpt-5.0-mini \
-  --limit 1
+  --model gpt-5-2025-08-07 \
+  --global-out-dir cpp_gpt_all \
+  --slugs-csv data/passed_python2.csv \
+  --csv-out data/translated_cpp_index.csv \
+  --max-output-tokens 8192 \
+  --overwrite
 ```
 
-> Adjust `--limit`, `--slug`, or `--overwrite` to control translation scope.
+> Adjust `--limit`, `--slug`, or `--overwrite` to control translation scope. Use `--slugs-csv` to target the exact set of verified slugs (for example `data/passed_python2.csv`). `--csv-out` creates an index CSV with the Python and generated C++ paths. Use `--global-out-dir` when you also want a consolidated copy outside the mirror tree. Increase `--max-output-tokens` if you see truncated responses.
+
+## 7. Verify GPT-generated C++ solutions
+
+```bash
+source .venv/bin/activate
+python src/batch_verify_gpt_cpp.py \
+  --root kamyu_hard_mirror \
+  --cookies leetcode_cookies_csrftoken.json \
+  --out-csv data/test_passing_solution_generated_by_GPT.csv \
+  --sleep 15
+```
+
+> This tests all GPT-generated C++ files in `kamyu_hard_mirror/*/cpp_gpt/` against LeetCode and tracks pass/fail statistics in a comprehensive CSV with runtime and memory usage data.
+
+
+NOTES: 
+- GPT-5 cutoff date is September 2024, GPT-5-mini cutoff date is May 31st 2024

@@ -1,0 +1,292 @@
+slug,cpp_file,model,generation_timestamp,verification_status,runtime,memory,error_message,submission_id,verification_timestamp
+sorted-gcd-pair-queries,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3312__sorted-gcd-pair-queries/cpp_gpt/sorted-gcd-pair-queries.cpp,gpt-5-2025-08-07,2025-10-09T17:26:50.412766Z,pass,,,,,2025-10-09T22:20:05Z
+find-the-number-of-possible-ways-for-an-event,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3317__find-the-number-of-possible-ways-for-an-event/cpp_gpt/find-the-number-of-possible-ways-for-an-event.cpp,gpt-5-2025-08-07,2025-10-09T17:27:18.380176Z,pass,,,,,2025-10-09T22:20:21Z
+count-the-number-of-winning-sequences,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3320__count-the-number-of-winning-sequences/cpp_gpt/count-the-number-of-winning-sequences.cpp,gpt-5-2025-08-07,2025-10-09T17:27:35.747238Z,pass,,,,,2025-10-09T22:20:39Z
+find-x-sum-of-all-k-long-subarrays-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3321__find-x-sum-of-all-k-long-subarrays-ii/cpp_gpt/find-x-sum-of-all-k-long-subarrays-ii.cpp,gpt-5-2025-08-07,2025-10-09T17:29:17.085815Z,pass,,,,,2025-10-09T22:20:56Z
+check-if-dfs-strings-are-palindromes,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3327__check-if-dfs-strings-are-palindromes/cpp_gpt/check-if-dfs-strings-are-palindromes.cpp,gpt-5-2025-08-07,2025-10-09T17:30:11.541719Z,pass,,,,,2025-10-09T22:21:12Z
+find-the-original-typed-string-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3333__find-the-original-typed-string-ii/cpp_gpt/find-the-original-typed-string-ii.cpp,gpt-5-2025-08-07,2025-10-09T17:30:36.893340Z,pass,,,,,2025-10-09T22:21:28Z
+find-the-number-of-subsequences-with-equal-gcd,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3336__find-the-number-of-subsequences-with-equal-gcd/cpp_gpt/find-the-number-of-subsequences-with-equal-gcd.cpp,gpt-5-2025-08-07,2025-10-09T17:31:46.007246Z,pass,,,,,2025-10-09T22:21:45Z
+total-characters-in-string-after-transformations-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3337__total-characters-in-string-after-transformations-ii/cpp_gpt/total-characters-in-string-after-transformations-ii.cpp,gpt-5-2025-08-07,2025-10-09T17:32:44.011015Z,pass,,,,,2025-10-09T22:22:02Z
+count-number-of-balanced-permutations,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3343__count-number-of-balanced-permutations/cpp_gpt/count-number-of-balanced-permutations.cpp,gpt-5-2025-08-07,2025-10-09T17:33:49.603530Z,pass,,,,,2025-10-09T22:22:19Z
+maximum-frequency-of-an-element-after-performing-operations-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3347__maximum-frequency-of-an-element-after-performing-operations-ii/cpp_gpt/maximum-frequency-of-an-element-after-performing-operations-ii.cpp,gpt-5-2025-08-07,2025-10-09T17:34:33.161861Z,pass,,,,,2025-10-09T22:22:35Z
+smallest-divisible-digit-product-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3348__smallest-divisible-digit-product-ii/cpp_gpt/smallest-divisible-digit-product-ii.cpp,gpt-5-2025-08-07,2025-10-09T17:36:12.125606Z,fail,,,"{
+  ""slug"": ""smallest-divisible-digit-product-ii"",
+  ""lang"": ""cpp"",
+  ""question_id"": ""3635"",
+  ""submission_id"": ""1796897568"",
+  ""status_msg"": ""Wrong Answer"",
+  ""run_success"": true,
+  ""total_correct"": 514,
+  ""total_testcases"": 954,
+  ""status_runtime"": ""N/A"",
+  ""status_memory"": ""N/A"",
+  ""runtime_percentile"": null,
+  ""memory_percentile"": null,
+  ""state"": ""SUCCESS""
+}",,2025-10-09T22:22:55Z
+count-k-reducible-numbers-less-than-n,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3352__count-k-reducible-numbers-less-than-n/cpp_gpt/count-k-reducible-numbers-less-than-n.cpp,gpt-5-2025-08-07,2025-10-09T17:37:15.360175Z,pass,,,,,2025-10-09T22:23:12Z
+find-the-maximum-number-of-fruits-collected,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3363__find-the-maximum-number-of-fruits-collected/cpp_gpt/find-the-maximum-number-of-fruits-collected.cpp,gpt-5-2025-08-07,2025-10-09T17:37:59.140326Z,pass,,,,,2025-10-09T22:23:28Z
+maximize-sum-of-weights-after-edge-removals,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3367__maximize-sum-of-weights-after-edge-removals/cpp_gpt/maximize-sum-of-weights-after-edge-removals.cpp,gpt-5-2025-08-07,2025-10-09T17:39:14.297091Z,fail,,,"{
+  ""slug"": ""maximize-sum-of-weights-after-edge-removals"",
+  ""lang"": ""cpp"",
+  ""question_id"": ""3675"",
+  ""submission_id"": ""1796898035"",
+  ""status_msg"": ""Wrong Answer"",
+  ""run_success"": true,
+  ""total_correct"": 654,
+  ""total_testcases"": 714,
+  ""status_runtime"": ""N/A"",
+  ""status_memory"": ""N/A"",
+  ""runtime_percentile"": null,
+  ""memory_percentile"": null,
+  ""state"": ""SUCCESS""
+}",,2025-10-09T22:23:45Z
+maximize-the-number-of-target-nodes-after-connecting-trees-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3373__maximize-the-number-of-target-nodes-after-connecting-trees-ii/cpp_gpt/maximize-the-number-of-target-nodes-after-connecting-trees-ii.cpp,gpt-5-2025-08-07,2025-10-09T17:39:43.841365Z,pass,,,,,2025-10-09T22:24:02Z
+count-connected-components-in-lcm-graph,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3378__count-connected-components-in-lcm-graph/cpp_gpt/count-connected-components-in-lcm-graph.cpp,gpt-5-2025-08-07,2025-10-09T17:40:17.934411Z,pass,,,,,2025-10-09T22:24:18Z
+maximum-area-rectangle-with-point-constraints-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3382__maximum-area-rectangle-with-point-constraints-ii/cpp_gpt/maximum-area-rectangle-with-point-constraints-ii.cpp,gpt-5-2025-08-07,2025-10-09T17:41:10.561896Z,fail,,,"{
+  ""slug"": ""maximum-area-rectangle-with-point-constraints-ii"",
+  ""lang"": ""cpp"",
+  ""question_id"": ""3689"",
+  ""submission_id"": ""1796898437"",
+  ""status_msg"": ""Wrong Answer"",
+  ""run_success"": true,
+  ""total_correct"": 581,
+  ""total_testcases"": 594,
+  ""status_runtime"": ""N/A"",
+  ""status_memory"": ""N/A"",
+  ""runtime_percentile"": null,
+  ""memory_percentile"": null,
+  ""state"": ""SUCCESS""
+}",,2025-10-09T22:24:36Z
+minimum-operations-to-make-character-frequencies-equal,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3389__minimum-operations-to-make-character-frequencies-equal/cpp_gpt/minimum-operations-to-make-character-frequencies-equal.cpp,gpt-5-2025-08-07,2025-10-09T17:41:48.971617Z,pass,,,,,2025-10-09T22:24:51Z
+subsequences-with-a-unique-middle-mode-i,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3395__subsequences-with-a-unique-middle-mode-i/cpp_gpt/subsequences-with-a-unique-middle-mode-i.cpp,gpt-5-2025-08-07,2025-10-09T17:43:15.756713Z,pass,,,,,2025-10-09T22:25:08Z
+smallest-substring-with-identical-characters-i,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3398__smallest-substring-with-identical-characters-i/cpp_gpt/smallest-substring-with-identical-characters-i.cpp,gpt-5-2025-08-07,2025-10-09T17:43:43.686275Z,pass,,,,,2025-10-09T22:25:23Z
+smallest-substring-with-identical-characters-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3399__smallest-substring-with-identical-characters-ii/cpp_gpt/smallest-substring-with-identical-characters-ii.cpp,gpt-5-2025-08-07,2025-10-09T17:44:16.488182Z,pass,,,,,2025-10-09T22:25:39Z
+count-the-number-of-arrays-with-k-matching-adjacent-elements,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3405__count-the-number-of-arrays-with-k-matching-adjacent-elements/cpp_gpt/count-the-number-of-arrays-with-k-matching-adjacent-elements.cpp,gpt-5-2025-08-07,2025-10-09T17:44:57.810166Z,pass,,,,,2025-10-09T22:25:54Z
+maximize-subarray-sum-after-removing-all-occurrences-of-one-element,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3410__maximize-subarray-sum-after-removing-all-occurrences-of-one-element/cpp_gpt/maximize-subarray-sum-after-removing-all-occurrences-of-one-element.cpp,gpt-5-2025-08-07,2025-10-09T17:45:32.279448Z,pass,,,,,2025-10-09T22:26:12Z
+count-non-decreasing-subarrays-after-k-operations,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3420__count-non-decreasing-subarrays-after-k-operations/cpp_gpt/count-non-decreasing-subarrays-after-k-operations.cpp,gpt-5-2025-08-07,2025-10-09T17:52:55.730909Z,pass,,,,,2025-10-09T22:26:28Z
+longest-special-path,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3425__longest-special-path/cpp_gpt/longest-special-path.cpp,gpt-5-2025-08-07,2025-10-09T20:19:17.451023Z,pass,,,,,2025-10-09T22:26:45Z
+manhattan-distances-of-all-arrangements-of-pieces,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3426__manhattan-distances-of-all-arrangements-of-pieces/cpp_gpt/manhattan-distances-of-all-arrangements-of-pieces.cpp,gpt-5-2025-08-07,2025-10-09T20:36:12.403158Z,pass,,,,,2025-10-09T22:27:02Z
+frequencies-of-shortest-supersequences,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3435__frequencies-of-shortest-supersequences/cpp_gpt/frequencies-of-shortest-supersequences.cpp,gpt-5-2025-08-07,2025-10-09T22:08:26.914171Z,pass,,,,,2025-10-09T22:27:19Z
+minimum-cost-good-caption,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3441__minimum-cost-good-caption/cpp_gpt/minimum-cost-good-caption.cpp,gpt-5-2025-08-07,2025-10-09T22:09:16.954293Z,pass,,,,,2025-10-09T22:27:35Z
+minimum-increments-for-target-multiples-in-an-array,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3444__minimum-increments-for-target-multiples-in-an-array/cpp_gpt/minimum-increments-for-target-multiples-in-an-array.cpp,gpt-5-2025-08-07,2025-10-09T22:09:49.336388Z,pass,,,,,2025-10-09T22:27:52Z
+maximum-difference-between-even-and-odd-frequency-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3445__maximum-difference-between-even-and-odd-frequency-ii/cpp_gpt/maximum-difference-between-even-and-odd-frequency-ii.cpp,gpt-5-2025-08-07,2025-10-09T22:10:13.920772Z,fail,,,"{
+  ""slug"": ""maximum-difference-between-even-and-odd-frequency-ii"",
+  ""lang"": ""cpp"",
+  ""question_id"": ""3761"",
+  ""submission_id"": ""1796900170"",
+  ""status_msg"": ""Wrong Answer"",
+  ""run_success"": true,
+  ""total_correct"": 670,
+  ""total_testcases"": 693,
+  ""status_runtime"": ""N/A"",
+  ""status_memory"": ""N/A"",
+  ""runtime_percentile"": null,
+  ""memory_percentile"": null,
+  ""state"": ""SUCCESS""
+}",,2025-10-09T22:28:09Z
+count-substrings-divisible-by-last-digit,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3448__count-substrings-divisible-by-last-digit/cpp_gpt/count-substrings-divisible-by-last-digit.cpp,gpt-5-2025-08-07,2025-10-09T22:10:56.902634Z,pass,,,,,2025-10-09T22:28:27Z
+separate-squares-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3454__separate-squares-ii/cpp_gpt/separate-squares-ii.cpp,gpt-5-2025-08-07,2025-10-09T22:12:01.393653Z,pass,,,,,2025-10-09T22:28:44Z
+shortest-matching-substring,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3455__shortest-matching-substring/cpp_gpt/shortest-matching-substring.cpp,gpt-5-2025-08-07,2025-10-09T22:12:51.686831Z,pass,,,,,2025-10-09T22:29:00Z
+length-of-longest-v-shaped-diagonal-segment,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3459__length-of-longest-v-shaped-diagonal-segment/cpp_gpt/length-of-longest-v-shaped-diagonal-segment.cpp,gpt-5-2025-08-07,2025-10-09T22:13:15.372593Z,pass,,,,,2025-10-09T22:29:17Z
+check-if-digits-are-equal-in-string-after-operations-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3463__check-if-digits-are-equal-in-string-after-operations-ii/cpp_gpt/check-if-digits-are-equal-in-string-after-operations-ii.cpp,gpt-5-2025-08-07,2025-10-09T22:13:41.699928Z,pass,,,,,2025-10-09T22:29:32Z
+maximize-the-distance-between-points-on-a-square,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3464__maximize-the-distance-between-points-on-a-square/cpp_gpt/maximize-the-distance-between-points-on-a-square.cpp,gpt-5-2025-08-07,2025-10-09T22:14:17.837007Z,pass,,,,,2025-10-09T22:29:48Z
+permutations-iv,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3470__permutations-iv/cpp_gpt/permutations-iv.cpp,gpt-5-2025-08-07,2025-10-09T22:14:50.739931Z,fail,,,"{
+  ""slug"": ""permutations-iv"",
+  ""lang"": ""cpp"",
+  ""question_id"": ""3783"",
+  ""submission_id"": ""1796901067"",
+  ""status_msg"": ""Wrong Answer"",
+  ""run_success"": true,
+  ""total_correct"": 399,
+  ""total_testcases"": 999,
+  ""status_runtime"": ""N/A"",
+  ""status_memory"": ""N/A"",
+  ""runtime_percentile"": null,
+  ""memory_percentile"": null,
+  ""state"": ""SUCCESS""
+}",,2025-10-09T22:30:03Z
+lexicographically-smallest-generated-string,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3474__lexicographically-smallest-generated-string/cpp_gpt/lexicographically-smallest-generated-string.cpp,gpt-5-2025-08-07,2025-10-09T22:16:01.712443Z,pass,,,,,2025-10-09T22:30:19Z
+maximize-subarrays-after-removing-one-conflicting-pair,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3480__maximize-subarrays-after-removing-one-conflicting-pair/cpp_gpt/maximize-subarrays-after-removing-one-conflicting-pair.cpp,gpt-5-2025-08-07,2025-10-09T22:16:32.228333Z,fail,,,"{
+  ""slug"": ""maximize-subarrays-after-removing-one-conflicting-pair"",
+  ""lang"": ""cpp"",
+  ""question_id"": ""3789"",
+  ""submission_id"": ""1796901323"",
+  ""status_msg"": ""Wrong Answer"",
+  ""run_success"": true,
+  ""total_correct"": 633,
+  ""total_testcases"": 642,
+  ""status_runtime"": ""N/A"",
+  ""status_memory"": ""N/A"",
+  ""runtime_percentile"": null,
+  ""memory_percentile"": null,
+  ""state"": ""SUCCESS""
+}",,2025-10-09T22:30:37Z
+longest-common-prefix-of-k-strings-after-removal,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3485__longest-common-prefix-of-k-strings-after-removal/cpp_gpt/longest-common-prefix-of-k-strings-after-removal.cpp,gpt-5-2025-08-07,2025-10-09T22:17:21.706900Z,pass,,,,,2025-10-09T22:30:53Z
+longest-special-path-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3486__longest-special-path-ii/cpp_gpt/longest-special-path-ii.cpp,gpt-5-2025-08-07,2025-10-09T22:18:35.922615Z,pass,,,,,2025-10-09T22:31:10Z
+count-beautiful-numbers,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3490__count-beautiful-numbers/cpp_gpt/count-beautiful-numbers.cpp,gpt-5-2025-08-07,2025-10-09T22:19:12.269906Z,pass,,,,,2025-10-09T22:31:27Z
+minimum-operations-to-make-array-elements-zero,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3495__minimum-operations-to-make-array-elements-zero/cpp_gpt/minimum-operations-to-make-array-elements-zero.cpp,gpt-5-2025-08-07,2025-10-09T22:19:45.382557Z,pass,,,,,2025-10-09T22:31:44Z
+minimum-cost-to-divide-array-into-subarrays,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3500__minimum-cost-to-divide-array-into-subarrays/cpp_gpt/minimum-cost-to-divide-array-into-subarrays.cpp,gpt-5-2025-08-07,2025-10-09T22:21:11.520741Z,pass,,,,,2025-10-09T22:32:00Z
+maximize-active-section-with-trade-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3501__maximize-active-section-with-trade-ii/cpp_gpt/maximize-active-section-with-trade-ii.cpp,gpt-5-2025-08-07,2025-10-09T22:21:47.537696Z,pass,,,,,2025-10-09T22:32:17Z
+longest-palindrome-after-substring-concatenation-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3504__longest-palindrome-after-substring-concatenation-ii/cpp_gpt/longest-palindrome-after-substring-concatenation-ii.cpp,gpt-5-2025-08-07,2025-10-09T22:22:31.545588Z,pass,,,,,2025-10-09T22:32:33Z
+minimum-operations-to-make-elements-within-k-subarrays-equal,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3505__minimum-operations-to-make-elements-within-k-subarrays-equal/cpp_gpt/minimum-operations-to-make-elements-within-k-subarrays-equal.cpp,gpt-5-2025-08-07,2025-10-09T22:23:22.588908Z,pass,,,,,2025-10-09T22:32:51Z
+maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3509__maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k/cpp_gpt/maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k.cpp,gpt-5-2025-08-07,2025-10-09T22:23:58.408434Z,pass,,,,,2025-10-09T22:33:07Z
+minimum-pair-removal-to-sort-array-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3510__minimum-pair-removal-to-sort-array-ii/cpp_gpt/minimum-pair-removal-to-sort-array-ii.cpp,gpt-5-2025-08-07,2025-10-09T22:24:37.773495Z,fail,,,"{
+  ""slug"": ""minimum-pair-removal-to-sort-array-ii"",
+  ""lang"": ""cpp"",
+  ""question_id"": ""3772"",
+  ""submission_id"": ""1796902608"",
+  ""status_msg"": ""Runtime Error"",
+  ""run_success"": false,
+  ""total_correct"": 653,
+  ""total_testcases"": 681,
+  ""status_runtime"": ""N/A"",
+  ""status_memory"": ""N/A"",
+  ""runtime_percentile"": null,
+  ""memory_percentile"": null,
+  ""state"": ""SUCCESS""
+}",,2025-10-09T22:33:23Z
+shortest-path-in-a-weighted-tree,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3515__shortest-path-in-a-weighted-tree/cpp_gpt/shortest-path-in-a-weighted-tree.cpp,gpt-5-2025-08-07,2025-10-09T22:25:28.896953Z,pass,,,,,2025-10-09T22:33:40Z
+smallest-palindromic-rearrangement-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3518__smallest-palindromic-rearrangement-ii/cpp_gpt/smallest-palindromic-rearrangement-ii.cpp,gpt-5-2025-08-07,2025-10-09T22:27:20.989283Z,error,,,"Traceback (most recent call last):
+  File ""/Users/aadil/Aarz_GreenTranspilation/src/verify_on_leetcode.py"", line 174, in <module>
+    main()
+  File ""/Users/aadil/Aarz_GreenTranspilation/src/verify_on_leetcode.py"", line 152, in main
+    result = poll_result(session, auth[""csrf_token""], sub_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/aadil/Aarz_GreenTranspilation/src/verify_on_leetcode.py"", line 122, in poll_result
+    r.raise_for_status()
+  File ""/Users/aadil/Aarz_GreenTranspilation/.venv/lib/python3.12/site-packages/requests/models.py"", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://leetcode.com/submissions/detail/1796902889/check/",,2025-10-09T22:33:56Z
+count-numbers-with-non-decreasing-digits,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3519__count-numbers-with-non-decreasing-digits/cpp_gpt/count-numbers-with-non-decreasing-digits.cpp,gpt-5-2025-08-07,2025-10-09T22:28:14.919409Z,pass,,,,,2025-10-09T22:34:12Z
+find-x-value-of-array-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3525__find-x-value-of-array-ii/cpp_gpt/find-x-value-of-array-ii.cpp,gpt-5-2025-08-07,2025-10-09T22:29:00.475554Z,pass,,,,,2025-10-09T22:34:31Z
+maximum-profit-from-valid-topological-order-in-dag,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3530__maximum-profit-from-valid-topological-order-in-dag/cpp_gpt/maximum-profit-from-valid-topological-order-in-dag.cpp,gpt-5-2025-08-07,2025-10-09T22:29:45.754419Z,pass,,,,,2025-10-09T22:34:47Z
+concatenated-divisibility,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3533__concatenated-divisibility/cpp_gpt/concatenated-divisibility.cpp,gpt-5-2025-08-07,2025-10-09T22:30:32.895754Z,pass,,,,,2025-10-09T22:35:05Z
+path-existence-queries-in-a-graph-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3534__path-existence-queries-in-a-graph-ii/cpp_gpt/path-existence-queries-in-a-graph-ii.cpp,gpt-5-2025-08-07,2025-10-09T22:31:35.484728Z,pass,,,,,2025-10-09T22:35:22Z
+merge-operations-for-minimum-travel-time,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3538__merge-operations-for-minimum-travel-time/cpp_gpt/merge-operations-for-minimum-travel-time.cpp,gpt-5-2025-08-07,2025-10-09T22:32:10.611731Z,pass,,,,,2025-10-09T22:35:39Z
+find-sum-of-array-product-of-magical-sequences,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3539__find-sum-of-array-product-of-magical-sequences/cpp_gpt/find-sum-of-array-product-of-magical-sequences.cpp,gpt-5-2025-08-07,2025-10-09T22:32:37.895089Z,pass,,,,,2025-10-09T22:35:54Z
+subtree-inversion-sum,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3544__subtree-inversion-sum/cpp_gpt/subtree-inversion-sum.cpp,gpt-5-2025-08-07,2025-10-09T22:33:33.027993Z,pass,,,,,2025-10-09T22:36:11Z
+maximum-sum-of-edge-values-in-a-graph,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3547__maximum-sum-of-edge-values-in-a-graph/cpp_gpt/maximum-sum-of-edge-values-in-a-graph.cpp,gpt-5-2025-08-07,2025-10-09T22:34:01.817937Z,pass,,,,,2025-10-09T22:36:29Z
+equal-sum-grid-partition-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3548__equal-sum-grid-partition-ii/cpp_gpt/equal-sum-grid-partition-ii.cpp,gpt-5-2025-08-07,2025-10-09T22:34:59.720840Z,pass,,,,,2025-10-09T22:36:47Z
+minimum-weighted-subgraph-with-the-required-paths-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3553__minimum-weighted-subgraph-with-the-required-paths-ii/cpp_gpt/minimum-weighted-subgraph-with-the-required-paths-ii.cpp,gpt-5-2025-08-07,2025-10-09T22:35:51.787819Z,fail,,,"{
+  ""slug"": ""minimum-weighted-subgraph-with-the-required-paths-ii"",
+  ""lang"": ""cpp"",
+  ""question_id"": ""3853"",
+  ""submission_id"": ""1796904432"",
+  ""status_msg"": ""Compile Error"",
+  ""run_success"": false,
+  ""total_correct"": null,
+  ""total_testcases"": null,
+  ""status_runtime"": ""N/A"",
+  ""status_memory"": ""N/A"",
+  ""runtime_percentile"": null,
+  ""memory_percentile"": null,
+  ""state"": ""SUCCESS""
+}",,2025-10-09T22:37:02Z
+number-of-ways-to-assign-edge-weights-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3559__number-of-ways-to-assign-edge-weights-ii/cpp_gpt/number-of-ways-to-assign-edge-weights-ii.cpp,gpt-5-2025-08-07,2025-10-09T22:36:36.039245Z,pass,,,,,2025-10-09T22:37:19Z
+maximum-profit-from-trading-stocks-with-discounts,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3562__maximum-profit-from-trading-stocks-with-discounts/cpp_gpt/maximum-profit-from-trading-stocks-with-discounts.cpp,gpt-5-2025-08-07,2025-10-09T22:38:03.635054Z,pass,,,,,2025-10-09T22:37:36Z
+maximize-count-of-distinct-primes-after-split,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3569__maximize-count-of-distinct-primes-after-split/cpp_gpt/maximize-count-of-distinct-primes-after-split.cpp,gpt-5-2025-08-07,2025-10-09T22:40:26.202537Z,fail,,,"{
+  ""slug"": ""maximize-count-of-distinct-primes-after-split"",
+  ""lang"": ""cpp"",
+  ""question_id"": ""3878"",
+  ""submission_id"": ""1796904820"",
+  ""status_msg"": ""Compile Error"",
+  ""run_success"": false,
+  ""total_correct"": null,
+  ""total_testcases"": null,
+  ""status_runtime"": ""N/A"",
+  ""status_memory"": ""N/A"",
+  ""runtime_percentile"": null,
+  ""memory_percentile"": null,
+  ""state"": ""SUCCESS""
+}",,2025-10-09T22:37:52Z
+maximize-subarray-gcd-score,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3574__maximize-subarray-gcd-score/cpp_gpt/maximize-subarray-gcd-score.cpp,gpt-5-2025-08-07,2025-10-09T22:41:30.461704Z,pass,,,,,2025-10-09T22:38:09Z
+maximum-good-subtree-score,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3575__maximum-good-subtree-score/cpp_gpt/maximum-good-subtree-score.cpp,gpt-5-2025-08-07,2025-10-09T22:43:22.407651Z,pass,,,,,2025-10-09T22:38:25Z
+find-weighted-median-node-in-tree,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3585__find-weighted-median-node-in-tree/cpp_gpt/find-weighted-median-node-in-tree.cpp,gpt-5-2025-08-07,2025-10-09T22:45:05.401381Z,pass,,,,,2025-10-09T22:38:42Z
+kth-smallest-path-xor-sum,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3590__kth-smallest-path-xor-sum/cpp_gpt/kth-smallest-path-xor-sum.cpp,gpt-5-2025-08-07,2025-10-09T22:46:30.864153Z,fail,,,"{
+  ""slug"": ""kth-smallest-path-xor-sum"",
+  ""lang"": ""cpp"",
+  ""question_id"": ""3906"",
+  ""submission_id"": ""1796905365"",
+  ""status_msg"": ""Memory Limit Exceeded"",
+  ""run_success"": false,
+  ""total_correct"": 592,
+  ""total_testcases"": 595,
+  ""status_runtime"": ""N/A"",
+  ""status_memory"": ""N/A"",
+  ""runtime_percentile"": null,
+  ""memory_percentile"": null,
+  ""state"": ""SUCCESS""
+}",,2025-10-09T22:39:02Z
+minimum-time-to-transport-all-individuals,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3594__minimum-time-to-transport-all-individuals/cpp_gpt/minimum-time-to-transport-all-individuals.cpp,gpt-5-2025-08-07,2025-10-09T22:47:08.687673Z,pass,,,,,2025-10-09T22:39:19Z
+maximize-spanning-tree-stability-with-upgrades,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3600__maximize-spanning-tree-stability-with-upgrades/cpp_gpt/maximize-spanning-tree-stability-with-upgrades.cpp,gpt-5-2025-08-07,2025-10-09T22:47:30.948186Z,pass,,,,,2025-10-09T22:39:36Z
+minimum-stability-factor-of-array,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3605__minimum-stability-factor-of-array/cpp_gpt/minimum-stability-factor-of-array.cpp,gpt-5-2025-08-07,2025-10-09T22:47:52.605699Z,pass,,,,,2025-10-09T22:39:54Z
+minimum-moves-to-reach-target-in-grid,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3609__minimum-moves-to-reach-target-in-grid/cpp_gpt/minimum-moves-to-reach-target-in-grid.cpp,gpt-5-2025-08-07,2025-10-09T22:48:09.652439Z,pass,,,,,2025-10-09T22:40:09Z
+process-string-with-special-operations-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3614__process-string-with-special-operations-ii/cpp_gpt/process-string-with-special-operations-ii.cpp,gpt-5-2025-08-07,2025-10-09T22:48:44.547014Z,fail,,,"{
+  ""slug"": ""process-string-with-special-operations-ii"",
+  ""lang"": ""cpp"",
+  ""question_id"": ""3939"",
+  ""submission_id"": ""1796906048"",
+  ""status_msg"": ""Compile Error"",
+  ""run_success"": false,
+  ""total_correct"": null,
+  ""total_testcases"": null,
+  ""status_runtime"": ""N/A"",
+  ""status_memory"": ""N/A"",
+  ""runtime_percentile"": null,
+  ""memory_percentile"": null,
+  ""state"": ""SUCCESS""
+}",,2025-10-09T22:40:24Z
+longest-palindromic-path-in-graph,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3615__longest-palindromic-path-in-graph/cpp_gpt/longest-palindromic-path-in-graph.cpp,gpt-5-2025-08-07,2025-10-09T22:49:13.165715Z,pass,,,,,2025-10-09T22:40:41Z
+network-recovery-pathways,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3620__network-recovery-pathways/cpp_gpt/network-recovery-pathways.cpp,gpt-5-2025-08-07,2025-10-09T22:49:38.851246Z,fail,,,"{
+  ""slug"": ""network-recovery-pathways"",
+  ""lang"": ""cpp"",
+  ""question_id"": ""3919"",
+  ""submission_id"": ""1796906325"",
+  ""status_msg"": ""Wrong Answer"",
+  ""run_success"": true,
+  ""total_correct"": 634,
+  ""total_testcases"": 637,
+  ""status_runtime"": ""N/A"",
+  ""status_memory"": ""N/A"",
+  ""runtime_percentile"": null,
+  ""memory_percentile"": null,
+  ""state"": ""SUCCESS""
+}",,2025-10-09T22:41:01Z
+number-of-integers-with-popcount-depth-equal-to-k-i,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3621__number-of-integers-with-popcount-depth-equal-to-k-i/cpp_gpt/number-of-integers-with-popcount-depth-equal-to-k-i.cpp,gpt-5-2025-08-07,2025-10-09T22:50:14.282630Z,pass,,,,,2025-10-09T22:41:17Z
+number-of-integers-with-popcount-depth-equal-to-k-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3624__number-of-integers-with-popcount-depth-equal-to-k-ii/cpp_gpt/number-of-integers-with-popcount-depth-equal-to-k-ii.cpp,gpt-5-2025-08-07,2025-10-09T22:50:51.394663Z,pass,,,,,2025-10-09T22:41:33Z
+partition-array-for-maximum-xor-and-and,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3630__partition-array-for-maximum-xor-and-and/cpp_gpt/partition-array-for-maximum-xor-and-and.cpp,gpt-5-2025-08-07,2025-10-09T22:52:08.888728Z,fail,,,"{
+  ""slug"": ""partition-array-for-maximum-xor-and-and"",
+  ""lang"": ""cpp"",
+  ""question_id"": ""3882"",
+  ""submission_id"": ""1796906736"",
+  ""status_msg"": ""Runtime Error"",
+  ""run_success"": false,
+  ""total_correct"": 538,
+  ""total_testcases"": 551,
+  ""status_runtime"": ""N/A"",
+  ""status_memory"": ""N/A"",
+  ""runtime_percentile"": null,
+  ""memory_percentile"": null,
+  ""state"": ""SUCCESS""
+}",,2025-10-09T22:41:49Z
+threshold-majority-queries,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3636__threshold-majority-queries/cpp_gpt/threshold-majority-queries.cpp,gpt-5-2025-08-07,2025-10-09T22:52:39.118370Z,pass,,,,,2025-10-09T22:42:06Z
+trionic-array-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3640__trionic-array-ii/cpp_gpt/trionic-array-ii.cpp,gpt-5-2025-08-07,2025-10-09T22:52:54.462042Z,fail,,,"{
+  ""slug"": ""trionic-array-ii"",
+  ""lang"": ""cpp"",
+  ""question_id"": ""3956"",
+  ""submission_id"": ""1796907022"",
+  ""status_msg"": ""Wrong Answer"",
+  ""run_success"": true,
+  ""total_correct"": 698,
+  ""total_testcases"": 857,
+  ""status_runtime"": ""N/A"",
+  ""status_memory"": ""N/A"",
+  ""runtime_percentile"": null,
+  ""memory_percentile"": null,
+  ""state"": ""SUCCESS""
+}",,2025-10-09T22:42:22Z
+next-special-palindrome-number,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3646__next-special-palindrome-number/cpp_gpt/next-special-palindrome-number.cpp,gpt-5-2025-08-07,2025-10-09T22:53:31.700731Z,pass,,,,,2025-10-09T22:42:39Z
+minimum-cost-path-with-teleportations,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3651__minimum-cost-path-with-teleportations/cpp_gpt/minimum-cost-path-with-teleportations.cpp,gpt-5-2025-08-07,2025-10-09T22:54:03.226384Z,pass,,,,,2025-10-09T22:42:56Z
+xor-after-range-multiplication-queries-ii,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3655__xor-after-range-multiplication-queries-ii/cpp_gpt/xor-after-range-multiplication-queries-ii.cpp,gpt-5-2025-08-07,2025-10-09T22:54:40.404079Z,pass,,,,,2025-10-09T22:43:12Z
+sum-of-beautiful-subsequences,/Users/aadil/Aarz_GreenTranspilation/data/kamyu_hard_py_dir_crossref/3671__sum-of-beautiful-subsequences/cpp_gpt/sum-of-beautiful-subsequences.cpp,gpt-5-2025-08-07,2025-10-09T22:55:32.427036Z,pass,,,,,2025-10-09T22:43:28Z

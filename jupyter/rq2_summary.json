@@ -1,0 +1,17 @@
+{
+  "N": 135,
+  "median_energy_saving_%": 93.7631041485237,
+  "median_runtime_speedup_%": 93.71427399283442,
+  "ci_energy_saving_%_95": [
+    92.36195579508765,
+    94.84807384056123
+  ],
+  "ci_runtime_speedup_%_95": [
+    92.49607094256172,
+    94.83167926001414
+  ],
+  "wilcoxon_energy_p_one_sided": 3.432881726867435e-24,
+  "wilcoxon_runtime_p_one_sided": 3.432881726867435e-24,
+  "ttest_energy_p_one_sided": 3.602248946736894e-05,
+  "ttest_runtime_p_one_sided": 3.6372255330394594e-05
+}

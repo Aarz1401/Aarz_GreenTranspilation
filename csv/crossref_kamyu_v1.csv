@@ -1,0 +1,689 @@
+frontend_id,title,title_slug,created_at_approx,difficulty,has_python,python_path,has_cpp,cpp_path,match_strategy
+679,24 Game,24-game,2017-09-17,Hard,1,Python/24-game.py,1,C++/24-game.cpp,name:slug/title
+2117,Abbreviating the Product of a Range,abbreviating-the-product-of-a-range,2021-12-25,Hard,1,Python/abbreviating-the-product-of-a-range.py,1,C++/abbreviating-the-product-of-a-range.cpp,name:slug/title
+2508,Add Edges to Make Degrees of All Nodes Even,add-edges-to-make-degrees-of-all-nodes-even,2022-12-18,Hard,1,Python/add-edges-to-make-degrees-of-all-nodes-even.py,1,C++/add-edges-to-make-degrees-of-all-nodes-even.cpp,name:slug/title
+269,Alien Dictionary,alien-dictionary,2015-08-25,Hard,1,Python/alien-dictionary.py,1,C++/alien-dictionary.cpp,name:slug/title
+432,All O`one Data Structure,all-oone-data-structure,2016-10-17,Hard,1,Python/all-oone-data-structure.py,1,C++/all-oone-data-structure.cpp,name:slug/title
+1478,Allocate Mailboxes,allocate-mailboxes,2020-06-13,Hard,1,Python/allocate-mailboxes.py,1,C++/allocate-mailboxes.cpp,name:slug/title
+3245,Alternating Groups III,alternating-groups-iii,2024-08-04,Hard,1,Python/alternating-groups-iii.py,1,C++/alternating-groups-iii.cpp,name:slug/title
+2158,Amount of New Area Painted Each Day,amount-of-new-area-painted-each-day,2022-02-02,Hard,1,Python/amount-of-new-area-painted-each-day.py,1,C++/amount-of-new-area-painted-each-day.cpp,name:slug/title
+2897,Apply Operations on Array to Maximize Sum of Squares,apply-operations-on-array-to-maximize-sum-of-squares,2023-10-08,Hard,1,Python/apply-operations-on-array-to-maximize-sum-of-squares.py,1,C++/apply-operations-on-array-to-maximize-sum-of-squares.cpp,name:slug/title
+2968,Apply Operations to Maximize Frequency Score,apply-operations-to-maximize-frequency-score,2023-12-17,Hard,1,Python/apply-operations-to-maximize-frequency-score.py,1,C++/apply-operations-to-maximize-frequency-score.cpp,name:slug/title
+2818,Apply Operations to Maximize Score,apply-operations-to-maximize-score,2023-08-13,Hard,1,Python/apply-operations-to-maximize-score.py,1,C++/apply-operations-to-maximize-score.cpp,name:slug/title
+446,Arithmetic Slices II - Subsequence,arithmetic-slices-ii-subsequence,2016-11-06,Hard,1,Python/arithmetic-slices-ii-subsequence.py,1,C++/arithmetic-slices-ii-subsequence.cpp,name:slug/title
+772,Basic Calculator III,basic-calculator-iii,2018-01-23,Hard,1,Python/basic-calculator-iii.py,1,C++/basic-calculator-iii.cpp,name:slug/title
+770,Basic Calculator IV,basic-calculator-iv,2018-01-20,Hard,1,Python/basic-calculator-iv.py,1,C++/basic-calculator-iv.cpp,name:slug/title
+224,Basic Calculator,basic-calculator,2015-06-09,Hard,1,Python/basic-calculator.py,1,C++/basic-calculator.cpp,name:slug/title
+2613,Beautiful Pairs,beautiful-pairs,2023-04-06,Hard,1,Python/beautiful-pairs.py,1,C++/beautiful-pairs.cpp,name:slug/title
+296,Best Meeting Point,best-meeting-point,2015-10-22,Hard,1,Python/best-meeting-point.py,1,C++/best-meeting-point.cpp,name:slug/title
+1515,Best Position for a Service Centre,best-position-for-a-service-centre,2020-07-12,Hard,1,Python/best-position-for-a-service-centre.py,1,C++/best-position-for-a-service-centre.cpp,name:slug/title
+123,Best Time to Buy and Sell Stock III,best-time-to-buy-and-sell-stock-iii,2014-07-23,Hard,1,Python/best-time-to-buy-and-sell-stock-iii.py,1,C++/best-time-to-buy-and-sell-stock-ii.cpp,name:slug/title+cpp~contains
+188,Best Time to Buy and Sell Stock IV,best-time-to-buy-and-sell-stock-iv,2015-02-17,Hard,1,Python/best-time-to-buy-and-sell-stock-iv.py,1,C++/best-time-to-buy-and-sell-stock-iv.cpp,name:slug/title
+968,Binary Tree Cameras,binary-tree-cameras,2018-12-29,Hard,1,Python/binary-tree-cameras.py,1,C++/binary-tree-cameras.cpp,name:slug/title
+124,Binary Tree Maximum Path Sum,binary-tree-maximum-path-sum,2013-11-30,Hard,1,Python/binary-tree-maximum-path-sum.py,1,C++/binary-tree-maximum-path-sum.cpp,name:slug/title
+3161,Block Placement Queries,block-placement-queries,2024-05-25,Hard,1,Python/block-placement-queries.py,1,C++/block-placement-queries.cpp,name:slug/title
+2286,Booking Concert Tickets in Groups,booking-concert-tickets-in-groups,2022-05-28,Hard,1,Python/booking-concert-tickets-in-groups.py,1,C++/booking-concert-tickets-in-groups.cpp,name:slug/title
+1096,Brace Expansion II,brace-expansion-ii,2019-06-23,Hard,1,Python/brace-expansion-ii.py,1,C++/brace-expansion-ii.cpp,name:slug/title
+803,Bricks Falling When Hit,bricks-falling-when-hit,2018-03-17,Hard,1,Python/bricks-falling-when-hit.py,1,C++/bricks-falling-when-hit.cpp,name:slug/title
+2392,Build a Matrix With Conditions,build-a-matrix-with-conditions,2022-08-28,Hard,1,Python/build-a-matrix-with-conditions.py,1,C++/build-a-matrix-with-conditions.cpp,name:slug/title
+1420,Build Array Where You Can Find The Maximum Exactly K Comparisons,build-array-where-you-can-find-the-maximum-exactly-k-comparisons,2020-04-19,Hard,1,Python/build-array-where-you-can-find-the-maximum-exactly-k-comparisons.py,1,C++/build-array-where-you-can-find-the-maximum-exactly-k-comparisons.cpp,name:slug/title
+1597,Build Binary Expression Tree From Infix Expression,build-binary-expression-tree-from-infix-expression,2020-09-24,Hard,1,Python/build-binary-expression-tree-from-infix-expression.py,1,C++/build-binary-expression-tree-from-infix-expression.cpp,name:slug/title
+1739,Building Boxes,building-boxes,2021-01-24,Hard,1,Python/building-boxes.py,1,C++/building-boxes.cpp,name:slug/title
+312,Burst Balloons,burst-balloons,2015-11-29,Hard,1,Python/burst-balloons.py,1,C++/burst-balloons.cpp,name:slug/title
+815,Bus Routes,bus-routes,2018-04-08,Hard,1,Python/bus-routes.py,1,C++/bus-routes.cpp,name:slug/title
+3061,Calculate Trapping Rain Water,calculate-trapping-rain-water,2024-02-28,Hard,1,Python/trapping-rain-water.py,1,C++/trapping-rain-water.cpp,name:slug/title+py~contains+cpp~contains
+135,Candy,candy,2013-11-04,Hard,1,Python/candy.py,1,C++/candy.cpp,name:slug/title
+1776,Car Fleet II,car-fleet-ii,2021-02-28,Hard,1,Python/car-fleet-ii.py,1,C++/car-fleet-ii.cpp,name:slug/title
+1728,Cat and Mouse II,cat-and-mouse-ii,2021-01-17,Hard,1,Python/cat-and-mouse-ii.py,1,C++/cat-and-mouse-ii.cpp,name:slug/title
+913,Cat and Mouse,cat-and-mouse,2018-09-29,Hard,1,Python/cat-and-mouse.py,1,C++/cat-and-mouse.cpp,name:slug/title
+810,Chalkboard XOR Game,chalkboard-xor-game,2018-03-31,Hard,1,Python/chalkboard-xor-game.py,1,C++/chalkboard-xor-gam.cpp,name:slug/title+cpp~contains
+2307,Check for Contradictions in Equations,check-for-contradictions-in-equations,2022-06-15,Hard,1,Python/check-for-contradictions-in-equations.py,1,C++/check-for-contradictions-in-equations.cpp,name:slug/title
+2060,Check if an Original String Exists Given Two Encoded Strings,check-if-an-original-string-exists-given-two-encoded-strings,2021-10-31,Hard,1,Python/check-if-an-original-string-exists-given-two-encoded-strings.py,1,C++/check-if-an-original-string-exists-given-two-encoded-strings.cpp,name:slug/title
+1250,Check If It Is a Good Array,check-if-it-is-a-good-array,2019-11-03,Hard,1,Python/check-if-it-is-a-good-array.py,1,C++/check-if-it-is-a-good-array.cpp,name:slug/title
+2543,Check if Point Is Reachable,check-if-point-is-reachable,2023-01-21,Hard,1,Python/check-if-point-is-reachable.py,1,C++/check-if-point-is-reachable.cpp,name:slug/title
+1585,Check If String Is Transformable With Substring Sort Operations,check-if-string-is-transformable-with-substring-sort-operations,2020-09-13,Hard,1,Python/check-if-string-is-transformable-with-substring-sort-operations.py,1,C++/check-if-string-is-transformable-with-substring-sort-operations.cpp,name:slug/title
+3235,Check if the Rectangle Corner Is Reachable,check-if-the-rectangle-corner-is-reachable,2024-07-28,Hard,1,Python/check-if-the-rectangle-corner-is-reachable.py,1,C++/check-if-the-rectangle-corner-is-reachable.cpp,name:slug/title
+2267,Check if There Is a Valid Parentheses String Path,check-if-there-is-a-valid-parentheses-string-path,2022-05-08,Hard,1,Python/check-if-there-is-a-valid-parentheses-string-path.py,1,C++/check-if-there-is-a-valid-parentheses-string-path.cpp,name:slug/title
+1724,Checking Existence of Edge Length Limited Paths II,checking-existence-of-edge-length-limited-paths-ii,2021-01-14,Hard,1,Python/checking-existence-of-edge-length-limited-paths-ii.py,1,C++/checking-existence-of-edge-length-limited-paths-ii.cpp,name:slug/title
+1697,Checking Existence of Edge Length Limited Paths,checking-existence-of-edge-length-limited-paths,2020-12-20,Hard,1,Python/checking-existence-of-edge-length-limited-paths.py,1,C++/checking-existence-of-edge-length-limited-paths.cpp,name:slug/title
+1463,Cherry Pickup II,cherry-pickup-ii,2020-05-30,Hard,1,Python/cherry-pickup-ii.py,1,C++/cherry-pickup-ii.cpp,name:slug/title
+741,Cherry Pickup,cherry-pickup,2017-12-03,Hard,1,Python/cherry-pickup.py,1,C++/cherry-pickup.cpp,name:slug/title
+2143,Choose Numbers From Two Arrays in Range,choose-numbers-from-two-arrays-in-range,2022-01-20,Hard,1,Python/choose-numbers-from-two-arrays-in-range.py,1,C++/choose-numbers-from-two-arrays-in-range.cpp,name:slug/title
+272,Closest Binary Search Tree Value II,closest-binary-search-tree-value-ii,2015-08-30,Hard,1,Python/closest-binary-search-tree-value-ii.py,1,C++/closest-binary-search-tree-value-ii.cpp,name:slug/title
+2277,Closest Node to Path in Tree,closest-node-to-path-in-tree,2022-05-21,Hard,1,Python/closest-node-to-path-in-tree.py,1,C++/closest-node-to-path-in-tree.cpp,name:slug/title
+1847,Closest Room,closest-room,2021-05-01,Hard,1,Python/closest-room.py,1,C++/closest-room.cpp,name:slug/title
+1755,Closest Subsequence Sum,closest-subsequence-sum,2021-02-07,Hard,1,Python/closest-subsequence-sum.py,1,C++/closest-subsequence-sum.cpp,name:slug/title
+656,Coin Path,coin-path,2017-08-06,Hard,1,Python/coin-path.py,1,C++/coin-path.cpp,name:slug/title
+2603,Collect Coins in a Tree,collect-coins-in-a-tree,2023-03-26,Hard,1,Python/collect-coins-in-a-tree.py,1,C++/collect-coins-in-a-tree.cpp,name:slug/title
+2647,Color the Triangle Red,color-the-triangle-red,2023-04-19,Hard,1,Python/color-the-triangle-red.py,1,C++/color-the-triangle-red.cpp,name:slug/title
+472,Concatenated Words,concatenated-words,2016-12-18,Hard,1,Python/concatenated-words.py,1,C++/concatenated-words.cpp,name:slug/title
+1088,Confusing Number II,confusing-number-ii,2019-06-15,Hard,1,Python/confusing-number-ii.py,1,C++/confusing-number-ii.cpp,name:slug/title
+829,Consecutive Numbers Sum,consecutive-numbers-sum,2018-05-06,Hard,1,Python/consecutive-numbers-sum.py,1,C++/consecutive-numbers-sum.cpp,name:slug/title
+3213,Construct String with Minimum Cost,construct-string-with-minimum-cost,2024-07-07,Hard,1,Python/construct-string-with-minimum-cost.py,1,C++/construct-string-with-minimum-cost.cpp,name:slug/title
+1354,Construct Target Array With Multiple Sums,construct-target-array-with-multiple-sums,2020-02-16,Hard,1,Python/construct-target-array-with-multiple-sums.py,1,C++/construct-target-array-with-multiple-sums.cpp,name:slug/title
+3269,Constructing Two Increasing Arrays,constructing-two-increasing-arrays,2024-08-28,Hard,1,Python/constructing-two-increasing-arrays.py,1,C++/constructing-two-increasing-arrays.cpp,name:slug/title
+749,Contain Virus,contain-virus,2017-12-16,Hard,1,Python/contain-virus.py,1,C++/contain-virus.cpp,name:slug/title
+220,Contains Duplicate III,contains-duplicate-iii,2015-06-01,Hard,1,Python/contains-duplicate-iii.py,1,C++/contains-duplicate-iii.cpp,name:slug/title
+1575,Count All Possible Routes,count-all-possible-routes,2020-09-05,Hard,1,Python/count-all-possible-routes.py,1,C++/count-all-possible-routes.cpp,name:slug/title
+1359,Count All Valid Pickup and Delivery Options,count-all-valid-pickup-and-delivery-options,2020-02-22,Hard,1,Python/count-all-valid-pickup-and-delivery-options.py,1,C++/count-all-valid-pickup-and-delivery-options.cpp,name:slug/title
+3267,Count Almost Equal Pairs II,count-almost-equal-pairs-ii,2024-08-25,Hard,1,Python/count-almost-equal-pairs-ii.py,1,C++/count-almost-equal-pairs-ii.cpp,name:slug/title
+2514,Count Anagrams,count-anagrams,2022-12-24,Hard,1,Python/count-anagrams.py,1,C++/count-anagrams.cpp,name:slug/title
+2183,Count Array Pairs Divisible by K,count-array-pairs-divisible-by-k,2022-02-20,Hard,1,Python/count-array-pairs-divisible-by-k.py,1,C++/count-array-pairs-divisible-by-k.cpp,name:slug/title
+2949,Count Beautiful Substrings II,count-beautiful-substrings-ii,2023-11-26,Hard,1,Python/count-beautiful-substrings-ii.py,1,C++/count-beautiful-substrings-ii.cpp,name:slug/title
+2953,Count Complete Substrings,count-complete-substrings,2023-12-03,Hard,1,Python/count-complete-substrings.py,1,C++/count-complete-substrings.cpp,name:slug/title
+730,Count Different Palindromic Subsequences,count-different-palindromic-subsequences,2017-11-19,Hard,1,Python/count-different-palindromic-subsequences.py,1,C++/count-different-palindromic-subsequences.cpp,name:slug/title
+2088,Count Fertile Pyramids in a Land,count-fertile-pyramids-in-a-land,2021-11-27,Hard,1,Python/count-fertile-pyramids-in-a-land.py,1,C++/count-fertile-pyramids-in-a-land.cpp,name:slug/title
+2179,Count Good Triplets in an Array,count-good-triplets-in-an-array,2022-02-19,Hard,1,Python/count-good-triplets-in-an-array.py,1,C++/count-good-triplets-in-an-array.cpp,name:slug/title
+2753,Count Houses in a Circular Street II,count-houses-in-a-circular-street-ii,2023-06-28,Hard,1,Python/count-houses-in-a-circular-street-ii.py,1,C++/count-houses-in-a-circular-street-ii.cpp,name:slug/title
+2552,Count Increasing Quadruplets,count-increasing-quadruplets,2023-01-29,Hard,1,Python/count-increasing-quadruplets.py,1,C++/count-increasing-quadruplets.cpp,name:slug/title
+2276,Count Integers in Intervals,count-integers-in-intervals,2022-05-15,Hard,1,Python/count-integers-in-intervals.py,1,C++/count-integers-in-intervals.cpp,name:slug/title
+2842,Count K-Subsequences of a String With Maximum Beauty,count-k-subsequences-of-a-string-with-maximum-beauty,2023-09-02,Hard,1,Python/count-k-subsequences-of-a-string-with-maximum-beauty.py,1,C++/count-k-subsequences-of-a-string-with-maximum-beauty.cpp,name:slug/title
+2792,Count Nodes That Are Great Enough,count-nodes-that-are-great-enough,2023-07-26,Hard,1,Python/count-nodes-that-are-great-enough.py,1,C++/count-nodes-that-are-great-enough.cpp,name:slug/title
+2581,Count Number of Possible Root Nodes,count-number-of-possible-root-nodes,2023-03-04,Hard,1,Python/count-number-of-possible-root-nodes.py,1,C++/count-number-of-possible-root-nodes.cpp,name:slug/title
+1955,Count Number of Special Subsequences,count-number-of-special-subsequences,2021-08-01,Hard,1,Python/count-number-of-special-subsequences.py,1,C++/count-number-of-special-subsequences.cpp,name:slug/title
+2719,Count of Integers,count-of-integers,2023-06-04,Hard,1,Python/count-of-integers.py,1,C++/count-of-integers.cpp,name:slug/title
+327,Count of Range Sum,count-of-range-sum,2016-01-10,Hard,1,Python/count-of-range-sum.py,1,C++/count-of-range-sum.cpp,name:slug/title
+315,Count of Smaller Numbers After Self,count-of-smaller-numbers-after-self,2015-12-06,Hard,1,Python/count-of-smaller-numbers-after-self.py,1,C++/count-of-smaller-numbers-after-self.cpp,name:slug/title
+2902,Count of Sub-Multisets With Bounded Sum,count-of-sub-multisets-with-bounded-sum,2023-10-14,Hard,1,Python/count-of-sub-multisets-with-bounded-sum.py,1,C++/count-of-sub-multisets-with-bounded-sum.cpp,name:slug/title
+1782,Count Pairs Of Nodes,count-pairs-of-nodes,2021-03-06,Hard,1,Python/count-pairs-of-nodes.py,1,C++/count-pairs-of-nodes.cpp,name:slug/title
+1803,Count Pairs With XOR in a Range,count-pairs-with-xor-in-a-range,2021-03-21,Hard,1,Python/count-pairs-with-xor-in-a-range.py,1,C++/count-pairs-with-xor-in-a-range.cpp,name:slug/title
+2484,Count Palindromic Subsequences,count-palindromic-subsequences,2022-11-26,Hard,1,Python/count-palindromic-subsequences.py,1,C++/count-palindromic-subsequences.cpp,name:slug/title
+2791,Count Paths That Can Form a Palindrome in a Tree,count-paths-that-can-form-a-palindrome-in-a-tree,2023-07-23,Hard,1,Python/count-paths-that-can-form-a-palindrome-in-a-tree.py,1,C++/count-paths-that-can-form-a-palindrome-in-a-tree.cpp,name:slug/title
+3045,Count Prefix and Suffix Pairs II,count-prefix-and-suffix-pairs-ii,2024-02-18,Hard,1,Python/count-prefix-and-suffix-pairs-ii.py,1,C++/count-prefix-and-suffix-pairs-ii.cpp,name:slug/title
+2376,Count Special Integers,count-special-integers,2022-08-14,Hard,1,Python/count-special-integers.py,1,C++/count-special-integers.cpp,name:slug/title
+2801,Count Stepping Numbers in Range,count-stepping-numbers-in-range,2023-07-30,Hard,1,Python/count-stepping-numbers-in-range.py,1,C++/count-stepping-numbers-in-range.cpp,name:slug/title
+2444,Count Subarrays With Fixed Bounds,count-subarrays-with-fixed-bounds,2022-10-16,Hard,1,Python/count-subarrays-with-fixed-bounds.py,1,C++/count-subarrays-with-fixed-bounds.cpp,name:slug/title
+2488,Count Subarrays With Median K,count-subarrays-with-median-k,2022-11-27,Hard,1,Python/count-subarrays-with-median-k.py,1,C++/count-subarrays-with-median-k.cpp,name:slug/title
+2302,Count Subarrays With Score Less Than K,count-subarrays-with-score-less-than-k,2022-06-11,Hard,1,Python/count-subarrays-with-score-less-than-k.py,1,C++/count-subarrays-with-score-less-than-k.cpp,name:slug/title
+3298,Count Substrings That Can Be Rearranged to Contain a String II,count-substrings-that-can-be-rearranged-to-contain-a-string-ii,2024-09-22,Hard,1,Python/count-substrings-that-can-be-rearranged-to-contain-a-string-ii.py,1,C++/count-substrings-that-can-be-rearranged-to-contain-a-string-ii.cpp,name:slug/title
+3261,Count Substrings That Satisfy K-Constraint II,count-substrings-that-satisfy-k-constraint-ii,2024-08-18,Hard,1,Python/count-substrings-that-satisfy-k-constraint-ii.py,1,C++/count-substrings-that-satisfy-k-constraint-ii.cpp,name:slug/title
+1617,Count Subtrees With Max Distance Between Cities,count-subtrees-with-max-distance-between-cities,2020-10-11,Hard,1,Python/count-subtrees-with-max-distance-between-cities.py,1,C++/count-subtrees-with-max-distance-between-cities.cpp,name:slug/title
+2963,Count the Number of Good Partitions,count-the-number-of-good-partitions,2023-12-10,Hard,1,Python/count-the-number-of-good-partitions.py,1,C++/count-the-number-of-good-partitions.cpp,name:slug/title
+3017,Count the Number of Houses at a Certain Distance II,count-the-number-of-houses-at-a-certain-distance-ii,2024-01-21,Hard,1,Python/count-the-number-of-houses-at-a-certain-distance-ii.py,1,C++/count-the-number-of-houses-at-a-certain-distance-ii.cpp,name:slug/title
+2338,Count the Number of Ideal Arrays,count-the-number-of-ideal-arrays,2022-07-10,Hard,1,Python/count-the-number-of-ideal-arrays.py,1,C++/count-the-number-of-ideal-arrays.cpp,name:slug/title
+2972,Count the Number of Incremovable Subarrays II,count-the-number-of-incremovable-subarrays-ii,2023-12-23,Hard,1,Python/count-the-number-of-incremovable-subarrays-ii.py,1,C++/count-the-number-of-incremovable-subarrays-ii.cpp,name:slug/title
+2954,Count the Number of Infection Sequences,count-the-number-of-infection-sequences,2023-12-03,Hard,1,Python/count-the-number-of-infection-sequences.py,1,C++/count-the-number-of-infection-sequences.cpp,name:slug/title
+3193,Count the Number of Inversions,count-the-number-of-inversions,2024-06-22,Hard,1,Python/count-the-number-of-inversions.py,1,C++/count-the-number-of-inversions.cpp,name:slug/title
+2519,Count the Number of K-Big Indices,count-the-number-of-k-big-indices,2022-12-28,Hard,1,Python/count-the-number-of-k-big-indices.py,1,C++/count-the-number-of-k-big-indices.cpp,name:slug/title
+2999,Count the Number of Powerful Integers,count-the-number-of-powerful-integers,2024-01-06,Hard,1,Python/count-the-number-of-powerful-integers.py,1,C++/count-the-number-of-powerful-integers.cpp,name:slug/title
+466,Count The Repetitions,count-the-repetitions,2016-12-04,Hard,1,Python/count-the-repetitions.py,1,C++/count-the-repetitions.cpp,name:slug/title
+828,Count Unique Characters of All Substrings of a Given String,count-unique-characters-of-all-substrings-of-a-given-string,2018-05-05,Hard,1,Python/count-unique-characters-of-all-substrings-of-a-given-string.py,1,C++/count-unique-characters-of-all-substrings-of-a-given-string.cpp,name:slug/title
+2867,Count Valid Paths in a Tree,count-valid-paths-in-a-tree,2023-09-24,Hard,1,Python/count-valid-paths-in-a-tree.py,1,C++/count-valid-paths-in-a-tree.cpp,name:slug/title
+2876,Count Visited Nodes in a Directed Graph,count-visited-nodes-in-a-directed-graph,2023-10-01,Hard,1,Python/count-visited-nodes-in-a-directed-graph.py,1,C++/count-visited-nodes-in-a-directed-graph.cpp,name:slug/title
+1220,Count Vowels Permutation,count-vowels-permutation,2019-10-06,Hard,1,Python/count-vowels-permutation.py,1,C++/count-vowels-permutation.cpp,name:slug/title
+1916,Count Ways to Build Rooms in an Ant Colony,count-ways-to-build-rooms-in-an-ant-colony,2021-06-27,Hard,1,Python/count-ways-to-build-rooms-in-an-ant-colony.py,1,C++/count-ways-to-build-rooms-in-an-ant-colony.cpp,name:slug/title
+1692,Count Ways to Distribute Candies,count-ways-to-distribute-candies,2020-12-16,Hard,1,Python/count-ways-to-distribute-candies.py,1,C++/count-ways-to-distribute-candies.cpp,name:slug/title
+1735,Count Ways to Make Array With Product,count-ways-to-make-array-with-product,2021-01-23,Hard,1,Python/count-ways-to-make-array-with-product.py,1,C++/count-ways-to-make-array-with-product.cpp,name:slug/title
+765,Couples Holding Hands,couples-holding-hands,2018-01-13,Hard,1,Python/couples-holding-hands.py,1,C++/couples-holding-hands.cpp,name:slug/title
+630,Course Schedule III,course-schedule-iii,2017-06-24,Hard,1,Python/course-schedule-iii.py,1,C++/course-schedule-iii.cpp,name:slug/title
+753,Cracking the Safe,cracking-the-safe,2017-12-24,Hard,1,Python/cracking-the-safe.py,1,C++/cracking-the-safe.cpp,name:slug/title
+2440,Create Components With Same Value,create-components-with-same-value,2022-10-15,Hard,1,Python/create-components-with-same-value.py,1,C++/create-components-with-same-value.cpp,name:slug/title
+321,Create Maximum Number,create-maximum-number,2015-12-23,Hard,1,Python/create-maximum-number.py,1,C++/create-maximum-number.cpp,name:slug/title
+1649,Create Sorted Array through Instructions,create-sorted-array-through-instructions,2020-11-07,Hard,1,Python/create-sorted-array-through-instructions.py,1,C++/create-sorted-array-through-instructions.cpp,name:slug/title
+1192,Critical Connections in a Network,critical-connections-in-a-network,2019-09-15,Hard,1,Python/critical-connections-in-a-network.py,1,C++/critical-connections-in-a-network.cpp,name:slug/title
+675,Cut Off Trees for Golf Event,cut-off-trees-for-golf-event,2017-09-10,Hard,1,Python/cut-off-trees-for-golf-event.py,1,C++/cut-off-trees-for-golf-event.cpp,name:slug/title
+2509,Cycle Length Queries in a Tree,cycle-length-queries-in-a-tree,2022-12-18,Hard,1,Python/cycle-length-queries-in-a-tree.py,1,C++/cycle-length-queries-in-a-tree.cpp,name:slug/title
+352,Data Stream as Disjoint Intervals,data-stream-as-disjoint-intervals,2016-05-31,Hard,1,Python/data-stream-as-disjoint-intervals.py,1,C++/data-stream-as-disjoint-intervals.cpp,name:slug/title
+639,Decode Ways II,decode-ways-ii,2017-07-08,Hard,1,Python/decode-ways-ii.py,1,C++/decode-ways-ii.cpp,name:slug/title
+960,Delete Columns to Make Sorted III,delete-columns-to-make-sorted-iii,2018-12-15,Hard,1,Python/delete-columns-to-make-sorted-iii.py,1,C++/delete-columns-to-make-sorted-iii.cpp,name:slug/title
+1948,Delete Duplicate Folders in System,delete-duplicate-folders-in-system,2021-07-25,Hard,1,Python/delete-duplicate-folders-in-system.py,1,C++/delete-duplicate-folders-in-system.cpp,name:slug/title
+1687,Delivering Boxes from Storage to Ports,delivering-boxes-from-storage-to-ports,2020-12-12,Hard,1,Python/delivering-boxes-from-storage-to-ports.py,1,C++/delivering-boxes-from-storage-to-ports.cpp,name:slug/title
+2296,Design a Text Editor,design-a-text-editor,2022-06-05,Hard,1,Python/design-a-text-editor.py,1,C++/design-a-text-editor.cpp,name:slug/title
+631,Design Excel Sum Formula,design-excel-sum-formula,2017-06-25,Hard,1,Python/design-excel-sum-formula.py,1,C++/design-excel-sum-formula.cpp,name:slug/title
+2642,Design Graph With Shortest Path Calculator,design-graph-with-shortest-path-calculator,2023-04-15,Hard,1,Python/design-graph-with-shortest-path-calculator.py,1,C++/design-graph-with-shortest-path-calculator.cpp,name:slug/title
+588,Design In-Memory File System,design-in-memory-file-system,2017-05-20,Hard,1,Python/design-in-memory-file-system.py,1,C++/design-in-memory-file-system.cpp,name:slug/title
+1912,Design Movie Rental System,design-movie-rental-system,2021-06-26,Hard,1,Python/design-movie-rental-system.py,1,C++/design-movie-rental-system.cpp,name:slug/title
+642,Design Search Autocomplete System,design-search-autocomplete-system,2017-07-16,Hard,1,Python/design-search-autocomplete-system.py,1,C++/design-search-autocomplete-system.cpp,name:slug/title
+1206,Design Skiplist,design-skiplist,2019-09-29,Hard,1,Python/design-skiplist.py,1,C++/design-skiplist.cpp,name:slug/title
+2254,Design Video Sharing Platform,design-video-sharing-platform,2022-04-28,Hard,1,Python/design-video-sharing-platform.py,1,C++/design-video-sharing-platform.cpp,name:slug/title
+1223,Dice Roll Simulation,dice-roll-simulation,2019-10-13,Hard,1,Python/dice-roll-simulation.py,1,C++/dice-roll-simulation.cpp,name:slug/title
+2538,Difference Between Maximum and Minimum Price Sum,difference-between-maximum-and-minimum-price-sum,2023-01-15,Hard,1,Python/difference-between-maximum-and-minimum-price-sum.py,1,C++/difference-between-maximum-and-minimum-price-sum.cpp,name:slug/title
+1067,Digit Count in Range,digit-count-in-range,2019-06-01,Hard,1,Python/digit-count-in-range.py,1,C++/digit-count-in-range.cpp,name:slug/title
+1172,Dinner Plate Stacks,dinner-plate-stacks,2019-08-25,Hard,1,Python/dinner-plate-stacks.py,1,C++/dinner-plate-stacks.cpp,name:slug/title
+2204,Distance to a Cycle in Undirected Graph,distance-to-a-cycle-in-undirected-graph,2022-03-17,Hard,1,Python/distance-to-a-cycle-in-undirected-graph.py,1,C++/distance-to-a-cycle-in-undirected-graph.cpp,name:slug/title
+1316,Distinct Echo Substrings,distinct-echo-substrings,2020-01-11,Hard,1,Python/distinct-echo-substrings.py,1,C++/distinct-echo-substrings.cpp,name:slug/title
+940,Distinct Subsequences II,distinct-subsequences-ii,2018-11-10,Hard,1,Python/distinct-subsequences-ii.py,1,C++/distinct-subsequences-ii.cpp,name:slug/title
+115,Distinct Subsequences,distinct-subsequences,2013-11-17,Hard,1,Python/distinct-subsequences.py,1,C++/distinct-subsequences-ii.cpp,name:slug/title+cpp~contains
+2927,Distribute Candies Among Children III,distribute-candies-among-children-iii,2023-11-08,Hard,1,Python/distribute-candies-among-children-iii.py,1,C++/distribute-candies-among-children-iii.cpp,name:slug/title
+3072,Distribute Elements Into Two Arrays II,distribute-elements-into-two-arrays-ii,2024-03-03,Hard,1,Python/distribute-elements-into-two-arrays-ii.py,1,C++/distribute-elements-into-two-arrays-ii.cpp,name:slug/title
+1655,Distribute Repeating Integers,distribute-repeating-integers,2020-11-14,Hard,1,Python/distribute-repeating-integers.py,1,C++/distribute-repeating-integers.cpp,name:slug/title
+3013,Divide an Array Into Subarrays With Minimum Cost II,divide-an-array-into-subarrays-with-minimum-cost-ii,2024-01-20,Hard,1,Python/divide-an-array-into-subarrays-with-minimum-cost-ii.py,1,C++/divide-an-array-into-subarrays-with-minimum-cost-ii.cpp,name:slug/title
+1121,Divide Array Into Increasing Sequences,divide-array-into-increasing-sequences,2019-07-13,Hard,1,Python/divide-array-into-increasing-sequences.py,1,C++/divide-array-into-increasing-sequences.cpp,name:slug/title
+1231,Divide Chocolate,divide-chocolate,2019-10-19,Hard,1,Python/divide-chocolate.py,1,C++/divide-chocolate.cpp,name:slug/title
+2493,Divide Nodes Into the Maximum Number of Groups,divide-nodes-into-the-maximum-number-of-groups,2022-12-04,Hard,1,Python/divide-nodes-into-the-maximum-number-of-groups.py,1,C++/divide-nodes-into-the-maximum-number-of-groups.cpp,name:slug/title
+174,Dungeon Game,dungeon-game,2015-01-06,Hard,1,Python/dungeon-game.py,0,,name:slug/title
+2136,Earliest Possible Day of Full Bloom,earliest-possible-day-of-full-bloom,2022-01-09,Hard,1,Python/earliest-possible-day-of-full-bloom.py,1,C++/earliest-possible-day-of-full-bloom.cpp,name:slug/title
+3049,Earliest Second to Mark Indices II,earliest-second-to-mark-indices-ii,2024-02-25,Hard,1,Python/earliest-second-to-mark-indices-ii.py,1,C++/earliest-second-to-mark-indices-ii.cpp,name:slug/title
+759,Employee Free Time,employee-free-time,2018-01-06,Hard,1,Python/employee-free-time.py,1,C++/employee-free-time.cpp,name:slug/title
+431,Encode N-ary Tree to Binary Tree,encode-n-ary-tree-to-binary-tree,2018-07-05,Hard,1,Python/encode-n-ary-tree-to-binary-tree.py,1,C++/encode-n-ary-tree-to-binary-tree.cpp,name:slug/title
+471,Encode String with Shortest Length,encode-string-with-shortest-length,2016-12-11,Hard,1,Python/encode-string-with-shortest-length.py,1,C++/encode-string-with-shortest-length.cpp,name:slug/title
+2227,Encrypt and Decrypt Strings,encrypt-and-decrypt-strings,2022-04-03,Hard,1,Python/encrypt-and-decrypt-strings.py,1,C++/encrypt-and-decrypt-strings.cpp,name:slug/title
+972,Equal Rational Numbers,equal-rational-numbers,2019-01-05,Hard,1,Python/equal-rational-numbers.py,1,C++/equal-rational-numbers.cpp,name:slug/title
+1924,Erect the Fence II,erect-the-fence-ii,2021-07-09,Hard,1,Python/erect-the-fence-ii.py,1,C++/erect-the-fence-ii.cpp,name:slug/title
+587,Erect the Fence,erect-the-fence,2017-05-14,Hard,1,Python/erect-the-fence.py,1,C++/erect-the-fence.cpp,name:slug/title
+1036,Escape a Large Maze,escape-a-large-maze,2019-04-28,Hard,1,Python/escape-a-large-maze.py,1,C++/escape-a-large-maze.cpp,name:slug/title
+2258,Escape the Spreading Fire,escape-the-spreading-fire,2022-04-30,Hard,1,Python/escape-the-spreading-fire.py,1,C++/escape-the-spreading-fire.cpp,name:slug/title
+282,Expression Add Operators,expression-add-operators,2015-09-16,Hard,1,Python/expression-add-operators.py,1,C++/expression-add-operators.cpp,name:slug/title
+699,Falling Squares,falling-squares,2017-10-14,Hard,1,Python/falling-squares.py,1,C++/falling-squares.cpp,name:slug/title
+1622,Fancy Sequence,fancy-sequence,2020-10-17,Hard,1,Python/fancy-sequence.py,1,C++/fancy-sequence.cpp,name:slug/title
+3266,Final Array State After K Multiplication Operations II,final-array-state-after-k-multiplication-operations-ii,2024-08-25,Hard,1,Python/final-array-state-after-k-multiplication-operations-ii.py,1,C++/final-array-state-after-k-multiplication-operations-ii.cpp,name:slug/title
+2732,Find a Good Subset of the Matrix,find-a-good-subset-of-the-matrix,2023-06-10,Hard,1,Python/find-a-good-subset-of-the-matrix.py,1,C++/find-a-good-subset-of-the-matrix.cpp,name:slug/title
+1521,Find a Value of a Mysterious Function Closest to Target,find-a-value-of-a-mysterious-function-closest-to-target,2020-07-19,Hard,1,Python/find-a-value-of-a-mysterious-function-closest-to-target.py,1,C++/find-a-value-of-a-mysterious-function-closest-to-target.cpp,name:slug/title
+1397,Find All Good Strings,find-all-good-strings,2020-03-29,Hard,1,Python/find-all-good-strings.py,1,C++/find-all-good-strings.cpp,name:slug/title
+2092,Find All People With Secret,find-all-people-with-secret,2021-11-28,Hard,1,Python/find-all-people-with-secret.py,1,C++/find-all-people-with-secret.cpp,name:slug/title
+3130,Find All Possible Stable Binary Arrays II,find-all-possible-stable-binary-arrays-ii,2024-04-27,Hard,1,Python/find-all-possible-stable-binary-arrays-ii.py,1,C++/find-all-possible-stable-binary-arrays-ii.cpp,name:slug/title
+1982,Find Array Given Subset Sums,find-array-given-subset-sums,2021-08-22,Hard,1,Python/find-array-given-subset-sums.py,1,C++/find-array-given-subset-sums.cpp,name:slug/title
+3008,Find Beautiful Indices in the Given Array II,find-beautiful-indices-in-the-given-array-ii,2024-01-14,Hard,1,Python/find-beautiful-indices-in-the-given-array-ii.py,1,C++/find-beautiful-indices-in-the-given-array-ii.cpp,name:slug/title
+2940,Find Building Where Alice and Bob Can Meet,find-building-where-alice-and-bob-can-meet,2023-11-19,Hard,1,Python/find-building-where-alice-and-bob-can-meet.py,1,C++/find-building-where-alice-and-bob-can-meet.cpp,name:slug/title
+1489,Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree,find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree,2020-06-21,Hard,1,Python/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree.py,1,C++/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree.cpp,name:slug/title
+3123,Find Edges in Shortest Paths,find-edges-in-shortest-paths,2024-04-21,Hard,1,Python/find-edges-in-shortest-paths.py,1,C++/find-edges-in-shortest-paths.cpp,name:slug/title
+1095,Find in Mountain Array,find-in-mountain-array,2019-06-23,Hard,1,Python/find-in-mountain-array.py,1,C++/find-in-mountain-array.cpp,name:slug/title
+719,Find K-th Smallest Pair Distance,find-k-th-smallest-pair-distance,2017-10-29,Hard,1,Python/find-k-th-smallest-pair-distance.py,1,C++/find-k-th-smallest-pair-distance.cpp,name:slug/title
+1542,Find Longest Awesome Substring,find-longest-awesome-substring,2020-08-08,Hard,1,Python/find-longest-awesome-substring.py,1,C++/find-longest-awesome-substring.cpp,name:slug/title
+3104,Find Longest Self-Contained Substring,find-longest-self-contained-substring,2024-04-03,Hard,1,Python/find-longest-self-contained-substring.py,1,C++/find-longest-self-contained-substring.cpp,name:slug/title
+2945,Find Maximum Non-decreasing Array Length,find-maximum-non-decreasing-array-length,2023-11-25,Hard,1,Python/find-maximum-non-decreasing-array-length.py,1,C++/find-maximum-non-decreasing-array-length.cpp,name:slug/title
+295,Find Median from Data Stream,find-median-from-data-stream,2016-03-18,Hard,1,Python/find-median-from-data-stream.py,1,C++/find-median-from-data-stream.cpp,name:slug/title
+3203,Find Minimum Diameter After Merging Two Trees,find-minimum-diameter-after-merging-two-trees,2024-06-30,Hard,1,Python/find-minimum-diameter-after-merging-two-trees.py,1,C++/find-minimum-diameter-after-merging-two-trees.cpp,name:slug/title
+154,Find Minimum in Rotated Sorted Array II,find-minimum-in-rotated-sorted-array-ii,2014-10-25,Hard,1,Python/find-minimum-in-rotated-sorted-array-ii.py,1,C++/find-minimum-in-rotated-sorted-array-ii.cpp,name:slug/title
+1723,Find Minimum Time to Finish All Jobs,find-minimum-time-to-finish-all-jobs,2021-01-10,Hard,1,Python/find-minimum-time-to-finish-all-jobs.py,1,C++/find-minimum-time-to-finish-all-jobs.cpp,name:slug/title
+2973,Find Number of Coins to Place in Tree Nodes,find-number-of-coins-to-place-in-tree-nodes,2023-12-23,Hard,1,Python/find-number-of-coins-to-place-in-tree-nodes.py,1,C++/find-number-of-coins-to-place-in-tree-nodes.cpp,name:slug/title
+3154,Find Number of Ways to Reach the K-th Stair,find-number-of-ways-to-reach-the-k-th-stair,2024-05-19,Hard,1,Python/find-number-of-ways-to-reach-the-k-th-stair.py,1,C++/find-number-of-ways-to-reach-the-k-th-stair.cpp,name:slug/title
+3037,Find Pattern in Infinite Stream II,find-pattern-in-infinite-stream-ii,2024-02-14,Hard,1,Python/find-pattern-in-infinite-stream-ii.py,1,C++/find-pattern-in-infinite-stream-ii.cpp,name:slug/title
+3145,Find Products of Elements of Big Array,find-products-of-elements-of-big-array,2024-05-11,Hard,1,Python/find-products-of-elements-of-big-array.py,1,C++/find-products-of-elements-of-big-array.cpp,name:slug/title
+1606,Find Servers That Handled Most Number of Requests,find-servers-that-handled-most-number-of-requests,2020-10-03,Hard,1,Python/find-servers-that-handled-most-number-of-requests.py,1,C++/find-servers-that-handled-most-number-of-requests.cpp,name:slug/title
+2714,Find Shortest Path with K Hops,find-shortest-path-with-k-hops,2023-05-31,Hard,1,Python/find-shortest-path-with-k-hops.py,1,C++/find-shortest-path-with-k-hops.cpp,name:slug/title
+3171,Find Subarray With Bitwise OR Closest to K,find-subarray-with-bitwise-or-closest-to-k,2024-06-02,Hard,1,Python/find-subarray-with-bitwise-or-closest-to-k.py,1,C++/find-subarray-with-bitwise-or-closest-to-k.cpp,name:slug/title
+2156,Find Substring With Given Hash Value,find-substring-with-given-hash-value,2022-01-30,Hard,1,Python/find-substring-with-given-hash-value.py,1,C++/find-substring-with-given-hash-value.cpp,name:slug/title
+564,Find the Closest Palindrome,find-the-closest-palindrome,2017-04-23,Hard,1,Python/find-the-closest-palindrome.py,1,C++/find-the-closest-palindrome.cpp,name:slug/title
+3272,Find the Count of Good Integers,find-the-count-of-good-integers,2024-08-31,Hard,1,Python/find-the-count-of-good-integers.py,1,C++/find-the-count-of-good-integers.cpp,name:slug/title
+3250,Find the Count of Monotonic Pairs I,find-the-count-of-monotonic-pairs-i,2024-08-11,Hard,1,Python/find-the-count-of-monotonic-pairs-i.py,1,C++/find-the-count-of-monotonic-pairs-i.cpp,name:slug/title
+3251,Find the Count of Monotonic Pairs II,find-the-count-of-monotonic-pairs-ii,2024-08-11,Hard,1,Python/find-the-count-of-monotonic-pairs-ii.py,1,C++/find-the-count-of-monotonic-pairs-ii.cpp,name:slug/title
+2386,Find the K-Sum of an Array,find-the-k-sum-of-an-array,2022-08-21,Hard,1,Python/find-the-k-sum-of-an-array.py,1,C++/find-the-k-sum-of-an-array.cpp,name:slug/title
+3307,Find the K-th Character in String Game II,find-the-k-th-character-in-string-game-ii,2024-09-29,Hard,1,Python/find-the-k-th-character-in-string-game-ii.py,1,C++/find-the-k-th-character-in-string-game-ii.cpp,name:slug/title
+1439,Find the Kth Smallest Sum of a Matrix With Sorted Rows,find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows,2020-05-03,Hard,1,Python/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows.py,1,C++/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows.cpp,name:slug/title
+3260,Find the Largest Palindrome Divisible by K,find-the-largest-palindrome-divisible-by-k,2024-08-18,Hard,1,Python/find-the-largest-palindrome-divisible-by-k.py,1,C++/find-the-largest-palindrome-divisible-by-k.cpp,name:slug/title
+1964,Find the Longest Valid Obstacle Course at Each Position,find-the-longest-valid-obstacle-course-at-each-position,2021-08-08,Hard,1,Python/find-the-longest-valid-obstacle-course-at-each-position.py,1,C++/find-the-longest-valid-obstacle-course-at-each-position.cpp,name:slug/title
+3177,Find the Maximum Length of a Good Subsequence II,find-the-maximum-length-of-a-good-subsequence-ii,2024-06-08,Hard,1,Python/find-the-maximum-length-of-a-good-subsequence-ii.py,1,C++/find-the-maximum-length-of-a-good-subsequence-ii.cpp,name:slug/title
+3287,Find the Maximum Sequence Value of Array,find-the-maximum-sequence-value-of-array,2024-09-14,Hard,1,Python/find-the-maximum-sequence-value-of-array.py,1,C++/find-the-maximum-sequence-value-of-array.cpp,name:slug/title
+3068,Find the Maximum Sum of Node Values,find-the-maximum-sum-of-node-values,2024-03-02,Hard,1,Python/find-the-maximum-sum-of-node-values.py,1,C++/find-the-maximum-sum-of-node-values.cpp,name:slug/title
+3134,Find the Median of the Uniqueness Array,find-the-median-of-the-uniqueness-array,2024-04-28,Hard,1,Python/find-the-median-of-the-uniqueness-array.py,1,C++/find-the-median-of-the-uniqueness-array.cpp,name:slug/title
+3197,Find the Minimum Area to Cover All Ones II,find-the-minimum-area-to-cover-all-ones-ii,2024-06-23,Hard,1,Python/find-the-minimum-area-to-cover-all-ones-ii.py,1,C++/find-the-minimum-area-to-cover-all-ones-ii.cpp,name:slug/title
+3149,Find the Minimum Cost Array Permutation,find-the-minimum-cost-array-permutation,2024-05-12,Hard,1,Python/find-the-minimum-cost-array-permutation.py,1,C++/find-the-minimum-cost-array-permutation.cpp,name:slug/title
+3113,Find the Number of Subarrays Where Boundary Elements Are Maximum,find-the-number-of-subarrays-where-boundary-elements-are-maximum,2024-04-13,Hard,1,Python/find-the-number-of-subarrays-where-boundary-elements-are-maximum.py,1,C++/find-the-number-of-subarrays-where-boundary-elements-are-maximum.cpp,name:slug/title
+3027,Find the Number of Ways to Place People II,find-the-number-of-ways-to-place-people-ii,2024-02-03,Hard,1,Python/find-the-number-of-ways-to-place-people-ii.py,1,C++/find-the-number-of-ways-to-place-people-ii.cpp,name:slug/title
+3303,Find the Occurrence of First Almost Equal Substring,find-the-occurrence-of-first-almost-equal-substring,2024-09-28,Hard,1,Python/find-the-occurrence-of-first-almost-equal-substring.py,1,C++/find-the-occurrence-of-first-almost-equal-substring.cpp,name:slug/title
+943,Find the Shortest Superstring,find-the-shortest-superstring,2018-11-17,Hard,1,Python/find-the-shortest-superstring.py,1,C++/find-the-shortest-superstring.cpp,name:slug/title
+2573,Find the String with LCP,find-the-string-with-lcp,2023-02-19,Hard,1,Python/find-the-string-with-lcp.py,1,C++/find-the-string-with-lcp.cpp,name:slug/title
+3098,Find the Sum of Subsequence Powers,find-the-sum-of-subsequence-powers,2024-03-30,Hard,1,Python/find-the-sum-of-subsequence-powers.py,1,C++/find-the-sum-of-subsequence-powers.cpp,name:slug/title
+3082,Find the Sum of the Power of All Subsequences,find-the-sum-of-the-power-of-all-subsequences,2024-03-16,Hard,1,Python/find-the-sum-of-the-power-of-all-subsequences.py,1,C++/find-the-sum-of-the-power-of-all-subsequences.cpp,name:slug/title
+1835,Find XOR Sum of All Pairs Bitwise AND,find-xor-sum-of-all-pairs-bitwise-and,2021-04-18,Hard,1,Python/find-xor-sum-of-all-pairs-bitwise-and.py,1,C++/find-xor-sum-of-all-pairs-bitwise-and.cpp,name:slug/title
+1825,Finding MK Average,finding-mk-average,2021-04-11,Hard,1,Python/finding-mk-average.py,1,C++/finding-mk-average.cpp,name:slug/title
+41,First Missing Positive,first-missing-positive,2013-11-03,Hard,1,Python/first-missing-positive.py,1,C++/first-missing-positive.cpp,name:slug/title
+1449,Form Largest Integer With Digits That Add up to Target,form-largest-integer-with-digits-that-add-up-to-target,2020-05-16,Hard,1,Python/form-largest-integer-with-digits-that-add-up-to-target.py,1,C++/form-largest-integer-with-digits-that-add-up-to-target.cpp,name:slug/title
+514,Freedom Trail,freedom-trail,2017-03-05,Hard,1,Python/freedom-trail.py,1,C++/freedom-trail.cpp,name:slug/title
+403,Frog Jump,frog-jump,2016-09-18,Hard,1,Python/frog-jump.py,1,C++/frog-jump.cpp,name:slug/title
+1377,Frog Position After T Seconds,frog-position-after-t-seconds,2020-03-08,Hard,1,Python/frog-position-after-t-seconds.py,1,C++/frog-position-after-t-seconds.cpp,name:slug/title
+1998,GCD Sort of an Array,gcd-sort-of-an-array,2021-09-05,Hard,1,Python/gcd-sort-of-an-array.py,1,C++/gcd-sort-of-an-array.cpp,name:slug/title
+1537,Get the Maximum Score,get-the-maximum-score,2020-08-02,Hard,1,Python/get-the-maximum-score.py,1,C++/get-the-maximum-score.cpp,name:slug/title
+1627,Graph Connectivity With Threshold,graph-connectivity-with-threshold,2020-10-18,Hard,1,Python/graph-connectivity-with-threshold.py,1,C++/graph-connectivity-with-threshold.cpp,name:slug/title
+2709,Greatest Common Divisor Traversal,greatest-common-divisor-traversal,2023-05-27,Hard,1,Python/greatest-common-divisor-traversal.py,1,C++/greatest-common-divisor-traversal.cpp,name:slug/title
+1001,Grid Illumination,grid-illumination,2019-02-24,Hard,1,Python/grid-illumination.py,1,C++/grid-illumination.cpp,name:slug/title
+2157,Groups of Strings,groups-of-strings,2022-01-30,Hard,1,Python/groups-of-strings.py,1,C++/groups-of-strings.cpp,name:slug/title
+843,Guess the Word,guess-the-word,2018-05-27,Hard,1,Python/guess-the-word.py,1,C++/guess-the-word.cpp,name:slug/title
+2569,Handling Sum Queries After Update,handling-sum-queries-after-update,2023-02-18,Hard,1,Python/handling-sum-queries-after-update.py,1,C++/handling-sum-queries-after-update.cpp,name:slug/title
+1259,Handshakes That Don't Cross,handshakes-that-dont-cross,2019-11-16,Hard,1,Python/handshakes-that-dont-cross.py,1,C++/handshakes-that-dont-cross.cpp,name:slug/title
+2458,Height of Binary Tree After Subtree Removal Queries,height-of-binary-tree-after-subtree-removal-queries,2022-10-30,Hard,1,Python/height-of-binary-tree-after-subtree-removal-queries.py,1,C++/height-of-binary-tree-after-subtree-removal-queries.cpp,name:slug/title
+381,Insert Delete GetRandom O(1) - Duplicates allowed,insert-delete-getrandom-o1-duplicates-allowed,2016-08-09,Hard,1,Python/insert-delete-getrandom-o1-duplicates-allowed.py,1,C++/insert-delete-getrandom-o1-duplicates-allowed.cpp,name:slug/title
+273,Integer to English Words,integer-to-english-words,2017-10-26,Hard,1,Python/integer-to-english-words.py,1,C++/integer-to-english-words.cpp,name:slug/title
+502,IPO,ipo,2017-02-04,Hard,1,Python/ipo.py,1,C++/ipo.cpp,name:slug/title
+1345,Jump Game IV,jump-game-iv,2020-02-08,Hard,1,Python/jump-game-iv.py,1,C++/jump-game-iv.cpp,name:slug/title
+1340,Jump Game V,jump-game-v,2020-02-02,Hard,1,Python/jump-game-v.py,1,C++/jump-game-v.cpp,name:slug/title
+683,K Empty Slots,k-empty-slots,2017-09-24,Hard,1,Python/k-empty-slots.py,1,C++/k-empty-slots.cpp,name:slug/title
+629,K Inverse Pairs Array,k-inverse-pairs-array,2017-06-24,Hard,1,Python/k-inverse-pairs-array.py,1,C++/k-inverse-pairs-array.cpp,name:slug/title
+854,K-Similar Strings,k-similar-strings,2018-06-16,Hard,1,Python/k-similar-strings.py,1,C++/k-similar-strings.cpp,name:slug/title
+440,K-th Smallest in Lexicographical Order,k-th-smallest-in-lexicographical-order,2016-10-23,Hard,1,Python/k-th-smallest-in-lexicographical-order.py,1,C++/k-th-smallest-in-lexicographical-order.cpp,name:slug/title
+1483,Kth Ancestor of a Tree Node,kth-ancestor-of-a-tree-node,2020-06-14,Hard,1,Python/kth-ancestor-of-a-tree-node.py,1,C++/kth-ancestor-of-a-tree-node.cpp,name:slug/title
+3116,Kth Smallest Amount With Single Denomination Combination,kth-smallest-amount-with-single-denomination-combination,2024-04-14,Hard,1,Python/kth-smallest-amount-with-single-denomination-combination.py,1,C++/kth-smallest-amount-with-single-denomination-combination.cpp,name:slug/title
+1643,Kth Smallest Instructions,kth-smallest-instructions,2020-11-01,Hard,1,Python/kth-smallest-instructions.py,1,C++/kth-smallest-instructions.cpp,name:slug/title
+668,Kth Smallest Number in Multiplication Table,kth-smallest-number-in-multiplication-table,2017-08-27,Hard,1,Python/kth-smallest-number-in-multiplication-table.py,1,C++/kth-smallest-number-in-multiplication-table.cpp,name:slug/title
+2040,Kth Smallest Product of Two Sorted Arrays,kth-smallest-product-of-two-sorted-arrays,2021-10-16,Hard,1,Python/kth-smallest-product-of-two-sorted-arrays.py,1,C++/kth-smallest-product-of-two-sorted-arrays.cpp,name:slug/title
+1857,Largest Color Value in a Directed Graph,largest-color-value-in-a-directed-graph,2021-05-09,Hard,1,Python/largest-color-value-in-a-directed-graph.py,1,C++/largest-color-value-in-a-directed-graph.cpp,name:slug/title
+952,Largest Component Size by Common Factor,largest-component-size-by-common-factor,2018-12-02,Hard,1,Python/largest-component-size-by-common-factor.py,1,C++/largest-component-size-by-common-factor.cpp,name:slug/title
+1363,Largest Multiple of Three,largest-multiple-of-three,2020-02-23,Hard,1,Python/largest-multiple-of-three.py,1,C++/largest-multiple-of-three.cpp,name:slug/title
+479,Largest Palindrome Product,largest-palindrome-product,2017-01-04,Hard,1,Python/largest-palindrome-product.py,1,C++/largest-palindrome-product.cpp,name:slug/title
+84,Largest Rectangle in Histogram,largest-rectangle-in-histogram,2014-01-27,Hard,1,Python/largest-rectangle-in-histogram.py,1,C++/largest-rectangle-in-histogram.cpp,name:slug/title
+1970,Last Day Where You Can Still Cross,last-day-where-you-can-still-cross,2021-08-15,Hard,1,Python/last-day-where-you-can-still-cross.py,1,C++/last-day-where-you-can-still-cross.cpp,name:slug/title
+1163,Last Substring in Lexicographical Order,last-substring-in-lexicographical-order,2019-08-18,Hard,1,Python/last-substring-in-lexicographical-order.py,1,C++/last-substring-in-lexicographical-order.cpp,name:slug/title
+964,Least Operators to Express Number,least-operators-to-express-number,2018-12-23,Hard,1,Python/least-operators-to-express-number.py,1,C++/least-operators-to-express-number.cpp,name:slug/title
+3288,Length of the Longest Increasing Path,length-of-the-longest-increasing-path,2024-09-14,Hard,1,Python/length-of-the-longest-increasing-path.py,1,C++/length-of-the-longest-increasing-path.cpp,name:slug/title
+2781,Length of the Longest Valid Substring,length-of-the-longest-valid-substring,2023-07-16,Hard,1,Python/length-of-the-longest-valid-substring.py,1,C++/length-of-the-longest-valid-substring.cpp,name:slug/title
+2663,Lexicographically Smallest Beautiful String,lexicographically-smallest-beautiful-string,2023-04-30,Hard,1,Python/lexicographically-smallest-beautiful-string.py,1,C++/lexicographically-smallest-beautiful-string.cpp,name:slug/title
+460,LFU Cache,lfu-cache,2016-11-22,Hard,1,Python/lfu-cache.py,1,C++/lfu-cache.cpp,name:slug/title
+1147,Longest Chunked Palindrome Decomposition,longest-chunked-palindrome-decomposition,2019-08-04,Hard,1,Python/longest-chunked-palindrome-decomposition.py,1,C++/longest-chunked-palindrome-decomposition.cpp,name:slug/title
+1923,Longest Common Subpath,longest-common-subpath,2021-07-04,Hard,1,Python/longest-common-subpath.py,1,C++/longest-common-subpath.cpp,name:slug/title
+3093,Longest Common Suffix Queries,longest-common-suffix-queries,2024-03-24,Hard,1,Python/longest-common-suffix-queries.py,1,C++/longest-common-suffix-queries.cpp,name:slug/title
+2360,Longest Cycle in a Graph,longest-cycle-in-a-graph,2022-07-31,Hard,1,Python/longest-cycle-in-a-graph.py,1,C++/longest-cycle-in-a-graph.cpp,name:slug/title
+1044,Longest Duplicate Substring,longest-duplicate-substring,2019-05-12,Hard,1,Python/longest-duplicate-substring.py,1,C++/longest-duplicate-substring.cpp,name:slug/title
+1392,Longest Happy Prefix,longest-happy-prefix,2020-03-22,Hard,1,Python/longest-happy-prefix.py,1,C++/longest-happy-prefix.cpp,name:slug/title
+329,Longest Increasing Path in a Matrix,longest-increasing-path-in-a-matrix,2016-09-22,Hard,1,Python/longest-increasing-path-in-a-matrix.py,1,C++/longest-increasing-path-in-a-matrix.cpp,name:slug/title
+2407,Longest Increasing Subsequence II,longest-increasing-subsequence-ii,2022-09-11,Hard,1,Python/longest-increasing-subsequence-ii.py,1,C++/longest-increasing-subsequence-ii.cpp,name:slug/title
+2246,Longest Path With Different Adjacent Characters,longest-path-with-different-adjacent-characters,2022-04-17,Hard,1,Python/longest-path-with-different-adjacent-characters.py,1,C++/longest-path-with-different-adjacent-characters.cpp,name:slug/title
+2014,Longest Subsequence Repeated k Times,longest-subsequence-repeated-k-times,2021-09-19,Hard,1,Python/longest-subsequence-repeated-k-times.py,1,C++/longest-subsequence-repeated-k-times.cpp,name:slug/title
+2213,Longest Substring of One Repeating Character,longest-substring-of-one-repeating-character,2022-03-20,Hard,1,Python/longest-substring-of-one-repeating-character.py,1,C++/longest-substring-of-one-repeating-character.cpp,name:slug/title
+32,Longest Valid Parentheses,longest-valid-parentheses,2014-09-04,Hard,1,Python/longest-valid-parentheses.py,1,C++/longest-valid-parentheses.cpp,name:slug/title
+2659,Make Array Empty,make-array-empty,2023-04-29,Hard,1,Python/make-array-empty.py,1,C++/make-array-empty.cpp,name:slug/title
+2263,Make Array Non-decreasing or Non-increasing,make-array-non-decreasing-or-non-increasing,2022-05-05,Hard,1,Python/make-array-non-decreasing-or-non-increasing.py,1,C++/make-array-non-decreasing-or-non-increasing.cpp,name:slug/title
+1187,Make Array Strictly Increasing,make-array-strictly-increasing,2019-09-08,Hard,1,Python/make-array-strictly-increasing.py,1,C++/make-array-strictly-increasing.cpp,name:slug/title
+3088,Make String Anti-palindrome,make-string-anti-palindrome,2024-03-20,Hard,1,Python/make-string-anti-palindrome.py,1,C++/make-string-anti-palindrome.cpp,name:slug/title
+1787,Make the XOR of All Segments Equal to Zero,make-the-xor-of-all-segments-equal-to-zero,2021-03-07,Hard,1,Python/make-the-xor-of-all-segments-equal-to-zero.py,1,C++/make-the-xor-of-all-segments-equal-to-zero.cpp,name:slug/title
+827,Making A Large Island,making-a-large-island,2018-04-28,Hard,1,Python/making-a-large-island.py,1,C++/making-a-large-island.cpp,name:slug/title
+2301,Match Substring After Replacement,match-substring-after-replacement,2022-06-11,Hard,1,Python/match-substring-after-replacement.py,1,C++/match-substring-after-replacement.cpp,name:slug/title
+768,Max Chunks To Make Sorted II,max-chunks-to-make-sorted-ii,2018-01-20,Hard,1,Python/max-chunks-to-make-sorted-ii.py,1,C++/max-chunks-to-make-sorted-ii.cpp,name:slug/title
+1458,Max Dot Product of Two Subsequences,max-dot-product-of-two-subsequences,2020-05-24,Hard,1,Python/max-dot-product-of-two-subsequences.py,1,C++/max-dot-product-of-two-subsequences.cpp,name:slug/title
+149,Max Points on a Line,max-points-on-a-line,2014-01-10,Hard,1,Python/max-points-on-a-line.py,1,C++/max-points-on-a-line.cpp,name:slug/title
+716,Max Stack,max-stack,2017-11-07,Hard,1,Python/max-stack.py,1,C++/max-stack.cpp,name:slug/title
+1499,Max Value of Equation,max-value-of-equation,2020-06-28,Hard,1,Python/max-value-of-equation.py,1,C++/max-value-of-equation.cpp,name:slug/title
+85,Maximal Rectangle,maximal-rectangle,2014-01-03,Hard,1,Python/maximal-rectangle.py,1,C++/maximal-rectangle.cpp,name:slug/title
+3041,Maximize Consecutive Elements in an Array After Modification,maximize-consecutive-elements-in-an-array-after-modification,2024-02-17,Hard,1,Python/maximize-consecutive-elements-in-an-array-after-modification.py,1,C++/maximize-consecutive-elements-in-an-array-after-modification.cpp,name:slug/title
+1659,Maximize Grid Happiness,maximize-grid-happiness,2020-11-15,Hard,1,Python/maximize-grid-happiness.py,1,C++/maximize-grid-happiness.cpp,name:slug/title
+1808,Maximize Number of Nice Divisors,maximize-number-of-nice-divisors,2021-03-28,Hard,1,Python/maximize-number-of-nice-divisors.py,1,C++/maximize-number-of-nice-divisors.cpp,name:slug/title
+1771,Maximize Palindrome Length From Subsequences,maximize-palindrome-length-from-subsequences,2021-02-21,Hard,1,Python/maximize-palindrome-length-from-subsequences.py,1,C++/maximize-palindrome-length-from-subsequences.cpp,name:slug/title
+1799,Maximize Score After N Operations,maximize-score-after-n-operations,2021-03-20,Hard,1,Python/maximize-score-after-n-operations.py,1,C++/maximize-score-after-n-operations.cpp,name:slug/title
+1788,Maximize the Beauty of the Garden,maximize-the-beauty-of-the-garden,2021-03-11,Hard,1,Python/maximize-the-beauty-of-the-garden.py,1,C++/maximize-the-beauty-of-the-garden.cpp,name:slug/title
+2528,Maximize the Minimum Powered City,maximize-the-minimum-powered-city,2023-01-07,Hard,1,Python/maximize-the-minimum-powered-city.py,1,C++/maximize-the-minimum-powered-city.cpp,name:slug/title
+3003,Maximize the Number of Partitions After Operations,maximize-the-number-of-partitions-after-operations,2024-01-07,Hard,1,Python/maximize-the-number-of-partitions-after-operations.py,1,C++/maximize-the-number-of-partitions-after-operations.cpp,name:slug/title
+2836,Maximize Value of Function in a Ball Passing Game,maximize-value-of-function-in-a-ball-passing-game,2023-08-27,Hard,1,Python/maximize-value-of-function-in-a-ball-passing-game.py,1,C++/maximize-value-of-function-in-a-ball-passing-game.cpp,name:slug/title
+2172,Maximum AND Sum of Array,maximum-and-sum-of-array,2022-02-13,Hard,1,Python/maximum-and-sum-of-array.py,1,C++/maximum-and-sum-of-array.cpp,name:slug/title
+644,Maximum Average Subarray II,maximum-average-subarray-ii,2017-07-16,Hard,1,Python/maximum-average-subarray-ii.py,1,C++/maximum-average-subarray-ii.cpp,name:slug/title
+2926,Maximum Balanced Subsequence Sum,maximum-balanced-subsequence-sum,2023-11-05,Hard,1,Python/maximum-balanced-subsequence-sum.py,1,C++/maximum-balanced-subsequence-sum.cpp,name:slug/title
+1840,Maximum Building Height,maximum-building-height,2021-04-25,Hard,1,Python/maximum-building-height.py,1,C++/maximum-building-height.cpp,name:slug/title
+1298,Maximum Candies You Can Get from Boxes,maximum-candies-you-can-get-from-boxes,2019-12-22,Hard,1,Python/maximum-candies-you-can-get-from-boxes.py,1,C++/maximum-candies-you-can-get-from-boxes.cpp,name:slug/title
+2247,Maximum Cost of Trip With K Highways,maximum-cost-of-trip-with-k-highways,2022-04-20,Hard,1,Python/maximum-cost-of-trip-with-k-highways.py,1,C++/maximum-cost-of-trip-with-k-highways.cpp,name:slug/title
+2430,Maximum Deletions on a String,maximum-deletions-on-a-string,2022-10-02,Hard,1,Python/maximum-deletions-on-a-string.py,1,C++/maximum-deletions-on-a-string.cpp,name:slug/title
+2813,Maximum Elegance of a K-Length Subsequence,maximum-elegance-of-a-k-length-subsequence,2023-08-06,Hard,1,Python/maximum-elegance-of-a-k-length-subsequence.py,1,C++/maximum-elegance-of-a-k-length-subsequence.cpp,name:slug/title
+2862,Maximum Element-Sum of a Complete Subset of Indices,maximum-element-sum-of-a-complete-subset-of-indices,2023-09-17,Hard,1,Python/maximum-element-sum-of-a-complete-subset-of-indices.py,1,C++/maximum-element-sum-of-a-complete-subset-of-indices.cpp,name:slug/title
+2127,Maximum Employees to Be Invited to a Meeting,maximum-employees-to-be-invited-to-a-meeting,2022-01-02,Hard,1,Python/maximum-employees-to-be-invited-to-a-meeting.py,1,C++/maximum-employees-to-be-invited-to-a-meeting.cpp,name:slug/title
+1224,Maximum Equal Frequency,maximum-equal-frequency,2019-10-13,Hard,1,Python/maximum-equal-frequency.py,1,C++/maximum-equal-frequency.cpp,name:slug/title
+2524,Maximum Frequency Score of a Subarray,maximum-frequency-score-of-a-subarray,2023-01-04,Hard,1,Python/maximum-frequency-score-of-a-subarray.py,1,C++/maximum-frequency-score-of-a-subarray.cpp,name:slug/title
+895,Maximum Frequency Stack,maximum-frequency-stack,2018-08-25,Hard,1,Python/maximum-frequency-stack.py,1,C++/maximum-frequency-stack.cpp,name:slug/title
+2106,Maximum Fruits Harvested After at Most K Steps,maximum-fruits-harvested-after-at-most-k-steps,2021-12-12,Hard,1,Python/maximum-fruits-harvested-after-at-most-k-steps.py,1,C++/maximum-fruits-harvested-after-at-most-k-steps.cpp,name:slug/title
+2941,Maximum GCD-Sum of a Subarray,maximum-gcd-sum-of-a-subarray,2023-11-22,Hard,1,Python/maximum-gcd-sum-of-a-subarray.py,1,C++/maximum-gcd-sum-of-a-subarray.cpp,name:slug/title
+1938,Maximum Genetic Difference Query,maximum-genetic-difference-query,2021-07-18,Hard,1,Python/maximum-genetic-difference-query.py,1,C++/maximum-genetic-difference-query.cpp,name:slug/title
+2151,Maximum Good People Based on Statements,maximum-good-people-based-on-statements,2022-01-23,Hard,1,Python/maximum-good-people-based-on-statements.py,1,C++/maximum-good-people-based-on-statements.cpp,name:slug/title
+3141,Maximum Hamming Distances,maximum-hamming-distances,2024-05-08,Hard,1,Python/maximum-hamming-distances.py,1,C++/maximum-hamming-distances.cpp,name:slug/title
+1691,Maximum Height by Stacking Cuboids,maximum-height-by-stacking-cuboids,2020-12-13,Hard,1,Python/maximum-height-by-stacking-cuboids.py,1,C++/maximum-height-by-stacking-cuboids.cpp,name:slug/title
+1601,Maximum Number of Achievable Transfer Requests,maximum-number-of-achievable-transfer-requests,2020-09-27,Hard,1,Python/maximum-number-of-achievable-transfer-requests.py,1,C++/maximum-number-of-achievable-transfer-requests.cpp,name:slug/title
+2355,Maximum Number of Books You Can Take,maximum-number-of-books-you-can-take,2022-07-28,Hard,1,Python/maximum-number-of-books-you-can-take.py,1,C++/maximum-number-of-books-you-can-take.cpp,name:slug/title
+1453,Maximum Number of Darts Inside of a Circular Dartboard,maximum-number-of-darts-inside-of-a-circular-dartboard,2020-05-17,Hard,1,Python/maximum-number-of-darts-inside-of-a-circular-dartboard.py,1,C++/maximum-number-of-darts-inside-of-a-circular-dartboard.cpp,name:slug/title
+1751,Maximum Number of Events That Can Be Attended II,maximum-number-of-events-that-can-be-attended-ii,2021-02-06,Hard,1,Python/maximum-number-of-events-that-can-be-attended-ii.py,1,C++/maximum-number-of-events-that-can-be-attended-ii.cpp,name:slug/title
+1815,Maximum Number of Groups Getting Fresh Donuts,maximum-number-of-groups-getting-fresh-donuts,2021-04-03,Hard,1,Python/maximum-number-of-groups-getting-fresh-donuts.py,1,C++/maximum-number-of-groups-getting-fresh-donuts.cpp,name:slug/title
+2790,Maximum Number of Groups With Increasing Length,maximum-number-of-groups-with-increasing-length,2023-07-23,Hard,1,Python/maximum-number-of-groups-with-increasing-length.py,1,C++/maximum-number-of-groups-with-increasing-length.cpp,name:slug/title
+3009,Maximum Number of Intersections on the Chart,maximum-number-of-intersections-on-the-chart,2024-01-17,Hard,1,Python/maximum-number-of-intersections-on-the-chart.py,1,C++/maximum-number-of-intersections-on-the-chart.cpp,name:slug/title
+2872,Maximum Number of K-Divisible Components,maximum-number-of-k-divisible-components,2023-09-30,Hard,1,Python/maximum-number-of-k-divisible-components.py,1,C++/maximum-number-of-k-divisible-components.cpp,name:slug/title
+3283,Maximum Number of Moves to Kill All Pawns,maximum-number-of-moves-to-kill-all-pawns,2024-09-08,Hard,1,Python/maximum-number-of-moves-to-kill-all-pawns.py,1,C++/maximum-number-of-moves-to-kill-all-pawns.cpp,name:slug/title
+2472,Maximum Number of Non-overlapping Palindrome Substrings,maximum-number-of-non-overlapping-palindrome-substrings,2022-11-13,Hard,1,Python/maximum-number-of-non-overlapping-palindrome-substrings.py,1,C++/maximum-number-of-non-overlapping-palindrome-substrings.cpp,name:slug/title
+1520,Maximum Number of Non-Overlapping Substrings,maximum-number-of-non-overlapping-substrings,2020-07-19,Hard,1,Python/maximum-number-of-non-overlapping-substrings.py,1,C++/maximum-number-of-non-overlapping-substrings.cpp,name:slug/title
+1183,Maximum Number of Ones,maximum-number-of-ones,2019-09-07,Hard,1,Python/maximum-number-of-ones.py,1,C++/maximum-number-of-ones.cpp,name:slug/title
+2503,Maximum Number of Points From Grid Queries,maximum-number-of-points-from-grid-queries,2022-12-11,Hard,1,Python/maximum-number-of-points-from-grid-queries.py,1,C++/maximum-number-of-points-from-grid-queries.cpp,name:slug/title
+3018,Maximum Number of Removal Queries That Can Be Processed I,maximum-number-of-removal-queries-that-can-be-processed-i,2024-01-24,Hard,1,Python/maximum-number-of-removal-queries-that-can-be-processed-i.py,1,C++/maximum-number-of-removal-queries-that-can-be-processed-i.cpp,name:slug/title
+2398,Maximum Number of Robots Within Budget,maximum-number-of-robots-within-budget,2022-09-03,Hard,1,Python/maximum-number-of-robots-within-budget.py,1,C++/maximum-number-of-robots-within-budget.cpp,name:slug/title
+2071,Maximum Number of Tasks You Can Assign,maximum-number-of-tasks-you-can-assign,2021-11-13,Hard,1,Python/maximum-number-of-tasks-you-can-assign.py,1,C++/maximum-number-of-tasks-you-can-assign.cpp,name:slug/title
+1610,Maximum Number of Visible Points,maximum-number-of-visible-points,2020-10-04,Hard,1,Python/maximum-number-of-visible-points.py,1,C++/maximum-number-of-visible-points.cpp,name:slug/title
+2025,Maximum Number of Ways to Partition an Array,maximum-number-of-ways-to-partition-an-array,2021-10-02,Hard,1,Python/maximum-number-of-ways-to-partition-an-array.py,1,C++/maximum-number-of-ways-to-partition-an-array.cpp,name:slug/title
+2065,Maximum Path Quality of a Graph,maximum-path-quality-of-a-graph,2021-11-07,Hard,1,Python/maximum-path-quality-of-a-graph.py,1,C++/maximum-path-quality-of-a-graph.cpp,name:slug/title
+1383,Maximum Performance of a Team,maximum-performance-of-a-team,2020-03-15,Hard,1,Python/maximum-performance-of-a-team.py,1,C++/maximum-performance-of-a-team.cpp,name:slug/title
+2920,Maximum Points After Collecting Coins From All Nodes,maximum-points-after-collecting-coins-from-all-nodes,2023-10-29,Hard,1,Python/maximum-points-after-collecting-coins-from-all-nodes.py,1,C++/maximum-points-after-collecting-coins-from-all-nodes.cpp,name:slug/title
+1960,Maximum Product of the Length of Two Palindromic Substrings,maximum-product-of-the-length-of-two-palindromic-substrings,2021-08-07,Hard,1,Python/maximum-product-of-the-length-of-two-palindromic-substrings.py,1,C++/maximum-product-of-the-length-of-two-palindromic-substrings.cpp,name:slug/title
+1235,Maximum Profit in Job Scheduling,maximum-profit-in-job-scheduling,2019-10-20,Hard,1,Python/maximum-profit-in-job-scheduling.py,1,C++/maximum-profit-in-job-scheduling.cpp,name:slug/title
+2921,Maximum Profitable Triplets With Increasing Prices II,maximum-profitable-triplets-with-increasing-prices-ii,2023-11-01,Hard,1,Python/maximum-profitable-triplets-with-increasing-prices-ii.py,1,C++/maximum-profitable-triplets-with-increasing-prices-ii.cpp,name:slug/title
+2141,Maximum Running Time of N Computers,maximum-running-time-of-n-computers,2022-01-16,Hard,1,Python/maximum-running-time-of-n-computers.py,1,C++/maximum-running-time-of-n-computers.cpp,name:slug/title
+3225,Maximum Score From Grid Operations,maximum-score-from-grid-operations,2024-07-20,Hard,1,Python/maximum-score-from-grid-operations.py,1,C++/maximum-score-from-grid-operations.cpp,name:slug/title
+1770,Maximum Score from Performing Multiplication Operations,maximum-score-from-performing-multiplication-operations,2021-02-21,Hard,1,Python/maximum-score-from-performing-multiplication-operations.py,1,C++/maximum-score-from-performing-multiplication-operations.cpp,name:slug/title
+1793,Maximum Score of a Good Subarray,maximum-score-of-a-good-subarray,2021-03-14,Hard,1,Python/maximum-score-of-a-good-subarray.py,1,C++/maximum-score-of-a-good-subarray.cpp,name:slug/title
+2242,Maximum Score of a Node Sequence,maximum-score-of-a-node-sequence,2022-04-16,Hard,1,Python/maximum-score-of-a-node-sequence.py,1,C++/maximum-score-of-a-node-sequence.cpp,name:slug/title
+2321,Maximum Score Of Spliced Array,maximum-score-of-spliced-array,2022-06-26,Hard,1,Python/maximum-score-of-spliced-array.py,1,C++/maximum-score-of-spliced-array.cpp,name:slug/title
+1255,Maximum Score Words Formed by Letters,maximum-score-words-formed-by-letters,2019-11-10,Hard,1,Python/maximum-score-words-formed-by-letters.py,1,C++/maximum-score-words-formed-by-letters.cpp,name:slug/title
+2382,Maximum Segment Sum After Removals,maximum-segment-sum-after-removals,2022-08-20,Hard,1,Python/maximum-segment-sum-after-removals.py,1,C++/maximum-segment-sum-after-removals.cpp,name:slug/title
+2931,Maximum Spending After Buying Items,maximum-spending-after-buying-items,2023-11-11,Hard,1,Python/maximum-spending-after-buying-items.py,1,C++/maximum-spending-after-buying-items.cpp,name:slug/title
+3077,Maximum Strength of K Disjoint Subarrays,maximum-strength-of-k-disjoint-subarrays,2024-03-10,Hard,1,Python/maximum-strength-of-k-disjoint-subarrays.py,1,C++/maximum-strength-of-k-disjoint-subarrays.cpp,name:slug/title
+2713,Maximum Strictly Increasing Cells in a Matrix,maximum-strictly-increasing-cells-in-a-matrix,2023-05-28,Hard,1,Python/maximum-strictly-increasing-cells-in-a-matrix.py,1,C++/maximum-strictly-increasing-cells-in-a-matrix.cpp,name:slug/title
+2935,Maximum Strong Pair XOR II,maximum-strong-pair-xor-ii,2023-11-12,Hard,1,Python/maximum-strong-pair-xor-ii.py,1,C++/maximum-strong-pair-xor-ii.cpp,name:slug/title
+1349,Maximum Students Taking Exam,maximum-students-taking-exam,2020-02-09,Hard,1,Python/maximum-students-taking-exam.py,1,C++/maximum-students-taking-exam.cpp,name:slug/title
+1373,Maximum Sum BST in Binary Tree,maximum-sum-bst-in-binary-tree,2020-03-07,Hard,1,Python/maximum-sum-bst-in-binary-tree.py,1,C++/maximum-sum-bst-in-binary-tree.cpp,name:slug/title
+689,Maximum Sum of 3 Non-Overlapping Subarrays,maximum-sum-of-3-non-overlapping-subarrays,2017-09-30,Hard,1,Python/maximum-sum-of-3-non-overlapping-subarrays.py,1,C++/maximum-sum-of-3-non-overlapping-subarrays.cpp,name:slug/title
+3165,Maximum Sum of Subsequence With Non-adjacent Elements,maximum-sum-of-subsequence-with-non-adjacent-elements,2024-05-26,Hard,1,Python/maximum-sum-of-subsequence-with-non-adjacent-elements.py,1,C++/maximum-sum-of-subsequence-with-non-adjacent-elements.cpp,name:slug/title
+2736,Maximum Sum Queries,maximum-sum-queries,2023-06-11,Hard,1,Python/maximum-sum-queries.py,1,C++/maximum-sum-queries.cpp,name:slug/title
+3279,Maximum Total Area Occupied by Pistons,maximum-total-area-occupied-by-pistons,2024-09-04,Hard,1,Python/maximum-total-area-occupied-by-pistons.py,1,C++/maximum-total-area-occupied-by-pistons.cpp,name:slug/title
+2234,Maximum Total Beauty of the Gardens,maximum-total-beauty-of-the-gardens,2022-04-10,Hard,1,Python/maximum-total-beauty-of-the-gardens.py,1,C++/maximum-total-beauty-of-the-gardens.cpp,name:slug/title
+3181,Maximum Total Reward Using Operations II,maximum-total-reward-using-operations-ii,2024-06-09,Hard,1,Python/maximum-total-reward-using-operations-ii.py,1,C++/maximum-total-reward-using-operations-ii.cpp,name:slug/title
+568,Maximum Vacation Days,maximum-vacation-days,2017-04-29,Hard,1,Python/maximum-vacation-days.py,1,C++/maximum-vacation-days.cpp,name:slug/title
+2218,Maximum Value of K Coins From Piles,maximum-value-of-k-coins-from-piles,2022-03-27,Hard,1,Python/maximum-value-of-k-coins-from-piles.py,1,C++/maximum-value-of-k-coins-from-piles.cpp,name:slug/title
+3256,Maximum Value Sum by Placing Three Rooks I,maximum-value-sum-by-placing-three-rooks-i,2024-08-17,Hard,1,Python/maximum-value-sum-by-placing-three-rooks-i.py,1,C++/maximum-value-sum-by-placing-three-rooks-i.cpp,name:slug/title
+3257,Maximum Value Sum by Placing Three Rooks II,maximum-value-sum-by-placing-three-rooks-ii,2024-08-17,Hard,1,Python/maximum-value-sum-by-placing-three-rooks-ii.py,1,C++/maximum-value-sum-by-placing-three-rooks-ii.cpp,name:slug/title
+2479,Maximum XOR of Two Non-Overlapping Subtrees,maximum-xor-of-two-non-overlapping-subtrees,2022-11-24,Hard,1,Python/maximum-xor-of-two-non-overlapping-subtrees.py,1,C++/maximum-xor-of-two-non-overlapping-subtrees.cpp,name:slug/title
+3277,Maximum XOR Score Subarray Queries,maximum-xor-score-subarray-queries,2024-09-01,Hard,1,Python/maximum-xor-score-subarray-queries.py,1,C++/maximum-xor-score-subarray-queries.cpp,name:slug/title
+1707,Maximum XOR With an Element From Array,maximum-xor-with-an-element-from-array,2020-12-27,Hard,1,Python/maximum-xor-with-an-element-from-array.py,1,C++/maximum-xor-with-an-element-from-array.cpp,name:slug/title
+4,Median of Two Sorted Arrays,median-of-two-sorted-arrays,2014-02-10,Hard,1,Python/median-of-two-sorted-arrays.py,1,C++/median-of-two-sorted-arrays.cpp,name:slug/title
+2402,Meeting Rooms III,meeting-rooms-iii,2022-09-04,Hard,1,Python/meeting-rooms-iii.py,1,C++/meeting-rooms-iii.cpp,name:slug/title
+1932,Merge BSTs to Create Single BST,merge-bsts-to-create-single-bst,2021-07-11,Hard,1,Python/merge-bsts-to-create-single-bst.py,1,C++/merge-bsts-to-create-single-bst.cpp,name:slug/title
+23,Merge k Sorted Lists,merge-k-sorted-lists,2015-10-12,Hard,1,Python/merge-k-sorted-lists.py,1,C++/merge-k-sorted-lists.cpp,name:slug/title
+1675,Minimize Deviation in Array,minimize-deviation-in-array,2020-11-28,Hard,1,Python/minimize-deviation-in-array.py,1,C++/minimize-deviation-in-array.cpp,name:slug/title
+928,Minimize Malware Spread II,minimize-malware-spread-ii,2018-10-21,Hard,1,Python/minimize-malware-spread-ii.py,1,C++/minimize-malware-spread-ii.cpp,name:slug/title
+924,Minimize Malware Spread,minimize-malware-spread,2018-10-13,Hard,1,Python/minimize-malware-spread.py,1,C++/minimize-malware-spread.cpp,name:slug/title
+3102,Minimize Manhattan Distances,minimize-manhattan-distances,2024-03-31,Hard,1,Python/minimize-manhattan-distances.py,1,C++/minimize-manhattan-distances.cpp,name:slug/title
+774,Minimize Max Distance to Gas Station,minimize-max-distance-to-gas-station,2018-01-27,Hard,1,Python/minimize-max-distance-to-gas-station.py,1,C++/minimize-max-distance-to-gas-station.cpp,name:slug/title
+2371,Minimize Maximum Value in a Grid,minimize-maximum-value-in-a-grid,2022-08-10,Hard,1,Python/minimize-maximum-value-in-a-grid.py,1,C++/minimize-maximum-value-in-a-grid.cpp,name:slug/title
+3022,Minimize OR of Remaining Elements Using Operations,minimize-or-of-remaining-elements-using-operations,2024-01-28,Hard,1,Python/minimize-or-of-remaining-elements-using-operations.py,1,C++/minimize-or-of-remaining-elements-using-operations.cpp,name:slug/title
+2646,Minimize the Total Price of the Trips,minimize-the-total-price-of-the-trips,2023-04-16,Hard,1,Python/minimize-the-total-price-of-the-trips.py,1,C++/minimize-the-total-price-of-the-trips.cpp,name:slug/title
+1703,Minimum Adjacent Swaps for K Consecutive Ones,minimum-adjacent-swaps-for-k-consecutive-ones,2020-12-26,Hard,1,Python/minimum-adjacent-swaps-for-k-consecutive-ones.py,1,C++/minimum-adjacent-swaps-for-k-consecutive-ones.cpp,name:slug/title
+3273,Minimum Amount of Damage Dealt to Bob,minimum-amount-of-damage-dealt-to-bob,2024-08-31,Hard,1,Python/minimum-amount-of-damage-dealt-to-bob.py,1,C++/minimum-amount-of-damage-dealt-to-bob.cpp,name:slug/title
+2911,Minimum Changes to Make K Semi-palindromes,minimum-changes-to-make-k-semi-palindromes,2023-10-22,Hard,1,Python/minimum-changes-to-make-k-semi-palindromes.py,1,C++/minimum-changes-to-make-k-semi-palindromes.cpp,name:slug/title
+3219,Minimum Cost for Cutting Cake II,minimum-cost-for-cutting-cake-ii,2024-07-14,Hard,1,Python/minimum-cost-for-cutting-cake-ii.py,1,C++/minimum-cost-for-cutting-cake-ii.cpp,name:slug/title
+1896,Minimum Cost to Change the Final Value of Expression,minimum-cost-to-change-the-final-value-of-expression,2021-06-12,Hard,1,Python/minimum-cost-to-change-the-final-value-of-expression.py,1,C++/minimum-cost-to-change-the-final-value-of-expression.cpp,name:slug/title
+1595,Minimum Cost to Connect Two Groups of Points,minimum-cost-to-connect-two-groups-of-points,2020-09-20,Hard,1,Python/minimum-cost-to-connect-two-groups-of-points.py,1,C++/minimum-cost-to-connect-two-groups-of-points.cpp,name:slug/title
+2977,Minimum Cost to Convert String II,minimum-cost-to-convert-string-ii,2023-12-24,Hard,1,Python/minimum-cost-to-convert-string-ii.py,1,C++/minimum-cost-to-convert-string-ii.cpp,name:slug/title
+1547,Minimum Cost to Cut a Stick,minimum-cost-to-cut-a-stick,2020-08-09,Hard,1,Python/minimum-cost-to-cut-a-stick.py,1,C++/minimum-cost-to-cut-a-stick.cpp,name:slug/title
+3139,Minimum Cost to Equalize Array,minimum-cost-to-equalize-array,2024-05-05,Hard,1,Python/minimum-cost-to-equalize-array.py,1,C++/minimum-cost-to-equalize-array.cpp,name:slug/title
+857,Minimum Cost to Hire K Workers,minimum-cost-to-hire-k-workers,2018-06-24,Hard,1,Python/minimum-cost-to-hire-k-workers.py,1,C++/minimum-cost-to-hire-k-workers.cpp,name:slug/title
+2448,Minimum Cost to Make Array Equal,minimum-cost-to-make-array-equal,2022-10-23,Hard,1,Python/minimum-cost-to-make-array-equal.py,1,C++/minimum-cost-to-make-array-equal.cpp,name:slug/title
+1368,Minimum Cost to Make at Least One Valid Path in a Grid,minimum-cost-to-make-at-least-one-valid-path-in-a-grid,2020-03-01,Hard,1,Python/minimum-cost-to-make-at-least-one-valid-path-in-a-grid.py,1,C++/minimum-cost-to-make-at-least-one-valid-path-in-a-grid.cpp,name:slug/title
+1000,Minimum Cost to Merge Stones,minimum-cost-to-merge-stones,2019-03-03,Hard,1,Python/minimum-cost-to-merge-stones.py,1,C++/minimum-cost-to-merge-stones.cpp,name:slug/title
+1928,Minimum Cost to Reach Destination in Time,minimum-cost-to-reach-destination-in-time,2021-07-10,Hard,1,Python/minimum-cost-to-reach-destination-in-time.py,1,C++/minimum-cost-to-reach-destination-in-time.cpp,name:slug/title
+2547,Minimum Cost to Split an Array,minimum-cost-to-split-an-array,2023-01-22,Hard,1,Python/minimum-cost-to-split-an-array.py,1,C++/minimum-cost-to-split-an-array.cpp,name:slug/title
+3108,Minimum Cost Walk in Weighted Graph,minimum-cost-walk-in-weighted-graph,2024-04-07,Hard,1,Python/minimum-cost-walk-in-weighted-graph.py,1,C++/minimum-cost-walk-in-weighted-graph.cpp,name:slug/title
+2361,Minimum Costs Using the Train Line,minimum-costs-using-the-train-line,2022-08-02,Hard,1,Python/minimum-costs-using-the-train-line.py,1,C++/minimum-costs-using-the-train-line.cpp,name:slug/title
+1761,Minimum Degree of a Connected Trio in a Graph,minimum-degree-of-a-connected-trio-in-a-graph,2021-02-14,Hard,1,Python/minimum-degree-of-a-connected-trio-in-a-graph.py,1,C++/minimum-degree-of-a-connected-trio-in-a-graph.cpp,name:slug/title
+2344,Minimum Deletions to Make Array Divisible,minimum-deletions-to-make-array-divisible,2022-07-17,Hard,1,Python/minimum-deletions-to-make-array-divisible.py,1,C++/minimum-deletions-to-make-array-divisible.cpp,name:slug/title
+2163,Minimum Difference in Sums After Removal of Elements,minimum-difference-in-sums-after-removal-of-elements,2022-02-05,Hard,1,Python/minimum-difference-in-sums-after-removal-of-elements.py,1,C++/minimum-difference-in-sums-after-removal-of-elements.cpp,name:slug/title
+1335,Minimum Difficulty of a Job Schedule,minimum-difficulty-of-a-job-schedule,2020-01-26,Hard,1,Python/minimum-difficulty-of-a-job-schedule.py,1,C++/minimum-difficulty-of-a-job-schedule.cpp,name:slug/title
+1320,Minimum Distance to Type a Word Using Two Fingers,minimum-distance-to-type-a-word-using-two-fingers,2020-01-12,Hard,1,Python/minimum-distance-to-type-a-word-using-two-fingers.py,1,C++/minimum-distance-to-type-a-word-using-two-fingers.cpp,name:slug/title
+2858,Minimum Edge Reversals So Every Node Is Reachable,minimum-edge-reversals-so-every-node-is-reachable,2023-09-16,Hard,1,Python/minimum-edge-reversals-so-every-node-is-reachable.py,1,C++/minimum-edge-reversals-so-every-node-is-reachable.cpp,name:slug/title
+2846,Minimum Edge Weight Equilibrium Queries in a Tree,minimum-edge-weight-equilibrium-queries-in-a-tree,2023-09-03,Hard,1,Python/minimum-edge-weight-equilibrium-queries-in-a-tree.py,1,C++/minimum-edge-weight-equilibrium-queries-in-a-tree.cpp,name:slug/title
+1289,Minimum Falling Path Sum II,minimum-falling-path-sum-ii,2019-12-14,Hard,1,Python/minimum-falling-path-sum-ii.py,1,C++/minimum-falling-path-sum-ii.cpp,name:slug/title
+2313,Minimum Flips in Binary Tree to Get Result,minimum-flips-in-binary-tree-to-get-result,2022-06-22,Hard,1,Python/minimum-flips-in-binary-tree-to-get-result.py,1,C++/minimum-flips-in-binary-tree-to-get-result.cpp,name:slug/title
+1681,Minimum Incompatibility,minimum-incompatibility,2020-12-06,Hard,1,Python/minimum-incompatibility.py,1,C++/minimum-incompatibility.cpp,name:slug/title
+1665,Minimum Initial Energy to Finish Tasks,minimum-initial-energy-to-finish-tasks,2020-11-22,Hard,1,Python/minimum-initial-energy-to-finish-tasks.py,1,C++/minimum-initial-energy-to-finish-tasks.cpp,name:slug/title
+1312,Minimum Insertion Steps to Make a String Palindrome,minimum-insertion-steps-to-make-a-string-palindrome,2020-01-05,Hard,1,Python/minimum-insertion-steps-to-make-a-string-palindrome.py,1,C++/minimum-insertion-steps-to-make-a-string-palindrome.cpp,name:slug/title
+1851,Minimum Interval to Include Each Query,minimum-interval-to-include-each-query,2021-05-02,Hard,1,Python/minimum-interval-to-include-each-query.py,1,C++/minimum-interval-to-include-each-query.cpp,name:slug/title
+2412,Minimum Money Required Before Transactions,minimum-money-required-before-transactions,2022-09-17,Hard,1,Python/minimum-money-required-before-transactions.py,1,C++/minimum-money-required-before-transactions.cpp,name:slug/title
+1263,Minimum Moves to Move a Box to Their Target Location,minimum-moves-to-move-a-box-to-their-target-location,2019-11-17,Hard,1,Python/minimum-moves-to-move-a-box-to-their-target-location.py,1,C++/minimum-moves-to-move-a-box-to-their-target-location.cpp,name:slug/title
+3086,Minimum Moves to Pick K Ones,minimum-moves-to-pick-k-ones,2024-03-17,Hard,1,Python/minimum-moves-to-pick-k-ones.py,1,C++/minimum-moves-to-pick-k-ones.cpp,name:slug/title
+1210,Minimum Moves to Reach Target with Rotations,minimum-moves-to-reach-target-with-rotations,2019-09-29,Hard,1,Python/minimum-moves-to-reach-target-with-rotations.py,1,C++/minimum-moves-to-reach-target-with-rotations.cpp,name:slug/title
+2969,Minimum Number of Coins for Fruits II,minimum-number-of-coins-for-fruits-ii,2023-12-20,Hard,1,Python/minimum-number-of-coins-for-fruits-ii.py,1,C++/minimum-number-of-coins-for-fruits-ii.cpp,name:slug/title
+1568,Minimum Number of Days to Disconnect Island,minimum-number-of-days-to-disconnect-island,2020-08-30,Hard,1,Python/minimum-number-of-days-to-disconnect-island.py,1,C++/minimum-number-of-days-to-disconnect-island.cpp,name:slug/title
+1553,Minimum Number of Days to Eat N Oranges,minimum-number-of-days-to-eat-n-oranges,2020-08-16,Hard,1,Python/minimum-number-of-days-to-eat-n-oranges.py,1,C++/minimum-number-of-days-to-eat-n-oranges.cpp,name:slug/title
+1284,Minimum Number of Flips to Convert Binary Matrix to Zero Matrix,minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix,2019-12-08,Hard,1,Python/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix.py,1,C++/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix.cpp,name:slug/title
+3231,Minimum Number of Increasing Subsequence to Be Removed,minimum-number-of-increasing-subsequence-to-be-removed,2024-07-24,Hard,1,Python/minimum-number-of-increasing-subsequence-to-be-removed.py,1,C++/minimum-number-of-increasing-subsequence-to-be-removed.cpp,name:slug/title
+1526,Minimum Number of Increments on Subarrays to Form a Target Array,minimum-number-of-increments-on-subarrays-to-form-a-target-array,2020-07-25,Hard,1,Python/minimum-number-of-increments-on-subarrays-to-form-a-target-array.py,1,C++/minimum-number-of-increments-on-subarrays-to-form-a-target-array.cpp,name:slug/title
+995,Minimum Number of K Consecutive Bit Flips,minimum-number-of-k-consecutive-bit-flips,2019-02-17,Hard,1,Python/minimum-number-of-k-consecutive-bit-flips.py,1,C++/minimum-number-of-k-consecutive-bit-flips.cpp,name:slug/title
+2193,Minimum Number of Moves to Make Palindrome,minimum-number-of-moves-to-make-palindrome,2022-03-05,Hard,1,Python/minimum-number-of-moves-to-make-palindrome.py,1,C++/minimum-number-of-moves-to-make-palindrome.cpp,name:slug/title
+2009,Minimum Number of Operations to Make Array Continuous,minimum-number-of-operations-to-make-array-continuous,2021-09-18,Hard,1,Python/minimum-number-of-operations-to-make-array-continuous.py,1,C++/minimum-number-of-operations-to-make-array-continuous.cpp,name:slug/title
+2449,Minimum Number of Operations to Make Arrays Similar,minimum-number-of-operations-to-make-arrays-similar,2022-10-23,Hard,1,Python/minimum-number-of-operations-to-make-arrays-similar.py,1,C++/minimum-number-of-operations-to-make-arrays-similar.cpp,name:slug/title
+1830,Minimum Number of Operations to Make String Sorted,minimum-number-of-operations-to-make-string-sorted,2021-04-17,Hard,1,Python/minimum-number-of-operations-to-make-string-sorted.py,1,C++/minimum-number-of-operations-to-make-string-sorted.cpp,name:slug/title
+871,Minimum Number of Refueling Stops,minimum-number-of-refueling-stops,2018-07-14,Hard,1,Python/minimum-number-of-refueling-stops.py,1,C++/minimum-number-of-refueling-stops.cpp,name:slug/title
+1671,Minimum Number of Removals to Make Mountain Array,minimum-number-of-removals-to-make-mountain-array,2020-11-28,Hard,1,Python/minimum-number-of-removals-to-make-mountain-array.py,1,C++/minimum-number-of-removals-to-make-mountain-array.cpp,name:slug/title
+1326,Minimum Number of Taps to Open to Water a Garden,minimum-number-of-taps-to-open-to-water-a-garden,2020-01-19,Hard,1,Python/minimum-number-of-taps-to-open-to-water-a-garden.py,1,C++/minimum-number-of-taps-to-open-to-water-a-garden.cpp,name:slug/title
+3292,Minimum Number of Valid Strings to Form Target II,minimum-number-of-valid-strings-to-form-target-ii,2024-09-15,Hard,1,Python/minimum-number-of-valid-strings-to-form-target-ii.py,1,C++/minimum-number-of-valid-strings-to-form-target-ii.cpp,name:slug/title
+2617,Minimum Number of Visited Cells in a Grid,minimum-number-of-visited-cells-in-a-grid,2023-04-09,Hard,1,Python/minimum-number-of-visited-cells-in-a-grid.py,1,C++/minimum-number-of-visited-cells-in-a-grid.cpp,name:slug/title
+2290,Minimum Obstacle Removal to Reach Corner,minimum-obstacle-removal-to-reach-corner,2022-05-29,Hard,1,Python/minimum-obstacle-removal-to-reach-corner.py,1,C++/minimum-obstacle-removal-to-reach-corner.cpp,name:slug/title
+1611,Minimum One Bit Operations to Make Integers Zero,minimum-one-bit-operations-to-make-integers-zero,2020-10-04,Hard,1,Python/minimum-one-bit-operations-to-make-integers-zero.py,1,C++/minimum-one-bit-operations-to-make-integers-zero.cpp,name:slug/title
+2835,Minimum Operations to Form Subsequence With Target Sum,minimum-operations-to-form-subsequence-with-target-sum,2023-08-27,Hard,1,Python/minimum-operations-to-form-subsequence-with-target-sum.py,1,C++/minimum-operations-to-form-subsequence-with-target-sum.cpp,name:slug/title
+1713,Minimum Operations to Make a Subsequence,minimum-operations-to-make-a-subsequence,2021-01-03,Hard,1,Python/minimum-operations-to-make-a-subsequence.py,1,C++/minimum-operations-to-make-a-subsequence.cpp,name:slug/title
+3229,Minimum Operations to Make Array Equal to Target,minimum-operations-to-make-array-equal-to-target,2024-07-21,Hard,1,Python/minimum-operations-to-make-array-equal-to-target.py,1,C++/minimum-operations-to-make-array-equal-to-target.cpp,name:slug/title
+2702,Minimum Operations to Make Numbers Non-positive,minimum-operations-to-make-numbers-non-positive,2023-05-24,Hard,1,Python/minimum-operations-to-make-numbers-non-positive.py,1,C++/minimum-operations-to-make-numbers-non-positive.cpp,name:slug/title
+2111,Minimum Operations to Make the Array K-Increasing,minimum-operations-to-make-the-array-k-increasing,2021-12-19,Hard,1,Python/minimum-operations-to-make-the-array-k-increasing.py,1,C++/minimum-operations-to-make-the-array-k-increasing.cpp,name:slug/title
+2123,Minimum Operations to Remove Adjacent Ones in Matrix,minimum-operations-to-remove-adjacent-ones-in-matrix,2021-12-30,Hard,1,Python/minimum-operations-to-remove-adjacent-ones-in-matrix.py,1,C++/minimum-operations-to-remove-adjacent-ones-in-matrix.cpp,name:slug/title
+1505,Minimum Possible Integer After at Most K Adjacent Swaps On Digits,minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits,2020-07-05,Hard,1,Python/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.py,1,C++/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.cpp,name:slug/title
+2819,Minimum Relative Loss After Buying Chocolates,minimum-relative-loss-after-buying-chocolates,2023-08-16,Hard,1,Python/minimum-relative-loss-after-buying-chocolates.py,1,C++/minimum-relative-loss-after-buying-chocolates.cpp,name:slug/title
+2366,Minimum Replacements to Sort the Array,minimum-replacements-to-sort-the-array,2022-08-06,Hard,1,Python/minimum-replacements-to-sort-the-array.py,1,C++/minimum-replacements-to-sort-the-array.cpp,name:slug/title
+2612,Minimum Reverse Operations,minimum-reverse-operations,2023-04-02,Hard,1,Python/minimum-reverse-operations.py,1,C++/minimum-reverse-operations.cpp,name:slug/title
+2322,Minimum Score After Removals on a Tree,minimum-score-after-removals-on-a-tree,2022-06-26,Hard,1,Python/minimum-score-after-removals-on-a-tree.py,1,C++/minimum-score-after-removals-on-a-tree.cpp,name:slug/title
+1883,Minimum Skips to Arrive at Meeting On Time,minimum-skips-to-arrive-at-meeting-on-time,2021-05-30,Hard,1,Python/minimum-skips-to-arrive-at-meeting-on-time.py,1,C++/minimum-skips-to-arrive-at-meeting-on-time.cpp,name:slug/title
+1889,Minimum Space Wasted From Packaging,minimum-space-wasted-from-packaging,2021-06-06,Hard,1,Python/minimum-space-wasted-from-packaging.py,1,C++/minimum-space-wasted-from-packaging.cpp,name:slug/title
+3117,Minimum Sum of Values by Dividing Array,minimum-sum-of-values-by-dividing-array,2024-04-14,Hard,1,Python/minimum-sum-of-values-by-dividing-array.py,1,C++/minimum-sum-of-values-by-dividing-array.cpp,name:slug/title
+801,Minimum Swaps To Make Sequences Increasing,minimum-swaps-to-make-sequences-increasing,2018-03-17,Hard,1,Python/minimum-swaps-to-make-sequences-increasing.py,1,C++/minimum-swaps-to-make-sequences-increasing.cpp,name:slug/title
+1956,Minimum Time For K Virus Variants to Spread,minimum-time-for-k-virus-variants-to-spread,2021-07-02,Hard,1,Python/minimum-time-for-k-virus-variants-to-spread.py,1,C++/minimum-time-for-k-virus-variants-to-spread.cpp,name:slug/title
+2814,Minimum Time Takes to Reach Destination Without Drowning,minimum-time-takes-to-reach-destination-without-drowning,2023-08-09,Hard,1,Python/minimum-time-takes-to-reach-destination-without-drowning.py,1,C++/minimum-time-takes-to-reach-destination-without-drowning.cpp,name:slug/title
+1199,Minimum Time to Build Blocks,minimum-time-to-build-blocks,2019-09-21,Hard,1,Python/minimum-time-to-build-blocks.py,1,C++/minimum-time-to-build-blocks.cpp,name:slug/title
+2589,Minimum Time to Complete All Tasks,minimum-time-to-complete-all-tasks,2023-03-12,Hard,1,Python/minimum-time-to-complete-all-tasks.py,1,C++/minimum-time-to-complete-all-tasks.cpp,name:slug/title
+2604,Minimum Time to Eat All Grains,minimum-time-to-eat-all-grains,2023-03-29,Hard,1,Python/minimum-time-to-eat-all-grains.py,1,C++/minimum-time-to-eat-all-grains.cpp,name:slug/title
+2188,Minimum Time to Finish the Race,minimum-time-to-finish-the-race,2022-02-27,Hard,1,Python/minimum-time-to-finish-the-race.py,1,C++/minimum-time-to-finish-the-race.cpp,name:slug/title
+2403,Minimum Time to Kill All Monsters,minimum-time-to-kill-all-monsters,2022-09-07,Hard,1,Python/minimum-time-to-kill-all-monsters.py,1,C++/minimum-time-to-kill-all-monsters.cpp,name:slug/title
+2809,Minimum Time to Make Array Sum At Most x,minimum-time-to-make-array-sum-at-most-x,2023-08-05,Hard,1,Python/minimum-time-to-make-array-sum-at-most-x.py,1,C++/minimum-time-to-make-array-sum-at-most-x.cpp,name:slug/title
+2167,Minimum Time to Remove All Cars Containing Illegal Goods,minimum-time-to-remove-all-cars-containing-illegal-goods,2022-02-06,Hard,1,Python/minimum-time-to-remove-all-cars-containing-illegal-goods.py,1,C++/minimum-time-to-remove-all-cars-containing-illegal-goods.cpp,name:slug/title
+3031,Minimum Time to Revert Word to Initial State II,minimum-time-to-revert-word-to-initial-state-ii,2024-02-04,Hard,1,Python/minimum-time-to-revert-word-to-initial-state-ii.py,1,C++/minimum-time-to-revert-word-to-initial-state-ii.cpp,name:slug/title
+2577,Minimum Time to Visit a Cell In a Grid,minimum-time-to-visit-a-cell-in-a-grid,2023-02-26,Hard,1,Python/minimum-time-to-visit-a-cell-in-a-grid.py,1,C++/minimum-time-to-visit-a-cell-in-a-grid.cpp,name:slug/title
+2499,Minimum Total Cost to Make Arrays Unequal,minimum-total-cost-to-make-arrays-unequal,2022-12-10,Hard,1,Python/minimum-total-cost-to-make-arrays-unequal.py,1,C++/minimum-total-cost-to-make-arrays-unequal.cpp,name:slug/title
+2463,Minimum Total Distance Traveled,minimum-total-distance-traveled,2022-11-06,Hard,1,Python/minimum-total-distance-traveled.py,1,C++/minimum-total-distance-traveled.cpp,name:slug/title
+411,Minimum Unique Word Abbreviation,minimum-unique-word-abbreviation,2016-10-02,Hard,1,Python/minimum-unique-word-abbreviation.py,1,C++/minimum-unique-word-abbreviation.cpp,name:slug/title
+2203,Minimum Weighted Subgraph With the Required Paths,minimum-weighted-subgraph-with-the-required-paths,2022-03-13,Hard,1,Python/minimum-weighted-subgraph-with-the-required-paths.py,1,C++/minimum-weighted-subgraph-with-the-required-paths.cpp,name:slug/title
+2209,Minimum White Tiles After Covering With Carpets,minimum-white-tiles-after-covering-with-carpets,2022-03-19,Hard,1,Python/minimum-white-tiles-after-covering-with-carpets.py,1,C++/minimum-white-tiles-after-covering-with-carpets.cpp,name:slug/title
+727,Minimum Window Subsequence,minimum-window-subsequence,2017-11-12,Hard,1,Python/minimum-window-subsequence.py,1,C++/minimum-window-subsequence.cpp,name:slug/title
+76,Minimum Window Substring,minimum-window-substring,2014-05-22,Hard,1,Python/minimum-window-substring.py,1,C++/minimum-window-substring.cpp,name:slug/title
+1879,Minimum XOR Sum of Two Arrays,minimum-xor-sum-of-two-arrays,2021-05-29,Hard,1,Python/minimum-xor-sum-of-two-arrays.py,1,C++/minimum-xor-sum-of-two-arrays.cpp,name:slug/title
+2699,Modify Graph Edge Weights,modify-graph-edge-weights,2023-05-21,Hard,1,Python/modify-graph-edge-weights.py,1,C++/modify-graph-edge-weights.cpp,name:slug/title
+1516,Move Sub-Tree of N-Ary Tree,move-sub-tree-of-n-ary-tree,2020-07-16,Hard,1,Python/move-sub-tree-of-n-ary-tree.py,1,C++/move-sub-tree-of-n-ary-tree.cpp,name:slug/title
+732,My Calendar III,my-calendar-iii,2017-11-25,Hard,1,Python/my-calendar-iii.py,1,C++/my-calendar-iii.cpp,name:slug/title
+52,N-Queens II,n-queens-ii,2013-11-23,Hard,1,Python/n-queens-ii.py,0,,name:slug/title
+51,N-Queens,n-queens,2014-03-11,Hard,1,Python/n-queens.py,0,,name:slug/title
+2306,Naming a Company,naming-a-company,2022-06-12,Hard,1,Python/naming-a-company.py,1,C++/naming-a-company.cpp,name:slug/title
+2454,Next Greater Element IV,next-greater-element-iv,2022-10-29,Hard,1,Python/next-greater-element-iv.py,1,C++/next-greater-element-iv.cpp,name:slug/title
+1842,Next Palindrome Using Same Digits,next-palindrome-using-same-digits,2021-04-29,Hard,1,Python/next-palindrome-using-same-digits.py,1,C++/next-palindrome-using-same-digits.cpp,name:slug/title
+600,Non-negative Integers without Consecutive Ones,non-negative-integers-without-consecutive-ones,2017-05-27,Hard,1,Python/non-negative-integers-without-consecutive-ones.py,1,C++/non-negative-integers-without-consecutive-ones.cpp,name:slug/title
+878,Nth Magical Number,nth-magical-number,2018-07-29,Hard,1,Python/nth-magical-number.py,1,C++/nth-magical-number.cpp,name:slug/title
+726,Number of Atoms,number-of-atoms,2017-11-12,Hard,1,Python/number-of-atoms.py,1,C++/number-of-atoms.cpp,name:slug/title
+2827,Number of Beautiful Integers in the Range,number-of-beautiful-integers-in-the-range,2023-08-19,Hard,1,Python/number-of-beautiful-integers-in-the-range.py,1,C++/number-of-beautiful-integers-in-the-range.cpp,name:slug/title
+2478,Number of Beautiful Partitions,number-of-beautiful-partitions,2022-11-20,Hard,1,Python/number-of-beautiful-partitions.py,1,C++/number-of-beautiful-partitions.cpp,name:slug/title
+1819,Number of Different Subsequences GCDs,number-of-different-subsequences-gcds,2021-04-04,Hard,1,Python/number-of-different-subsequences-gcds.py,1,C++/number-of-different-subsequences-gcds.cpp,name:slug/title
+233,Number of Digit One,number-of-digit-one,2015-07-07,Hard,1,Python/number-of-digit-one.py,1,C++/number-of-digit-one.cpp,name:slug/title
+711,Number of Distinct Islands II,number-of-distinct-islands-ii,2017-10-17,Hard,1,Python/number-of-distinct-islands-ii.py,1,C++/number-of-distinct-islands-ii.cpp,name:slug/title
+2318,Number of Distinct Roll Sequences,number-of-distinct-roll-sequences,2022-06-25,Hard,1,Python/number-of-distinct-roll-sequences.py,1,C++/number-of-distinct-roll-sequences.cpp,name:slug/title
+2354,Number of Excellent Pairs,number-of-excellent-pairs,2022-07-24,Hard,1,Python/number-of-excellent-pairs.py,1,C++/number-of-excellent-pairs.cpp,name:slug/title
+2251,Number of Flowers in Full Bloom,number-of-flowers-in-full-bloom,2022-04-24,Hard,1,Python/number-of-flowers-in-full-bloom.py,1,C++/number-of-flowers-in-full-bloom.cpp,name:slug/title
+2421,Number of Good Paths,number-of-good-paths,2022-09-25,Hard,1,Python/number-of-good-paths.py,1,C++/number-of-good-paths.cpp,name:slug/title
+2518,Number of Great Partitions,number-of-great-partitions,2022-12-25,Hard,1,Python/number-of-great-partitions.py,1,C++/number-of-great-partitions.cpp,name:slug/title
+2328,Number of Increasing Paths in a Grid,number-of-increasing-paths-in-a-grid,2022-07-03,Hard,1,Python/number-of-increasing-paths-in-a-grid.py,1,C++/number-of-increasing-paths-in-a-grid.cpp,name:slug/title
+305,Number of Islands II,number-of-islands-ii,2015-11-13,Hard,1,Python/number-of-islands-ii.py,1,C++/number-of-islands-ii.cpp,name:slug/title
+920,Number of Music Playlists,number-of-music-playlists,2018-10-07,Hard,1,Python/number-of-music-playlists.py,1,C++/number-of-music-playlists.cpp,name:slug/title
+2426,Number of Pairs Satisfying Inequality,number-of-pairs-satisfying-inequality,2022-10-01,Hard,1,Python/number-of-pairs-satisfying-inequality.py,1,C++/number-of-pairs-satisfying-inequality.cpp,name:slug/title
+1301,Number of Paths with Max Score,number-of-paths-with-max-score,2019-12-28,Hard,1,Python/number-of-paths-with-max-score.py,1,C++/number-of-paths-with-max-score.cpp,name:slug/title
+2959,Number of Possible Sets of Closing Branches,number-of-possible-sets-of-closing-branches,2023-12-09,Hard,1,Python/number-of-possible-sets-of-closing-branches.py,1,C++/number-of-possible-sets-of-closing-branches.cpp,name:slug/title
+1274,Number of Ships in a Rectangle,number-of-ships-in-a-rectangle,2019-11-30,Hard,1,Python/number-of-ships-in-a-rectangle.py,1,C++/number-of-ships-in-a-rectangle.cpp,name:slug/title
+996,Number of Squareful Arrays,number-of-squareful-arrays,2019-02-17,Hard,1,Python/number-of-squareful-arrays.py,1,C++/number-of-squareful-arrays.cpp,name:slug/title
+3036,Number of Subarrays That Match a Pattern II,number-of-subarrays-that-match-a-pattern-ii,2024-02-11,Hard,1,Python/number-of-subarrays-that-match-a-pattern-ii.py,1,C++/number-of-subarrays-that-match-a-pattern-ii.cpp,name:slug/title
+3209,Number of Subarrays With AND Value of K,number-of-subarrays-with-and-value-of-k,2024-07-06,Hard,1,Python/number-of-subarrays-with-and-value-of-k.py,1,C++/number-of-subarrays-with-and-value-of-k.cpp,name:slug/title
+1074,Number of Submatrices That Sum to Target,number-of-submatrices-that-sum-to-target,2019-06-02,Hard,1,Python/number-of-submatrices-that-sum-to-target.py,1,C++/number-of-submatrices-that-sum-to-target.cpp,name:slug/title
+1987,Number of Unique Good Subsequences,number-of-unique-good-subsequences,2021-08-29,Hard,1,Python/number-of-unique-good-subsequences.py,1,C++/number-of-unique-good-subsequences.cpp,name:slug/title
+2056,Number of Valid Move Combinations On Chessboard,number-of-valid-move-combinations-on-chessboard,2021-10-30,Hard,1,Python/number-of-valid-move-combinations-on-chessboard.py,1,C++/number-of-valid-move-combinations-on-chessboard.cpp,name:slug/title
+1063,Number of Valid Subarrays,number-of-valid-subarrays,2019-06-01,Hard,1,Python/number-of-valid-subarrays.py,1,C++/number-of-valid-subarrays.cpp,name:slug/title
+1178,Number of Valid Words for Each Puzzle,number-of-valid-words-for-each-puzzle,2019-09-01,Hard,1,Python/number-of-valid-words-for-each-puzzle.py,1,C++/number-of-valid-words-for-each-puzzle.cpp,name:slug/title
+1944,Number of Visible People in a Queue,number-of-visible-people-in-a-queue,2021-07-24,Hard,1,Python/number-of-visible-people-in-a-queue.py,1,C++/number-of-visible-people-in-a-queue.cpp,name:slug/title
+1444,Number of Ways of Cutting a Pizza,number-of-ways-of-cutting-a-pizza,2020-05-10,Hard,1,Python/number-of-ways-of-cutting-a-pizza.py,1,C++/number-of-ways-of-cutting-a-pizza.cpp,name:slug/title
+2147,Number of Ways to Divide a Long Corridor,number-of-ways-to-divide-a-long-corridor,2022-01-22,Hard,1,Python/number-of-ways-to-divide-a-long-corridor.py,1,C++/number-of-ways-to-divide-a-long-corridor.cpp,name:slug/title
+2585,Number of Ways to Earn Points,number-of-ways-to-earn-points,2023-03-05,Hard,1,Python/number-of-ways-to-earn-points.py,1,C++/number-of-ways-to-earn-points.cpp,name:slug/title
+1639,Number of Ways to Form a Target String Given a Dictionary,number-of-ways-to-form-a-target-string-given-a-dictionary,2020-10-31,Hard,1,Python/number-of-ways-to-form-a-target-string-given-a-dictionary.py,1,C++/number-of-ways-to-form-a-target-string-given-a-dictionary.cpp,name:slug/title
+1411,Number of Ways to Paint N × 3 Grid,number-of-ways-to-paint-n-3-grid,2020-04-12,Hard,1,Python/number-of-ways-to-paint-n-3-grid.py,1,C++/number-of-ways-to-paint-n-3-grid.cpp,name:slug/title
+2912,Number of Ways to Reach Destination in the Grid,number-of-ways-to-reach-destination-in-the-grid,2023-10-25,Hard,1,Python/number-of-ways-to-reach-destination-in-the-grid.py,1,C++/number-of-ways-to-reach-destination-in-the-grid.cpp,name:slug/title
+1866,Number of Ways to Rearrange Sticks With K Sticks Visible,number-of-ways-to-rearrange-sticks-with-k-sticks-visible,2021-05-16,Hard,1,Python/number-of-ways-to-rearrange-sticks-with-k-sticks-visible.py,1,C++/number-of-ways-to-rearrange-sticks-with-k-sticks-visible.cpp,name:slug/title
+1719,Number Of Ways To Reconstruct A Tree,number-of-ways-to-reconstruct-a-tree,2021-01-09,Hard,1,Python/number-of-ways-to-reconstruct-a-tree.py,1,C++/number-of-ways-to-reconstruct-a-tree.cpp,name:slug/title
+1569,Number of Ways to Reorder Array to Get Same BST,number-of-ways-to-reorder-array-to-get-same-bst,2020-08-30,Hard,1,Python/number-of-ways-to-reorder-array-to-get-same-bst.py,1,C++/number-of-ways-to-reorder-array-to-get-same-bst.cpp,name:slug/title
+1977,Number of Ways to Separate Numbers,number-of-ways-to-separate-numbers,2021-08-21,Hard,1,Python/number-of-ways-to-separate-numbers.py,1,C++/number-of-ways-to-separate-numbers.cpp,name:slug/title
+1269,Number of Ways to Stay in the Same Place After Some Steps,number-of-ways-to-stay-in-the-same-place-after-some-steps,2019-11-24,Hard,1,Python/number-of-ways-to-stay-in-the-same-place-after-some-steps.py,1,C++/number-of-ways-to-stay-in-the-same-place-after-some-steps.cpp,name:slug/title
+1434,Number of Ways to Wear Different Hats to Each Other,number-of-ways-to-wear-different-hats-to-each-other,2020-05-02,Hard,1,Python/number-of-ways-to-wear-different-hats-to-each-other.py,1,C++/number-of-ways-to-wear-different-hats-to-each-other.cpp,name:slug/title
+902,Numbers At Most N Given Digit Set,numbers-at-most-n-given-digit-set,2018-09-08,Hard,1,Python/numbers-at-most-n-given-digit-set.py,1,C++/numbers-at-most-n-given-digit-set.cpp,name:slug/title
+1012,Numbers With Repeated Digits,numbers-with-repeated-digits,2019-03-16,Hard,1,Python/numbers-with-repeated-digits.py,1,C++/numbers-with-repeated-digits.cpp,name:slug/title
+975,Odd Even Jump,odd-even-jump,2019-01-12,Hard,1,Python/odd-even-jump.py,1,C++/odd-even-jump.cpp,name:slug/title
+1157,Online Majority Element In Subarray,online-majority-element-in-subarray,2019-08-11,Hard,1,Python/online-majority-element-in-subarray.py,1,C++/online-majority-element-in-subarray.cpp,name:slug/title
+465,Optimal Account Balancing,optimal-account-balancing,2016-11-20,Hard,1,Python/optimal-account-balancing.py,1,C++/optimal-account-balancing.cpp,name:slug/title
+1168,Optimize Water Distribution in a Village,optimize-water-distribution-in-a-village,2019-08-24,Hard,1,Python/optimize-water-distribution-in-a-village.py,1,C++/optimize-water-distribution-in-a-village.cpp,name:slug/title
+899,Orderly Queue,orderly-queue,2018-09-01,Hard,1,Python/orderly-queue.py,1,C++/orderly-queue.cpp,name:slug/title
+265,Paint House II,paint-house-ii,2015-08-19,Hard,1,Python/paint-house-ii.py,1,C++/paint-house-ii.cpp,name:slug/title
+1473,Paint House III,paint-house-iii,2020-06-07,Hard,1,Python/paint-house-iii.py,1,C++/paint-house-iii.cpp,name:slug/title
+1931,Painting a Grid With Three Different Colors,painting-a-grid-with-three-different-colors,2021-07-11,Hard,1,Python/painting-a-grid-with-three-different-colors.py,1,C++/painting-a-grid-with-three-different-colors.cpp,name:slug/title
+2742,Painting the Walls,painting-the-walls,2023-06-18,Hard,1,Python/painting-the-walls.py,1,C++/painting-the-walls.cpp,name:slug/title
+336,Palindrome Pairs,palindrome-pairs,2016-03-09,Hard,1,Python/palindrome-pairs.py,1,C++/palindrome-pairs.cpp,name:slug/title
+132,Palindrome Partitioning II,palindrome-partitioning-ii,2013-11-14,Hard,1,Python/palindrome-partitioning-ii.py,1,C++/132-pattern.cpp,id-in-filename
+1278,Palindrome Partitioning III,palindrome-partitioning-iii,2019-12-01,Hard,1,Python/palindrome-partitioning-iii.py,1,C++/palindrome-partitioning-iii.cpp,name:slug/title
+1745,Palindrome Partitioning IV,palindrome-partitioning-iv,2021-01-31,Hard,1,Python/palindrome-partitioning-iv.py,1,C++/palindrome-partitioning-iv.cpp,name:slug/title
+2983,Palindrome Rearrangement Queries,palindrome-rearrangement-queries,2023-12-31,Hard,1,Python/palindrome-rearrangement-queries.py,1,C++/palindrome-rearrangement-queries.cpp,name:slug/title
+1246,Palindrome Removal,palindrome-removal,2019-11-02,Hard,1,Python/palindrome-removal.py,1,C++/palindrome-removal.cpp,name:slug/title
+1494,Parallel Courses II,parallel-courses-ii,2020-06-27,Hard,1,Python/parallel-courses-ii.py,1,C++/parallel-courses-ii.cpp,name:slug/title
+2050,Parallel Courses III,parallel-courses-iii,2021-10-24,Hard,1,Python/parallel-courses-iii.py,1,C++/parallel-courses-iii.cpp,name:slug/title
+736,Parse Lisp Expression,parse-lisp-expression,2017-11-25,Hard,1,Python/parse-lisp-expression.py,1,C++/parse-lisp-expression.cpp,name:slug/title
+1106,Parsing A Boolean Expression,parsing-a-boolean-expression,2019-06-30,Hard,1,Python/parsing-a-boolean-expression.py,1,C++/parsing-a-boolean-expression.cpp,name:slug/title
+2035,Partition Array Into Two Arrays to Minimize Sum Difference,partition-array-into-two-arrays-to-minimize-sum-difference,2021-10-10,Hard,1,Python/partition-array-into-two-arrays-to-minimize-sum-difference.py,1,C++/partition-array-into-two-arrays-to-minimize-sum-difference.cpp,name:slug/title
+330,Patching Array,patching-array,2016-01-27,Hard,1,Python/patching-array.py,1,C++/patching-array.cpp,name:slug/title
+2435,Paths in Matrix Whose Sum Is Divisible by K,paths-in-matrix-whose-sum-is-divisible-by-k,2022-10-09,Hard,1,Python/paths-in-matrix-whose-sum-is-divisible-by-k.py,1,C++/paths-in-matrix-whose-sum-is-divisible-by-k.cpp,name:slug/title
+3187,Peaks in Array,peaks-in-array,2024-06-16,Hard,1,Python/peaks-in-array.py,1,C++/peaks-in-array.cpp,name:slug/title
+391,Perfect Rectangle,perfect-rectangle,2016-08-28,Hard,1,Python/perfect-rectangle.py,1,C++/perfect-rectangle.cpp,name:slug/title
+60,Permutation Sequence,permutation-sequence,2016-08-07,Hard,1,Python/permutation-sequence.py,1,C++/permutation-sequence.cpp,name:slug/title
+1388,Pizza With 3n Slices,pizza-with-3n-slices,2020-03-21,Hard,1,Python/pizza-with-3n-slices.py,1,C++/pizza-with-3n-slices.cpp,name:slug/title
+458,Poor Pigs,poor-pigs,2016-11-07,Hard,1,Python/poor-pigs.py,1,C++/poor-pigs.cpp,name:slug/title
+2681,Power of Heroes,power-of-heroes,2023-05-13,Hard,1,Python/power-of-heroes.py,1,C++/power-of-heroes.cpp,name:slug/title
+745,Prefix and Suffix Search,prefix-and-suffix-search,2017-12-10,Hard,1,Python/prefix-and-suffix-search.py,1,C++/prefix-and-suffix-search.cpp,name:slug/title
+793,Preimage Size of Factorial Zeroes Function,preimage-size-of-factorial-zeroes-function,2018-03-03,Hard,1,Python/preimage-size-of-factorial-zeroes-function.py,1,C++/preimage-size-of-factorial-zeroes-function.cpp,name:slug/title
+1467,Probability of a Two Boxes Having The Same Number of Distinct Balls,probability-of-a-two-boxes-having-the-same-number-of-distinct-balls,2020-05-31,Hard,1,Python/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls.py,1,C++/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls.cpp,name:slug/title
+2076,Process Restricted Friend Requests,process-restricted-friend-requests,2021-11-14,Hard,1,Python/process-restricted-friend-requests.py,1,C++/process-restricted-friend-requests.cpp,name:slug/title
+879,Profitable Schemes,profitable-schemes,2018-07-29,Hard,1,Python/profitable-schemes.py,1,C++/profitable-schemes.cpp,name:slug/title
+2551,Put Marbles in Bags,put-marbles-in-bags,2023-01-29,Hard,1,Python/put-marbles-in-bags.py,1,C++/put-marbles-in-bags.cpp,name:slug/title
+818,Race Car,race-car,2018-04-14,Hard,1,Python/race-car.py,1,C++/race-car.cpp,name:slug/title
+710,Random Pick with Blacklist,random-pick-with-blacklist,2018-07-03,Hard,1,Python/random-pick-with-blacklist.py,1,C++/random-pick-with-blacklist.cpp,name:slug/title
+715,Range Module,range-module,2017-10-21,Hard,1,Python/range-module.py,1,C++/range-module.cpp,name:slug/title
+1632,Rank Transform of a Matrix,rank-transform-of-a-matrix,2020-10-24,Hard,1,Python/rank-transform-of-a-matrix.py,1,C++/rank-transform-of-a-matrix.cpp,name:slug/title
+882,Reachable Nodes In Subdivided Graph,reachable-nodes-in-subdivided-graph,2018-08-04,Hard,1,Python/reachable-nodes-in-subdivided-graph.py,1,C++/reachable-nodes-in-subdivided-graph.cpp,name:slug/title
+780,Reaching Points,reaching-points,2018-02-10,Hard,1,Python/reaching-points.py,1,C++/reaching-points.cpp,name:slug/title
+158,Read N Characters Given read4 II - Call Multiple Times,read-n-characters-given-read4-ii-call-multiple-times,2014-12-02,Hard,1,Python/read-n-characters-given-read4-ii-call-multiple-times.py,1,C++/read-n-characters-given-read4-ii-call-multiple-times.cpp,name:slug/title
+358,Rearrange String k Distance Apart,rearrange-string-k-distance-apart,2016-06-13,Hard,1,Python/rearrange-string-k-distance-apart.py,1,C++/rearrange-string-k-distance-apart.cpp,name:slug/title
+2561,Rearranging Fruits,rearranging-fruits,2023-02-05,Hard,1,Python/rearranging-fruits.py,1,C++/rearranging-fruits.cpp,name:slug/title
+332,Reconstruct Itinerary,reconstruct-itinerary,2016-02-04,Hard,1,Python/reconstruct-itinerary.py,1,C++/reconstruct-itinerary.cpp,name:slug/title
+1028,Recover a Tree From Preorder Traversal,recover-a-tree-from-preorder-traversal,2019-04-14,Hard,1,Python/recover-a-tree-from-preorder-traversal.py,1,C++/recover-a-tree-from-preorder-traversal.cpp,name:slug/title
+2122,Recover the Original Array,recover-the-original-array,2021-12-26,Hard,1,Python/recover-the-original-array.py,1,C++/recover-the-original-array.cpp,name:slug/title
+850,Rectangle Area II,rectangle-area-ii,2018-06-09,Hard,1,Python/rectangle-area-ii.py,1,C++/rectangle-area-ii.cpp,name:slug/title
+1402,Reducing Dishes,reducing-dishes,2020-04-04,Hard,1,Python/reducing-dishes.py,1,C++/reducing-dishes.cpp,name:slug/title
+685,Redundant Connection II,redundant-connection-ii,2017-09-26,Hard,1,Python/redundant-connection-ii.py,1,C++/redundant-connection-ii.cpp,name:slug/title
+10,Regular Expression Matching,regular-expression-matching,2013-10-29,Hard,1,Python/regular-expression-matching.py,1,C++/implement-rand10-using-rand7.cpp,id-in-filename
+660,Remove 9,remove-9,2017-08-13,Hard,1,Python/remove-9.py,1,C++/remove-9.cpp,name:slug/title
+546,Remove Boxes,remove-boxes,2017-03-26,Hard,1,Python/remove-boxes.py,1,C++/remove-boxes.cpp,name:slug/title
+301,Remove Invalid Parentheses,remove-invalid-parentheses,2015-11-04,Hard,1,Python/remove-invalid-parentheses.py,1,C++/remove-invalid-parentheses.cpp,name:slug/title
+1579,Remove Max Number of Edges to Keep Graph Fully Traversable,remove-max-number-of-edges-to-keep-graph-fully-traversable,2020-09-06,Hard,1,Python/remove-max-number-of-edges-to-keep-graph-fully-traversable.py,1,C++/remove-max-number-of-edges-to-keep-graph-fully-traversable.cpp,name:slug/title
+2197,Replace Non-Coprime Numbers in Array,replace-non-coprime-numbers-in-array,2022-03-06,Hard,1,Python/replace-non-coprime-numbers-in-array.py,1,C++/replace-non-coprime-numbers-in-array.cpp,name:slug/title
+1416,Restore The Array,restore-the-array,2020-04-18,Hard,1,Python/restore-the-array.py,1,C++/restore-the-array.cpp,name:slug/title
+25,Reverse Nodes in k-Group,reverse-nodes-in-k-group,2014-07-04,Hard,1,Python/reverse-nodes-in-k-group.py,1,C++/reverse-nodes-in-k-group.cpp,name:slug/title
+493,Reverse Pairs,reverse-pairs,2017-02-12,Hard,1,Python/reverse-pairs.py,1,C++/reverse-pairs.cpp,name:slug/title
+1330,Reverse Subarray To Maximize Array Value,reverse-subarray-to-maximize-array-value,2020-01-25,Hard,1,Python/reverse-subarray-to-maximize-array-value.py,1,C++/reverse-subarray-to-maximize-array-value.cpp,name:slug/title
+2751,Robot Collisions,robot-collisions,2023-06-25,Hard,1,Python/robot-collisions.py,1,C++/robot-collisions.cpp,name:slug/title
+489,Robot Room Cleaner,robot-room-cleaner,2018-05-25,Hard,1,Python/robot-room-cleaner.py,1,C++/robot-room-cleaner.cpp,name:slug/title
+354,Russian Doll Envelopes,russian-doll-envelopes,2016-06-06,Hard,1,Python/russian-doll-envelopes.py,1,C++/russian-doll-envelopes.cpp,name:slug/title
+1479,Sales by Day of the Week,sales-by-day-of-the-week,2020-06-14,Hard,1,Python/day-of-the-week.py,1,C++/day-of-the-week.cpp,name:slug/title+py~contains+cpp~contains
+87,Scramble String,scramble-string,2013-12-20,Hard,1,Python/scramble-string.py,0,,name:slug/title
+2045,Second Minimum Time to Reach Destination,second-minimum-time-to-reach-destination,2021-10-17,Hard,1,Python/second-minimum-time-to-reach-destination.py,1,C++/second-minimum-time-to-reach-destination.cpp,name:slug/title
+3276,Select Cells in Grid With Maximum Score,select-cells-in-grid-with-maximum-score,2024-09-01,Hard,1,Python/select-cells-in-grid-with-maximum-score.py,1,C++/select-cells-in-grid-with-maximum-score.cpp,name:slug/title
+335,Self Crossing,self-crossing,2016-02-23,Hard,1,Python/self-crossing.py,1,C++/self-crossing.cpp,name:slug/title
+2312,Selling Pieces of Wood,selling-pieces-of-wood,2022-06-19,Hard,1,Python/selling-pieces-of-wood.py,1,C++/selling-pieces-of-wood.cpp,name:slug/title
+2102,Sequentially Ordinal Rank Tracker,sequentially-ordinal-rank-tracker,2021-12-11,Hard,1,Python/sequentially-ordinal-rank-tracker.py,1,C++/sequentially-ordinal-rank-tracker.cpp,name:slug/title
+297,Serialize and Deserialize Binary Tree,serialize-and-deserialize-binary-tree,2016-08-19,Hard,1,Python/serialize-and-deserialize-binary-tree.py,1,C++/serialize-and-deserialize-binary-tree.cpp,name:slug/title
+428,Serialize and Deserialize N-ary Tree,serialize-and-deserialize-n-ary-tree,2018-07-13,Hard,1,Python/serialize-and-deserialize-n-ary-tree.py,1,C++/serialize-and-deserialize-n-ary-tree.cpp,name:slug/title
+757,Set Intersection Size At Least Two,set-intersection-size-at-least-two,2017-12-30,Hard,1,Python/set-intersection-size-at-least-two.py,1,C++/set-intersection-size-at-least-two.cpp,name:slug/title
+1092,Shortest Common Supersequence,shortest-common-supersequence,2019-06-16,Hard,1,Python/shortest-common-supersequence.py,1,C++/shortest-common-supersequence.cpp,name:slug/title
+2608,Shortest Cycle in a Graph,shortest-cycle-in-a-graph,2023-04-01,Hard,1,Python/shortest-cycle-in-a-graph.py,1,C++/shortest-cycle-in-a-graph.cpp,name:slug/title
+3244,Shortest Distance After Road Addition Queries II,shortest-distance-after-road-addition-queries-ii,2024-08-04,Hard,1,Python/shortest-distance-after-road-addition-queries-ii.py,1,C++/shortest-distance-after-road-addition-queries-ii.cpp,name:slug/title
+317,Shortest Distance from All Buildings,shortest-distance-from-all-buildings,2015-12-14,Hard,1,Python/shortest-distance-from-all-buildings.py,1,C++/shortest-distance-from-all-buildings.cpp,name:slug/title
+2350,Shortest Impossible Sequence of Rolls,shortest-impossible-sequence-of-rolls,2022-07-23,Hard,1,Python/shortest-impossible-sequence-of-rolls.py,1,C++/shortest-impossible-sequence-of-rolls.cpp,name:slug/title
+214,Shortest Palindrome,shortest-palindrome,2015-05-22,Hard,1,Python/shortest-palindrome.py,1,C++/shortest-palindrome.cpp,name:slug/title
+1293,Shortest Path in a Grid with Obstacles Elimination,shortest-path-in-a-grid-with-obstacles-elimination,2019-12-15,Hard,1,Python/shortest-path-in-a-grid-with-obstacles-elimination.py,1,C++/shortest-path-in-a-grid-with-obstacles-elimination.cpp,name:slug/title
+864,Shortest Path to Get All Keys,shortest-path-to-get-all-keys,2018-07-08,Hard,1,Python/shortest-path-to-get-all-keys.py,1,C++/shortest-path-to-get-all-keys.cpp,name:slug/title
+847,Shortest Path Visiting All Nodes,shortest-path-visiting-all-nodes,2018-06-03,Hard,1,Python/shortest-path-visiting-all-nodes.py,1,C++/shortest-path-visiting-all-nodes.cpp,name:slug/title
+862,Shortest Subarray with Sum at Least K,shortest-subarray-with-sum-at-least-k,2018-07-01,Hard,1,Python/shortest-subarray-with-sum-at-least-k.py,1,C++/shortest-subarray-with-sum-at-least-k.cpp,name:slug/title
+839,Similar String Groups,similar-string-groups,2018-05-20,Hard,1,Python/similar-string-groups.py,1,C++/similar-string-groups.cpp,name:slug/title
+773,Sliding Puzzle,sliding-puzzle,2018-01-28,Hard,1,Python/sliding-puzzle.py,1,C++/sliding-puzzle.cpp,name:slug/title
+239,Sliding Window Maximum,sliding-window-maximum,2015-09-15,Hard,1,Python/sliding-window-maximum.py,1,C++/sliding-window-maximum.cpp,name:slug/title
+480,Sliding Window Median,sliding-window-median,2017-01-08,Hard,1,Python/sliding-window-median.py,1,C++/sliding-window-median.cpp,name:slug/title
+483,Smallest Good Base,smallest-good-base,2017-01-22,Hard,1,Python/smallest-good-base.py,1,C++/smallest-good-base.cpp,name:slug/title
+2030,Smallest K-Length Subsequence With Occurrences of a Letter,smallest-k-length-subsequence-with-occurrences-of-a-letter,2021-10-03,Hard,1,Python/smallest-k-length-subsequence-with-occurrences-of-a-letter.py,1,C++/smallest-k-length-subsequence-with-occurrences-of-a-letter.cpp,name:slug/title
+2003,Smallest Missing Genetic Value in Each Subtree,smallest-missing-genetic-value-in-each-subtree,2021-09-12,Hard,1,Python/smallest-missing-genetic-value-in-each-subtree.py,1,C++/smallest-missing-genetic-value-in-each-subtree.cpp,name:slug/title
+632,Smallest Range Covering Elements from K Lists,smallest-range-covering-elements-from-k-lists,2017-07-02,Hard,1,Python/smallest-range.py,1,C++/smallest-range.cpp,name:slug/title+py~contains+cpp~contains
+302,Smallest Rectangle Enclosing Black Pixels,smallest-rectangle-enclosing-black-pixels,2015-11-07,Hard,1,Python/smallest-rectangle-enclosing-black-pixels.py,1,C++/smallest-rectangle-enclosing-black-pixels.cpp,name:slug/title
+798,Smallest Rotation with Highest Score,smallest-rotation-with-highest-score,2018-03-10,Hard,1,Python/smallest-rotation-with-highest-score.py,1,C++/smallest-rotation-with-highest-score.cpp,name:slug/title
+1125,Smallest Sufficient Team,smallest-sufficient-team,2019-07-14,Hard,1,Python/smallest-sufficient-team.py,1,C++/smallest-sufficient-team.cpp,name:slug/title
+2459,Sort Array by Moving Items to Empty Space,sort-array-by-moving-items-to-empty-space,2022-11-01,Hard,1,Python/sort-array-by-moving-items-to-empty-space.py,1,C++/sort-array-by-moving-items-to-empty-space.cpp,name:slug/title
+1203,Sort Items by Groups Respecting Dependencies,sort-items-by-groups-respecting-dependencies,2019-09-22,Hard,1,Python/sort-items-by-groups-respecting-dependencies.py,1,C++/sort-items-by-groups-respecting-dependencies.cpp,name:slug/title
+761,Special Binary String,special-binary-string,2018-01-06,Hard,1,Python/special-binary-string.py,1,C++/special-binary-string.cpp,name:slug/title
+410,Split Array Largest Sum,split-array-largest-sum,2016-10-04,Hard,1,Python/split-array-largest-sum.py,1,C++/split-array-largest-sum.cpp,name:slug/title
+548,Split Array with Equal Sum,split-array-with-equal-sum,2017-04-01,Hard,1,Python/split-array-with-equal-sum.py,1,C++/split-array-with-equal-sum.cpp,name:slug/title
+805,Split Array With Same Average,split-array-with-same-average,2018-03-24,Hard,1,Python/split-array-with-same-average.py,1,C++/split-array-with-same-average.cpp,name:slug/title
+2468,Split Message Based on Limit,split-message-based-on-limit,2022-11-12,Hard,1,Python/split-message-based-on-limit.py,1,C++/split-message-based-on-limit.cpp,name:slug/title
+2584,Split the Array to Make Coprime Products,split-the-array-to-make-coprime-products,2023-03-05,Hard,1,Python/split-the-array-to-make-coprime-products.py,1,C++/split-the-array-to-make-coprime-products.cpp,name:slug/title
+2132,Stamping the Grid,stamping-the-grid,2022-01-08,Hard,1,Python/stamping-the-grid.py,1,C++/stamping-the-grid.cpp,name:slug/title
+936,Stamping The Sequence,stamping-the-sequence,2018-11-03,Hard,1,Python/stamping-the-sequence.py,1,C++/stamping-the-sequence.cpp,name:slug/title
+691,Stickers to Spell Word,stickers-to-spell-word,2017-10-07,Hard,1,Python/stickers-to-spell-word.py,1,C++/stickers-to-spell-word.cpp,name:slug/title
+1406,Stone Game III,stone-game-iii,2020-04-05,Hard,1,Python/stone-game-iii.py,1,C++/stone-game-iii.cpp,name:slug/title
+1510,Stone Game IV,stone-game-iv,2020-07-11,Hard,1,Python/stone-game-iv.py,1,C++/stone-game-iv.cpp,name:slug/title
+1563,Stone Game V,stone-game-v,2020-08-23,Hard,1,Python/stone-game-v.py,1,C++/stone-game-v.cpp,name:slug/title
+1872,Stone Game VIII,stone-game-viii,2021-05-23,Hard,1,Python/stone-game-viii.py,1,C++/stone-game-viii.cpp,name:slug/title
+1591,Strange Printer II,strange-printer-ii,2020-09-19,Hard,1,Python/strange-printer-ii.py,1,C++/strange-printer-ii.cpp,name:slug/title
+664,Strange Printer,strange-printer,2017-08-20,Hard,1,Python/strange-printer.py,1,C++/strange-printer.cpp,name:slug/title
+1032,Stream of Characters,stream-of-characters,2019-04-20,Hard,1,Python/stream-of-characters.py,1,C++/stream-of-characters.cpp,name:slug/title
+1531,String Compression II,string-compression-ii,2020-07-26,Hard,1,Python/string-compression-ii.py,1,C++/string-compression-ii.cpp,name:slug/title
+2851,String Transformation,string-transformation,2023-09-10,Hard,1,Python/string-transformation.py,1,C++/string-transformation.cpp,name:slug/title
+1153,String Transforms Into Another String,string-transforms-into-another-string,2019-08-10,Hard,1,Python/string-transforms-into-another-string.py,1,C++/string-transforms-into-another-string.cpp,name:slug/title
+248,Strobogrammatic Number III,strobogrammatic-number-iii,2015-08-05,Hard,1,Python/strobogrammatic-number-iii.py,1,C++/strobogrammatic-number-iii.cpp,name:slug/title
+420,Strong Password Checker,strong-password-checker,2016-10-14,Hard,1,Python/strong-password-checker.py,1,C++/strong-password-checker.cpp,name:slug/title
+552,Student Attendance Record II,student-attendance-record-ii,2017-04-16,Hard,1,Python/student-attendance-record-ii.py,1,C++/student-attendance-record-ii.cpp,name:slug/title
+2334,Subarray With Elements Greater Than Varying Threshold,subarray-with-elements-greater-than-varying-threshold,2022-07-09,Hard,1,Python/subarray-with-elements-greater-than-varying-threshold.py,1,C++/subarray-with-elements-greater-than-varying-threshold.cpp,name:slug/title
+2916,Subarrays Distinct Element Sum of Squares II,subarrays-distinct-element-sum-of-squares-ii,2023-10-28,Hard,1,Python/subarrays-distinct-element-sum-of-squares-ii.py,1,C++/subarrays-distinct-element-sum-of-squares-ii.cpp,name:slug/title
+992,Subarrays with K Different Integers,subarrays-with-k-different-integers,2019-02-10,Hard,1,Python/subarrays-with-k-different-integers.py,1,C++/subarrays-with-k-different-integers.cpp,name:slug/title
+2565,Subsequence With the Minimum Score,subsequence-with-the-minimum-score,2023-02-12,Hard,1,Python/subsequence-with-the-minimum-score.py,1,C++/subsequence-with-the-minimum-score.cpp,name:slug/title
+30,Substring with Concatenation of All Words,substring-with-concatenation-of-all-words,2017-01-24,Hard,1,Python/substring-with-concatenation-of-all-words.py,1,C++/substring-with-concatenation-of-all-words.cpp,name:slug/title
+2272,Substring With Largest Variance,substring-with-largest-variance,2022-05-14,Hard,1,Python/substring-with-largest-variance.py,1,C++/substring-with-largest-variance.cpp,name:slug/title
+2005,Subtree Removal Game with Fibonacci Tree,subtree-removal-game-with-fibonacci-tree,2021-09-16,Hard,1,Python/subtree-removal-game-with-fibonacci-tree.py,1,C++/subtree-removal-game-with-fibonacci-tree.cpp,name:slug/title
+37,Sudoku Solver,sudoku-solver,2014-04-15,Hard,1,Python/sudoku-solver.py,0,,name:slug/title
+3299,Sum of Consecutive Subsequences,sum-of-consecutive-subsequences,2024-09-25,Hard,1,Python/sum-of-consecutive-subsequences.py,1,C++/sum-of-consecutive-subsequences.cpp,name:slug/title
+834,Sum of Distances in Tree,sum-of-distances-in-tree,2018-05-12,Hard,1,Python/sum-of-distances-in-tree.py,1,C++/sum-of-distances-in-tree.cpp,name:slug/title
+1862,Sum of Floored Pairs,sum-of-floored-pairs,2021-05-15,Hard,1,Python/sum-of-floored-pairs.py,1,C++/sum-of-floored-pairs.cpp,name:slug/title
+2763,Sum of Imbalance Numbers of All Subarrays,sum-of-imbalance-numbers-of-all-subarrays,2023-07-02,Hard,1,Python/sum-of-imbalance-numbers-of-all-subarrays.py,1,C++/sum-of-imbalance-numbers-of-all-subarrays.cpp,name:slug/title
+2081,Sum of k-Mirror Numbers,sum-of-k-mirror-numbers,2021-11-21,Hard,1,Python/sum-of-k-mirror-numbers.py,1,C++/sum-of-k-mirror-numbers.cpp,name:slug/title
+2416,Sum of Prefix Scores of Strings,sum-of-prefix-scores-of-strings,2022-09-18,Hard,1,Python/sum-of-prefix-scores-of-strings.py,1,C++/sum-of-prefix-scores-of-strings.cpp,name:slug/title
+2223,Sum of Scores of Built Strings,sum-of-scores-of-built-strings,2022-04-02,Hard,1,Python/sum-of-scores-of-built-strings.py,1,C++/sum-of-scores-of-built-strings.cpp,name:slug/title
+1714,Sum Of Special Evenly-Spaced Elements In Array,sum-of-special-evenly-spaced-elements-in-array,2021-01-07,Hard,1,Python/sum-of-special-evenly-spaced-elements-in-array.py,1,C++/sum-of-special-evenly-spaced-elements-in-array.cpp,name:slug/title
+891,Sum of Subsequence Widths,sum-of-subsequence-widths,2018-08-18,Hard,1,Python/sum-of-subsequence-widths.py,1,C++/sum-of-subsequence-widths.cpp,name:slug/title
+2281,Sum of Total Strength of Wizards,sum-of-total-strength-of-wizards,2022-05-22,Hard,1,Python/sum-of-total-strength-of-wizards.py,1,C++/sum-of-total-strength-of-wizards.cpp,name:slug/title
+887,Super Egg Drop,super-egg-drop,2018-08-11,Hard,1,Python/super-egg-drop.py,1,C++/super-egg-drop.cpp,name:slug/title
+906,Super Palindromes,super-palindromes,2018-09-16,Hard,1,Python/super-palindromes.py,1,C++/super-palindromes.cpp,name:slug/title
+517,Super Washing Machines,super-washing-machines,2017-02-19,Hard,1,Python/super-washing-machines.py,1,C++/super-washing-machines.cpp,name:slug/title
+778,Swim in Rising Water,swim-in-rising-water,2018-02-03,Hard,1,Python/swim-in-rising-water.py,1,C++/swim-in-rising-water.cpp,name:slug/title
+591,Tag Validator,tag-validator,2017-06-03,Hard,1,Python/tag-validator.py,1,C++/tag-validator.cpp,name:slug/title
+956,Tallest Billboard,tallest-billboard,2018-12-09,Hard,1,Python/tallest-billboard.py,1,C++/tallest-billboard.cpp,name:slug/title
+68,Text Justification,text-justification,2014-01-08,Hard,1,Python/text-justification.py,1,C++/text-justification.cpp,name:slug/title
+1900,The Earliest and Latest Rounds Where Players Compete,the-earliest-and-latest-rounds-where-players-compete,2021-06-13,Hard,1,Python/the-earliest-and-latest-rounds-where-players-compete.py,1,C++/the-earliest-and-latest-rounds-where-players-compete.cpp,name:slug/title
+499,The Maze III,the-maze-iii,2017-01-29,Hard,1,Python/the-maze-iii.py,1,C++/the-maze-iii.cpp,name:slug/title
+1548,The Most Similar Path in a Graph,the-most-similar-path-in-a-graph,2020-08-13,Hard,1,Python/the-most-similar-path-in-a-graph.py,1,C++/the-most-similar-path-in-a-graph.cpp,name:slug/title
+1994,The Number of Good Subsets,the-number-of-good-subsets,2021-09-04,Hard,1,Python/the-number-of-good-subsets.py,1,C++/the-number-of-good-subsets.cpp,name:slug/title
+2019,The Score of Students Solving Math Expression,the-score-of-students-solving-math-expression,2021-09-26,Hard,1,Python/the-score-of-students-solving-math-expression.py,1,C++/the-score-of-students-solving-math-expression.cpp,name:slug/title
+218,The Skyline Problem,the-skyline-problem,2015-05-26,Hard,1,Python/the-skyline-problem.py,1,C++/the-skyline-problem.cpp,name:slug/title
+2868,The Wording Game,the-wording-game,2023-09-27,Hard,1,Python/the-wording-game.py,1,C++/the-wording-game.cpp,name:slug/title
+927,Three Equal Parts,three-equal-parts,2018-10-21,Hard,1,Python/three-equal-parts.py,1,C++/three-equal-parts.cpp,name:slug/title
+1240,Tiling a Rectangle with the Fewest Squares,tiling-a-rectangle-with-the-fewest-squares,2019-10-27,Hard,1,Python/tiling-a-rectangle-with-the-fewest-squares.py,1,C++/tiling-a-rectangle-with-the-fewest-squares.cpp,name:slug/title
+2534,Time Taken to Cross the Door,time-taken-to-cross-the-door,2023-01-13,Hard,1,Python/time-taken-to-cross-the-door.py,1,C++/time-taken-to-cross-the-door.cpp,name:slug/title
+3241,Time Taken to Mark All Nodes,time-taken-to-mark-all-nodes,2024-08-03,Hard,1,Python/time-taken-to-mark-all-nodes.py,1,C++/time-taken-to-mark-all-nodes.cpp,name:slug/title
+2532,Time to Cross a Bridge,time-to-cross-a-bridge,2023-01-08,Hard,1,Python/time-to-cross-a-bridge.py,1,C++/time-to-cross-a-bridge.cpp,name:slug/title
+2262,Total Appeal of A String,total-appeal-of-a-string,2022-05-01,Hard,1,Python/total-appeal-of-a-string.py,1,C++/total-appeal-of-a-string.cpp,name:slug/title
+782,Transform to Chessboard,transform-to-chessboard,2018-02-10,Hard,1,Python/transform-to-chessboard.py,1,C++/transform-to-chessboard.cpp,name:slug/title
+407,Trapping Rain Water II,trapping-rain-water-ii,2016-09-25,Hard,1,Python/trapping-rain-water-ii.py,1,C++/trapping-rain-water-ii.cpp,name:slug/title
+42,Trapping Rain Water,trapping-rain-water,2014-01-02,Hard,1,Python/trapping-rain-water.py,1,C++/trapping-rain-water.cpp,name:slug/title
+1766,Tree of Coprimes,tree-of-coprimes,2021-02-20,Hard,1,Python/tree-of-coprimes.py,1,C++/tree-of-coprimes.cpp,name:slug/title
+982,Triples with Bitwise AND Equal To Zero,triples-with-bitwise-and-equal-to-zero,2019-01-27,Hard,1,Python/triples-with-bitwise-and-equal-to-zero.py,1,C++/triples-with-bitwise-and-equal-to-zero.cpp,name:slug/title
+980,Unique Paths III,unique-paths-iii,2019-01-20,Hard,1,Python/unique-paths-iii.py,1,C++/unique-paths-iii.cpp,name:slug/title
+2097,Valid Arrangement of Pairs,valid-arrangement-of-pairs,2021-12-05,Hard,1,Python/valid-arrangement-of-pairs.py,1,C++/valid-arrangement-of-pairs.cpp,name:slug/title
+65,Valid Number,valid-number,2013-12-11,Hard,1,Python/valid-number.py,1,C++/valid-number.cpp,name:slug/title
+1216,Valid Palindrome III,valid-palindrome-iii,2019-10-05,Hard,1,Python/valid-palindrome-iii.py,1,C++/valid-palindrome-iii.cpp,name:slug/title
+903,Valid Permutations for DI Sequence,valid-permutations-for-di-sequence,2018-09-08,Hard,1,Python/valid-permutations-for-di-sequence.py,1,C++/valid-permutations-for-di-sequence.cpp,name:slug/title
+1307,Verbal Arithmetic Puzzle,verbal-arithmetic-puzzle,2019-12-29,Hard,1,Python/verbal-arithmetic-puzzle.py,1,C++/verbal-arithmetic-puzzle.cpp,name:slug/title
+987,Vertical Order Traversal of a Binary Tree,vertical-order-traversal-of-a-binary-tree,2019-02-03,Hard,1,Python/vertical-order-traversal-of-a-binary-tree.py,1,C++/vertical-order-traversal-of-a-binary-tree.cpp,name:slug/title
+44,Wildcard Matching,wildcard-matching,2014-07-10,Hard,1,Python/wildcard-matching.py,0,,name:slug/title
+527,Word Abbreviation,word-abbreviation,2017-03-12,Hard,1,Python/word-abbreviation.py,1,C++/word-abbreviation.cpp,name:slug/title
+140,Word Break II,word-break-ii,2013-10-30,Hard,1,Python/word-break-ii.py,1,C++/word-break-ii.cpp,name:slug/title
+126,Word Ladder II,word-ladder-ii,2013-11-05,Hard,1,Python/word-ladder-ii.py,1,C++/word-ladder-ii.cpp,name:slug/title
+127,Word Ladder,word-ladder,2013-11-01,Hard,1,Python/word-ladder.py,1,C++/word-ladder.cpp,name:slug/title
+212,Word Search II,word-search-ii,2015-05-19,Hard,1,Python/word-search-ii.py,1,C++/word-search-ii.cpp,name:slug/title
+425,Word Squares,word-squares,2016-10-16,Hard,1,Python/word-squares.py,1,C++/word-squares.cpp,name:slug/title
+488,Zuma Game,zuma-game,2017-01-15,Hard,1,Python/zuma-game.py,1,C++/zuma-game.cpp,name:slug/title

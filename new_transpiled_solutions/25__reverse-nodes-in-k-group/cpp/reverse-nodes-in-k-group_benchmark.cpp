@@ -1,0 +1,129 @@
+#include <iostream>
+#include <vector>
+#include <chrono>
+#include <cstdint>
+
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+
+class Solution {
+public:
+    ListNode* reverseKGroup(ListNode* head, int k) {
+        ListNode dummy(-1);
+        dummy.next = head;
+
+        ListNode* cur = head;
+        ListNode* cur_dummy = &dummy;
+        int length = 0;
+
+        while (cur) {
+            ListNode* next_cur = cur->next;
+            length = (length + 1) % k;
+
+            if (length == 0) {
+                ListNode* next_dummy = cur_dummy->next;
+                reverse(cur_dummy, cur->next);
+                cur_dummy = next_dummy;
+            }
+
+            cur = next_cur;
+        }
+
+        return dummy.next;
+    }
+
+private:
+    void reverse(ListNode* begin, ListNode* end) {
+        ListNode* first = begin->next;
+        ListNode* cur = first->next;
+
+        while (cur != end) {
+            first->next = cur->next;
+            cur->next = begin->next;
+            begin->next = cur;
+            cur = first->next;
+        }
+    }
+};
+
+static ListNode* buildList(const std::vector<int>& vals) {
+    ListNode dummy(0);
+    ListNode* tail = &dummy;
+    for (int v : vals) {
+        tail->next = new ListNode(v);
+        tail = tail->next;
+    }
+    return dummy.next;
+}
+
+static void freeList(ListNode* head) {
+    while (head) {
+        ListNode* tmp = head;
+        head = head->next;
+        delete tmp;
+    }
+}
+
+static uint64_t checksumList(const ListNode* head) {
+    // FNV-1a 64-bit hash over node values
+    uint64_t hash = 1469598103934665603ULL;
+    while (head) {
+        uint64_t x = static_cast<uint64_t>(static_cast<int64_t>(head->val));
+        hash ^= (x ^ 0x9e3779b97f4a7c15ULL);
+        hash *= 1099511628211ULL;
+        head = head->next;
+    }
+    return hash;
+}
+
+int main() {
+    // Prepare 10 diverse test inputs (vectors) and corresponding k values
+    std::vector<std::vector<int>> tests(10);
+    tests[0] = {};                                        // empty list
+    tests[1] = {1};                                       // single element, k=1
+    tests[2] = {5};                                       // single element, k>len
+    tests[3] = {1, 2};                                    // exact group
+    tests[4] = {1, 2, 3};                                 // partial group
+    tests[5] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};           // ascending
+    tests[6] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};           // descending
+    tests[7] = {1, 1, 1, 1, 1, 1};                        // duplicates
+    tests[8] = {0, -1, 2, -3, 4, -5, 6};                  // mixed negatives/positives
+    tests[9].resize(100);                                 // larger test
+    for (int i = 0; i < 100; ++i) {
+        // mixed pattern including negatives and positives
+        tests[9][i] = (i * 7 + ((i % 3 == 0) ? -i : i)) - 50;
+    }
+
+    int ks[10] = {3, 1, 2, 2, 2, 3, 4, 2, 3, 5};
+
+    Solution sol;
+
+    uint64_t total_checksum = 0;
+
+    auto start = std::chrono::high_resolution_clock::now();
+
+    const int iterations = 1000;
+    for (int iter = 0; iter < iterations; ++iter) {
+        for (int i = 0; i < 10; ++i) {
+            ListNode* head = buildList(tests[i]);
+            ListNode* res = sol.reverseKGroup(head, ks[i]);
+            uint64_t h = checksumList(res);
+            // Mix into total checksum to avoid easy cancellation
+            total_checksum ^= h + 0x9e3779b97f4a7c15ULL + (total_checksum << 6) + (total_checksum >> 2);
+            freeList(res);
+        }
+    }
+
+    auto end = std::chrono::high_resolution_clock::now();
+    auto elapsed_us = std::chrono::duration_cast<std::chrono::microseconds>(end - start).count();
+
+    std::cout << "Checksum: " << total_checksum << "\n";
+    std::cout << "Elapsed time (us): " << elapsed_us << "\n";
+
+    return 0;
+}

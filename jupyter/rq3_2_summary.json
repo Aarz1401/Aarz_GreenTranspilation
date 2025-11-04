@@ -1,0 +1,26 @@
+{
+  "N_before": 97,
+  "N_after": 38,
+  "energy_saving_before_median_%": 93.83028612600577,
+  "energy_saving_before_CI95_%": [
+    92.34081441125429,
+    94.91433433204874
+  ],
+  "energy_saving_after_median_%": 93.02370050059989,
+  "energy_saving_after_CI95_%": [
+    91.57034712348545,
+    95.29586975913918
+  ],
+  "runtime_speedup_before_median_%": 93.72968345367386,
+  "runtime_speedup_before_CI95_%": [
+    92.41836712731283,
+    95.23963278791273
+  ],
+  "runtime_speedup_after_median_%": 93.35947277011971,
+  "runtime_speedup_after_CI95_%": [
+    91.56682886646091,
+    95.26230358156717
+  ],
+  "mannwhitney_energy_p": 0.7118336777932628,
+  "mannwhitney_runtime_p": 0.730146009965542
+}

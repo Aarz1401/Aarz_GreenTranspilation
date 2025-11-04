@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Metric} & \textbf{Before (Median [95\% CI])} & \textbf{After (Median [95\% CI])} \\
+\midrule
+Energy saving (\%) & 93.8 [ 92.3, 94.9 ] & 93.0 [ 91.6, 95.3 ] \\
+Runtime speedup (\%) & 93.7 [ 92.4, 95.2 ] & 93.4 [ 91.6, 95.3 ] \\
+\bottomrule
+\end{tabular}
+\caption{RQ3.2 -- Comparison of performance improvements (Python~$\rightarrow$~C++) for benchmarks published before vs after the model's knowledge cut-off. $p$-values from Mann--Whitney U tests: energy 0.712, runtime 0.73.}
+\label{tab:rq3-perf}
+\end{table}

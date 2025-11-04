@@ -1,0 +1,58 @@
+#include <iostream>
+#include <vector>
+#include <array>
+#include <string>
+#include <functional>
+#include <cstdint>
+
+using namespace std;
+
+class Solution {
+public:
+    int countPalindromicSubsequences(string S) {
+        const int MOD = 1000000007;
+        int n = S.size();
+        if (n == 0) return 0;
+
+        vector<array<int, 4>> prv(n), nxt(n);
+
+        array<int, 4> last;
+        last.fill(-1);
+        for (int i = 0; i < n; ++i) {
+            last[S[i] - 'a'] = i;
+            prv[i] = last;
+        }
+
+        last.fill(-1);
+        for (int i = n - 1; i >= 0; --i) {
+            last[S[i] - 'a'] = i;
+            nxt[i] = last;
+        }
+
+        vector<vector<long long>> memo(n, vector<long long>(n, -1));
+
+        function<long long(int, int)> dp = [&](int i, int j) -> long long {
+            if (memo[i][j] != -1) return memo[i][j];
+            long long result = 1;
+            if (i <= j) {
+                for (int x = 0; x < 4; ++x) {
+                    int i0 = nxt[i][x];
+                    int j0 = prv[j][x];
+                    if (i0 != -1 && i0 >= i && i0 <= j) {
+                        result = (result + 1) % MOD;
+                    }
+                    if (i0 != -1 && j0 != -1 && i0 < j0) {
+                        result = (result + dp(i0 + 1, j0 - 1)) % MOD;
+                    }
+                }
+            }
+            result %= MOD;
+            memo[i][j] = result;
+            return result;
+        };
+
+        long long ans = dp(0, n - 1);
+        ans = (ans - 1 + MOD) % MOD;  // subtract empty subsequence
+        return static_cast<int>(ans);
+    }
+};

@@ -67,9 +67,12 @@ Aarz_GreenTranspilation/
 │   ├── fin_energy_before_v2.csv   # Final energy (before cutoff)
 │   ├── passed_python2_after.csv   # Passing Python2 solutions
 │   └── whisk_problems_v_fin.csv   # Scraped problem database
-├── cpp_energy_test_final_feasible/ # C++ benchmark programs (43 programs)
-├── py2_energy_test_final_feasible/ # Python2 benchmark programs (43 programs)
-├── new_transpiled_solutions/       # GPT-translated C++ solutions (122 files)
+├── transpiled_before/              # Problems before Sept 30, 2024 cutoff (120 problems)
+│   └── [slug]/                    # Each problem by slug (e.g., 123__best-time-to-buy-and-sell-stock-iii)
+│       └── cpp/                   # Contains .cpp, .py, and benchmark files
+├── transpiled_after/               # Problems after Sept 30, 2024 cutoff (41 feasible problems)
+│   └── [slug]/                    # Each problem by slug (e.g., check-if-dfs-strings-are-palindromes)
+│       └── cpp/                   # Contains .cpp, .py, and benchmark files
 ├── jupyter/                        # Jupyter notebooks for analysis (21 notebooks)
 ├── energy expenditure.png          # Energy consumption visualization
 └── README.md                       # This file

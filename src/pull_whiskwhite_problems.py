@@ -61,8 +61,8 @@ def _to_date_string(x) -> Optional[str]:
 
 def main():
     ap = argparse.ArgumentParser(description="Pull problems from whiskwhite/leetcode-complete with filters.")
-    ap.add_argument("--date-after", dest="date_after", default="2024-05-31",
-                    help="Keep problems strictly AFTER this date (YYYY-MM-DD). Default: 2024-05-31")
+    ap.add_argument("--date-after", dest="date_after", default="2024-09-30",
+                    help="Keep problems strictly AFTER this date (YYYY-MM-DD). Default: 2024-09-30")
     ap.add_argument("--difficulty", default=None,
                     help="Comma-separated subset of difficulties (e.g., Hard or Hard,Medium). Default: all")
     ap.add_argument("--out-csv", default="whisk_problems.csv", help="CSV output filepath")

@@ -357,6 +357,12 @@ def main():
     for r in tqdm(rows):
         matches.append(find_match(r, idx_py, idx_cpp))
 
+
+    print(f"[3b/5] Filtering only Python solutions ...")
+    matches = [m for m in matches if m.has_python]
+    total = len(matches)
+    print(f"  -> {total} problems with Python solutions")
+
     print(f"[4/5] Writing outputs ...")
     out_csv = Path(args.out_csv).resolve()
     out_db = Path(args.out_db).resolve()

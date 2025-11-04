@@ -8,10 +8,9 @@ from bs4 import BeautifulSoup
 # =========================
 # CONFIG — CHANGE THIS PATH
 # =========================
-# e.g., REPO_PATH = "/Users/aadil/code/libs/LeetCode-Solutions"
+# e.g., REPO_PATH = "/Users/xyz/code/libs/LeetCode-Solutions"
 REPO_PATH = "./LeetCode-Solutions"
 
-CPP_DIR = os.path.join(REPO_PATH, "C++")
 PY_DIR  = os.path.join(REPO_PATH, "Python")
 
 OUT_XLSX = "hard_problems_kamyu_with_statements_local.xlsx"
@@ -75,19 +74,16 @@ def gql_question(slug: str):
     return None
 
 def gather_repo_slugs_local():
-    if not (os.path.isdir(CPP_DIR) and os.path.isdir(PY_DIR)):
+    if not os.path.isdir(PY_DIR):
         raise SystemExit(
-            f"Local repo not found.\nExpected C++ at: {CPP_DIR}\nExpected Python at: {PY_DIR}\n"
+            f"Local Python repo not found.\nExpected Python at: {PY_DIR}\n"
             "Update REPO_PATH at the top of the script."
         )
-    cpp_slugs, py_slugs = set(), set()
-    for fname in os.listdir(CPP_DIR):
-        if fname.endswith(".cpp"):
-            cpp_slugs.add(fname[:-4])  # remove .cpp
+    py_slugs = set()
     for fname in os.listdir(PY_DIR):
         if fname.endswith(".py"):
             py_slugs.add(fname[:-3])   # remove .py
-    return cpp_slugs, py_slugs
+    return py_slugs
 
 # -------------------------
 # Main
@@ -108,26 +104,26 @@ def main():
                 "slug": s["question__title_slug"],
                 "paid_only": e.get("paid_only", False),
             })
-    print(f"  -> Hard problems in LC list: {len(hard)}", flush=True)
 
-    print("Step 2/4: Scanning local repo for C++/Python slugs …", flush=True)
-    cpp_slugs, py_slugs = gather_repo_slugs_local()
-    print(f"  -> Found C++ solutions: {len(cpp_slugs)}, Python solutions: {len(py_slugs)}", flush=True)
+    
+    
+    print("Step 2/4: Scanning local repo for Python slugs …", flush=True)
+    py_slugs = gather_repo_slugs_local()
+    print(f"  -> Found Python solutions: {len(py_slugs)}", flush=True)
 
-    # Keep only problems that have BOTH C++ and Python solutions locally
-    hard_both = [p for p in hard if p["slug"] in cpp_slugs and p["slug"] in py_slugs]
+    hard_py = [p for p in hard if p["slug"] in py_slugs]
     # Sort by LeetCode ID (approx original posting order)
-    hard_both.sort(key=lambda x: int(x["id"]))
-    print(f"  -> Hard with BOTH langs: {len(hard_both)}", flush=True)
+    hard_py.sort(key=lambda x: int(x["id"]))
+    print(f"  -> Hard problems with Python: {len(hard_py)}", flush=True)
 
     print("Step 3/4: Fetching statements via LeetCode GraphQL …", flush=True)
     rows = []
-    total = len(hard_both)
-    for idx, p in enumerate(hard_both, 1):
+    total = len(hard_py)
+    for idx, p in enumerate(hard_py, 1):
         slug = p["slug"]
         # Basic links
         leet_url = f"https://leetcode.com/problems/{slug}/"
-        cpp_url  = f"{'file://'+os.path.abspath(os.path.join(CPP_DIR, slug+'.cpp')) if os.path.exists(os.path.join(CPP_DIR, slug+'.cpp')) else ''}"
+        #cpp_url  = f"{'file://'+os.path.abspath(os.path.join(CPP_DIR, slug+'.cpp')) if os.path.exists(os.path.join(CPP_DIR, slug+'.cpp')) else ''}"
         py_url   = f"{'file://'+os.path.abspath(os.path.join(PY_DIR, slug+'.py')) if os.path.exists(os.path.join(PY_DIR, slug+'.py')) else ''}"
         # If you prefer GitHub links instead of file://, swap to:
         # cpp_url = f"https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/{slug}.cpp"
@@ -156,7 +152,7 @@ def main():
             "Difficulty": difficulty,
             "Paid Only": bool(is_paid),
             "LeetCode Link": leet_url,
-            "C++ Solution (local)": cpp_url,
+            #"C++ Solution (local)": cpp_url,
             "Python Solution (local)": py_url,
             "Statement (HTML)": content_html,
             "Statement (Plain Text)": content_text

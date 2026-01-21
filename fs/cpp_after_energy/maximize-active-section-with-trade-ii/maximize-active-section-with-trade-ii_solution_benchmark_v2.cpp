@@ -1,0 +1,155 @@
+#include <vector>
+#include <string>
+#include <algorithm>
+#include <climits>
+#include <utility>
+using namespace std;
+template <class T>
+static inline void DoNotOptimize(const T& value) {
+    asm volatile("" : : "r,m"(value) : "memory");
+}
+
+class Solution {
+public:
+    // Sparse Table for Range Maximum Query (RMQ)
+    struct SparseTableMax {
+        vector<vector<int>> st;
+        vector<int> logs;
+        int n = 0;
+        int K = 0;
+
+        SparseTableMax() {}
+
+        SparseTableMax(const vector<int>& arr) {
+            build(arr);
+        }
+
+        void build(const vector<int>& arr) {
+            n = static_cast<int>(arr.size());
+            if (n == 0) {
+                K = 0;
+                st.clear();
+                logs.assign(1, 0);
+                return;
+            }
+            logs.assign(n + 1, 0);
+            for (int i = 2; i <= n; ++i) {
+                logs[i] = logs[i / 2] + 1;
+            }
+            K = logs[n];
+            st.assign(K + 1, vector<int>(n));
+            st[0] = arr;
+            for (int k = 1; k <= K; ++k) {
+                int len = 1 << k;
+                int half = len >> 1;
+                for (int i = 0; i + len <= n; ++i) {
+                    st[k][i] = std::max(st[k - 1][i], st[k - 1][i + half]);
+                }
+            }
+        }
+
+        int query(int L, int R) const {
+            if (L > R) return INT_MIN;
+            int len = R - L + 1;
+            int k = logs[len];
+            return std::max(st[k][L], st[k][R - (1 << k) + 1]);
+        }
+    };
+
+    vector<int> maxActiveSectionsAfterTrade(string s, vector<vector<int>>& queries) {
+        int n = static_cast<int>(s.size());
+        vector<int> lookup(n, -1);
+        vector<pair<int, int>> idxs;  // pairs of (start_index, length) for consecutive '0' runs
+        int cnt1 = 0;
+
+        for (int i = 0; i < n; ++i) {
+            char x = s[i];
+            if (x == '0') {
+                if (i - 1 >= 0 && s[i - 1] == '0') {
+                    idxs.back().second += 1;
+                } else {
+                    idxs.emplace_back(i, 1);
+                }
+            } else {
+                cnt1 += 1;
+            }
+            lookup[i] = static_cast<int>(idxs.size()) - 1;
+        }
+
+        if (idxs.empty()) {
+            return vector<int>(queries.size(), cnt1);
+        }
+
+        int m = static_cast<int>(idxs.size());
+        vector<int> arr(max(0, m - 1), 0);
+        for (int i = 0; i + 1 < m; ++i) {
+            arr[i] = idxs[i].second + idxs[i + 1].second;
+        }
+
+        SparseTableMax st(arr);
+        vector<int> result(queries.size(), cnt1);
+
+        for (size_t qi = 0; qi < queries.size(); ++qi) {
+            int l = queries[qi][0];
+            int r = queries[qi][1];
+
+            int left = lookup[l] + 1;
+            int right = lookup[r] - (s[r] == '0' ? 1 : 0);
+
+            int left_cnt = (lookup[l] != -1) ? (idxs[lookup[l]].second - (l - idxs[lookup[l]].first)) : -1;
+            int right_cnt = (lookup[r] != -1) ? (r - idxs[lookup[r]].first + 1) : -1;
+
+            if (left <= right - 1) {
+                result[qi] = max(result[qi], cnt1 + st.query(left, right - 1));
+            }
+            if (s[l] == '0' && s[r] == '0' && lookup[l] + 1 == lookup[r]) {
+                result[qi] = max(result[qi], cnt1 + left_cnt + right_cnt);
+            }
+            if (s[l] == '0' && lookup[l] + 1 <= right) {
+                result[qi] = max(result[qi], cnt1 + left_cnt + idxs[lookup[l] + 1].second);
+            }
+            if (s[r] == '0' && left <= lookup[r] - 1) {
+                result[qi] = max(result[qi], cnt1 + right_cnt + idxs[lookup[r] - 1].second);
+            }
+        }
+
+        return result;
+    }
+};
+
+struct TestCase {
+    string s;
+    vector<vector<int>> queries;
+};
+
+int main() {
+    vector<TestCase> tests = {
+        { "11111", {{0,0},{1,3},{0,4}} },
+        { "0000", {{0,0},{1,2},{0,3},{2,3}} },
+        { "010101", {{0,5},{1,4},{2,3},{0,1}} },
+        { "00111000", {{0,7},{0,2},{3,5},{2,6},{1,7}} },
+        { "10000100001", {{0,10},{1,4},{5,9},{2,8},{3,3},{10,10}} },
+        { "101001110100", {{0,11},{4,7},{2,5},{6,10},{1,1},{9,11}} },
+        { "010000010", {{0,8},{1,7},{2,6},{0,0},{8,8},{3,5}} },
+        { "110011001100", {{0,11},{2,9},{4,7},{1,10},{0,3},{8,11}} },
+        { "1010101010101010", {{0,15},{1,14},{2,13},{3,12},{4,11},{5,10},{6,9},{7,8}} },
+        { "00110011100011110000", {{0,19},{0,5},{6,11},{12,19},{3,16},{8,14},{4,4},{15,15}} }
+    };
+
+    Solution sol;
+    volatile int sink = 0;
+
+    const int iterations = 1000;
+    for (int iter = 0; iter < iterations; ++iter) {
+        int checksum = 0;
+        for (const auto& tc : tests) {
+            vector<vector<int>> q = tc.queries;
+            vector<int> res = sol.maxActiveSectionsAfterTrade(tc.s, q);
+            DoNotOptimize(res);
+            //for (int v : res) checksum += v;
+        }
+        //sink = checksum;
+    }
+
+    return 0;
+}

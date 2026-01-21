@@ -1,0 +1,184 @@
+#include <iostream>
+template <class T>
+static inline void DoNotOptimize(const T& value) {
+    asm volatile("" : : "r,m"(value) : "memory");
+}
+
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+class Solution {
+public:
+    int movesToChessboard(vector<vector<int>>& board) {
+        int rowsMoves = analyzeRows(board);
+        if (rowsMoves < 0) return -1;
+        int colsMoves = analyzeCols(board);
+        if (colsMoves < 0) return -1;
+        return rowsMoves + colsMoves;
+    }
+
+private:
+    int computeMovesForPattern(const vector<int>& seq) {
+        int N = static_cast<int>(seq.size());
+        int ones = 0;
+        for (int v : seq) ones += v;
+
+        if (N % 2 == 1) {
+            int begin = (ones * 2 > N) ? 1 : 0;
+            int mismatch = 0;
+            for (int i = 0; i < N; ++i) {
+                int expected = (i + begin) % 2;
+                if (seq[i] != expected) mismatch++;
+            }
+            return mismatch / 2;
+        } else {
+            int mismatch0 = 0, mismatch1 = 0;
+            for (int i = 0; i < N; ++i) {
+                if (seq[i] != (i % 2)) mismatch0++;
+                if (seq[i] != ((i + 1) % 2)) mismatch1++;
+            }
+            return min(mismatch0, mismatch1) / 2;
+        }
+    }
+
+    int analyzeRows(const vector<vector<int>>& board) {
+        int N = static_cast<int>(board.size());
+        const vector<int>& s1 = board[0];
+        vector<int> s2(N);
+        for (int j = 0; j < N; ++j) s2[j] = 1 - s1[j];
+
+        int cnt1 = 0, cnt2 = 0;
+        for (int i = 0; i < N; ++i) {
+            if (board[i] == s1) {
+                cnt1++;
+            } else if (board[i] == s2) {
+                cnt2++;
+            } else {
+                return -1;
+            }
+        }
+
+        int a = min(cnt1, cnt2);
+        int b = max(cnt1, cnt2);
+        if (!(a == N / 2 && b == (N + 1) / 2)) return -1;
+
+        return computeMovesForPattern(s1);
+    }
+
+    int analyzeCols(const vector<vector<int>>& board) {
+        int N = static_cast<int>(board.size());
+        vector<int> s1(N);
+        for (int i = 0; i < N; ++i) s1[i] = board[i][0];
+
+        int cnt1 = 0, cnt2 = 0;
+        for (int j = 0; j < N; ++j) {
+            bool eq1 = true, eq2 = true;
+            for (int i = 0; i < N; ++i) {
+                if (board[i][j] != s1[i]) eq1 = false;
+                if (board[i][j] != 1 - s1[i]) eq2 = false;
+                if (!eq1 && !eq2) break;
+            }
+            if (eq1) {
+                cnt1++;
+            } else if (eq2) {
+                cnt2++;
+            } else {
+                return -1;
+            }
+        }
+
+        int a = min(cnt1, cnt2);
+        int b = max(cnt1, cnt2);
+        if (!(a == N / 2 && b == (N + 1) / 2)) return -1;
+
+        return computeMovesForPattern(s1);
+    }
+};
+
+int main() {
+    auto makeChess = [](int N, int start) {
+        vector<vector<int>> b(N, vector<int>(N));
+        for (int i = 0; i < N; ++i)
+            for (int j = 0; j < N; ++j)
+                b[i][j] = (i + j + start) % 2;
+        return b;
+    };
+    auto permuteCols = [](const vector<vector<int>>& b, const vector<int>& p) {
+        int N = static_cast<int>(b.size());
+        vector<vector<int>> r(N, vector<int>(N));
+        for (int i = 0; i < N; ++i)
+            for (int j = 0; j < N; ++j)
+                r[i][j] = b[i][p[j]];
+        return r;
+    };
+    auto permuteRows = [](const vector<vector<int>>& b, const vector<int>& p) {
+        int N = static_cast<int>(b.size());
+        vector<vector<int>> r(N, vector<int>(N));
+        for (int i = 0; i < N; ++i)
+            r[i] = b[p[i]];
+        return r;
+    };
+
+    vector<vector<vector<int>>> tests;
+    tests.reserve(10);
+
+    // 1) 2x2 valid chessboard
+    tests.push_back({{0,1},{1,0}});
+
+    // 2) 2x2 invalid due to column counts mismatch
+    tests.push_back({{1,1},{0,0}});
+
+    // 3) 3x3 valid chessboard
+    tests.push_back(makeChess(3, 0));
+
+    // 4) 3x3 invalid row not matching s1/s2
+    tests.push_back({{1,0,1},{0,1,0},{1,1,0}});
+
+    // 5) 4x4 solvable needing swaps
+    tests.push_back({{0,0,1,1},{1,1,0,0},{0,0,1,1},{1,1,0,0}});
+
+    // 6) 5x5 valid chessboard starting with 1
+    tests.push_back(makeChess(5, 1));
+
+    // 7) 5x5 invalid due to row count imbalance
+    tests.push_back({{1,0,1,0,1},{1,0,1,0,1},{1,0,1,0,1},{1,0,1,0,1},{1,0,1,0,1}});
+
+    // 8) 6x6 solvable after permutations
+    {
+        auto b = makeChess(6, 0);
+        vector<int> pc = {2,0,3,5,1,4};
+        vector<int> pr = {3,0,5,2,1,4};
+        tests.push_back(permuteRows(permuteCols(b, pc), pr));
+    }
+
+    // 9) 7x7 solvable after permutations
+    {
+        auto b = makeChess(7, 0);
+        vector<int> pc = {1,0,3,2,5,4,6};
+        vector<int> pr = {6,0,2,1,3,5,4};
+        tests.push_back(permuteRows(permuteCols(b, pc), pr));
+    }
+
+    // 10) 8x8 solvable after permutations
+    {
+        auto b = makeChess(8, 1);
+        vector<int> pc = {7,0,5,2,3,1,6,4};
+        vector<int> pr = {4,2,7,0,6,1,5,3};
+        tests.push_back(permuteRows(permuteCols(b, pc), pr));
+    }
+
+    Solution sol;
+    volatile int sink = 0;
+    const int iterations = 1000;
+    for (int iter = 0; iter < iterations; ++iter) {
+        //int checksum = 0;
+        for (int i = 0; i < 10; ++i) {
+            int r = sol.movesToChessboard(tests[i]);
+            DoNotOptimize(r);
+        }
+        //sink = checksum;
+    }
+
+    return 0;
+}

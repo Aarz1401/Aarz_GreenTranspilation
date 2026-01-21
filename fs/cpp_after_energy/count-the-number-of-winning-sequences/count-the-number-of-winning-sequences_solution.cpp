@@ -1,0 +1,68 @@
+#include <iostream>
+#include <vector>
+#include <array>
+#include <unordered_map>
+#include <string>
+#include <algorithm>
+#include <climits>
+#include <cmath>
+#include <chrono>
+
+using namespace std;
+template <class T>
+static inline void DoNotOptimize(const T& value) {
+    asm volatile("" : : "r,m"(value) : "memory");
+}
+
+class Solution {
+public:
+    int countWinningSequences(string s) {
+        const int MOD = 1000000007;
+        if (s.empty()) return 0;
+
+        array<int, 128> lookup;
+        lookup.fill(-1);
+        lookup['F'] = 0;
+        lookup['W'] = 1;
+        lookup['E'] = 2;
+
+        vector<unordered_map<int, int>> dp(3);
+        for (int i = 0; i < (int)s.size(); ++i) {
+            vector<unordered_map<int, int>> new_dp(3);
+            int x = lookup[(unsigned char)s[i]];
+            for (int j = 0; j < 3; ++j) {
+                int m = ((j - x + 1) % 3 + 3) % 3;
+                int diff = m - 1;
+                if (i == 0) {
+                    new_dp[j][diff] = 1;
+                    continue;
+                }
+                for (int k = 0; k < 3; ++k) {
+                    if (k == j) continue;
+                    for (const auto& p : dp[k]) {
+                        int v = p.first;
+                        int cnt = p.second;
+                        long long add = new_dp[j][v + diff];
+                        add += cnt;
+                        if (add >= MOD) add -= MOD;
+                        new_dp[j][v + diff] = (int)add;
+                    }
+                }
+            }
+            dp.swap(new_dp);
+        }
+
+        long long ans = 0;
+        for (int j = 0; j < 3; ++j) {
+            for (const auto& p : dp[j]) {
+                int v = p.first;
+                int cnt = p.second;
+                if (v >= 1) {
+                    ans += cnt;
+                    if (ans >= MOD) ans -= MOD;
+                }
+            }
+        }
+        return (int)(ans % MOD);
+    }
+};

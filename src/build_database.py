@@ -5,9 +5,7 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 
-# =========================
-# CONFIG — CHANGE THIS PATH
-# =========================
+
 # e.g., REPO_PATH = "/Users/xyz/code/libs/LeetCode-Solutions"
 REPO_PATH = "./LeetCode-Solutions"
 

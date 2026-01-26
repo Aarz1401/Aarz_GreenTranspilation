@@ -2,63 +2,66 @@ import os
 from openai import OpenAI
 from dotenv import load_dotenv
 
+
 load_dotenv()
 client = OpenAI(api_key=os.getenv("GPT_API_KEY"))
 
-ROOT_DIR = "new_transpiled_solutions"  
-OUTPUT_SUFFIX = "_benchmark.cpp"       
-MAX_CHARS = 6000                       
-ITERATIONS = 1000                      
-MODEL_NAME = "gpt-5-2025-08-07"        
-
+ROOT_DIR = "new_transpiled_solutions"      # Root directory for C++ solutions
+OUTPUT_SUFFIX = "_benchmark_v3.cpp"       # Output file name suffix
+MAX_CHARS = 10000                       # Optional truncation limit for long code
+ITERATIONS = 1000                      # Number of iterations for the benchmark loop
+MODEL_NAME = "gpt-5-2025-08-07"        # GPT model version
 
 
 def generate_benchmark(cpp_code: str, slug: str, iterations: int):
-    """Ask GPT to create a benchmark C++ file for the given solution."""
     truncated_code = cpp_code[:MAX_CHARS] if MAX_CHARS else cpp_code
 
     prompt = f"""
     REQUIREMENTS:
-    1. Create a benchmark that generates 10 diverse test inputs for this solution
-    2. The benchmark should run these inputs in a loop EXACTLY {iterations} times
-    3. Use high_resolution_clock to measure and report the execution time
-
-    Here's the original C++ solution to analyze:
-
+    1. Generate a C++ benchmark for this solution
+    2. Create exactly 10 VALID and diverse test inputs
+    3. Run them EXACTLY {iterations} times
+    Original C++ solution:
     ```cpp
     {truncated_code}
-    The benchmark should:
+    ```
+    Benchmark rules:
 
-    Include all necessary headers (including <chrono> for timing)
-    Define 10 different test inputs that cover various cases (number arrays, strings, etc., as required by the solution)
-    Run the main test function in a loop EXACTLY {iterations} times using this EXACT pattern:
-    const int iterations = {iterations};
-    for (int iter = 0; iter < iterations; ++iter) {{
-        // test code here
-    }}
+    - Include required headers only
+    - Use the Solution class unchanged
+    - Store the 10 test inputs in a single container (e.g. vector<string>, vector<vector<int>>, etc.)
+    - Use this EXACT loop structure:
+      const int iterations = {iterations};
+      for (int iter = 0; iter < iterations; ++iter) {{
+          // test code
+      }}
+    - Do NOT include any timing code
+    - Do NOT print anything
 
+    Prevent optimization with minimal overhead:
+    - declare `volatile int sink = 0;` outside the loop
+    - inside the loop declare `int checksum = 0;`
+    - accumulate results of the 10 tests into checksum
+    - do exactly one volatile write per iteration: `sink = checksum;`
+    - do NOT accumulate across iterations
 
-    Use std::chrono::high_resolution_clock to measure execution time
-    Use the Solution class from the original code without modification
-    Use a checksum or accumulator variable to ensure the compiler doesn't optimize away the calculations
-    Print the result/checksum and elapsed time at the end
-    IMPORTANT: The for loop MUST use this exact style:
-    Declare const int iterations = {iterations}; before the loop
-    Loop condition: iter < iterations (NOT iter < {iterations} directly)
-    Use ++iter for increment
-    Format your response as a complete C++ file with no additional explanation outside the code.
+    Input validity:
+    - Do NOT include empty or invalid inputs
+    - All test inputs must respect the problem constraints
+
+    Return a complete C++ file only, with no explanation outside the code.
     """
 
     response = client.chat.completions.create(
         model=MODEL_NAME,
         messages=[
-            {"role": "system", "content": "You generate high-quality C++ benchmark programs for LeetCode-style problems."},
+            {"role": "system", "content": "You generate minimal, correct C++ benchmark programs."},
             {"role": "user", "content": prompt}
         ]
     )
 
-    return response.choices[0].message.content.strip()
 
+    return response.choices[0].message.content.strip()
 
 def main():
     total_cpp_files = 0
@@ -68,7 +71,10 @@ def main():
 
     for root, dirs, files in os.walk(ROOT_DIR):
         for file in files:
-            if not file.endswith(".cpp") or file.endswith(OUTPUT_SUFFIX):
+            #if not file.endswith(".cpp") or file.endswith(OUTPUT_SUFFIX):
+            if not file.endswith(".cpp"):
+                continue
+            if file.endswith("_benchmark.cpp") or file.endswith("_main.cpp") or file.endswith("_benchmark_v2.cpp") or file.endswith("_main_v2.cpp"):
                 continue
 
             total_cpp_files += 1
@@ -76,13 +82,12 @@ def main():
             slug = os.path.basename(file).replace(".cpp", "")
             output_path = os.path.join(root, slug + OUTPUT_SUFFIX)
 
-            # Skip if benchmark already exists
             if os.path.exists(output_path):
                 print(f"Skipping existing benchmark for: {slug}")
                 skipped_existing += 1
                 continue
 
-            print(f"\n Generating benchmark for: {slug}")
+            print(f"\nGenerating benchmark for: {slug}")
 
             try:
                 with open(cpp_path, "r", encoding="utf-8") as f:

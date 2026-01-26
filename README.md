@@ -5,14 +5,15 @@ Quantifying energy efficiency differences between Python and C++ implementations
 ## Overview
 
 This project provides an end-to-end workflow for:
-1. Fetching LeetCode problems (before/after GPT-4 cutoff: Sept 30, 2024)
+1. Fetching LeetCode problems (before/after GPT-5 cutoff: Sept 30, 2024)
 2. Verifying Python solutions on LeetCode
-3. Translating Python → C++ using GPT-4
+3. Translating Python → C++ using GPT-5
 4. Verifying C++ solutions on LeetCode
-5. Measuring energy consumption with macOS powermetrics
-6. Analyzing energy efficiency differences
+5. Adding test cases to C++ code 
+6. Translating test cases to python code
+7. Measuring energy consumption with pyRAPL
+8. Analyzing energy efficiency differences
 
-**Key Result**: C++ uses **42.9x less energy** than Python (median across benchmarked programs)
 
 ## Quick Start
 
@@ -24,21 +25,21 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-# Python 2.7 for benchmarks (if needed)
+# Python 2.7 for benchmarks 
 # Install via pyenv: pyenv install 2.7.18
-# Install sortedcontainers: pip install sortedcontainers
-
-# macOS powermetrics (built-in, requires sudo)
-# Stats.app for temperature monitoring (optional but recommended)
 ```
 
 ### View Existing Results
 
 ```bash
 # Check CSV files for benchmark results
-cat csv/energy_results_combined_v3.csv
-cat csv/batch_verify_results_cpp.csv
+cat csv/FILTERED_BEFOR_CHECKSUM_ENERGY_READING_FULL_V1.csv
+cat csv/FILTERED_AFTER_CHECKSUM_ENERGY_READING_FULL_V1.csv
 cat csv/batch_verify_results_py2_v2.csv
+
+# Check CSV files for checksum results
+cat csv/CHECK_SUM_AFTER_CUMULATIVE_v1.csv
+cat csv/CHECK_SUM_CLEANED_BEFORE_CUMULATIVE.csv
 ```
 
 ## Project Structure
@@ -49,11 +50,14 @@ Aarz_GreenTranspilation/
 │   ├── batch_verify_cpp.py        # Verify C++ solutions on LeetCode
 │   ├── batch_verify_on_leetcode.py # Verify Python solutions
 │   ├── build_database.py          # Database utilities
-│   ├── combo_after_energy.py      # Energy analysis (after cutoff)
-│   ├── combo_energy_v2.py         # Energy analysis v2
+│   ├── combo_after_energy.py      # Energy analysis for py directory and cpp directory
+│   ├── combo_energy_v2.py         # Energy analysis for py and cpp in same directory
+|   ├── checksum_comparer_two_direcs.py # Energy analysis for py directory and cpp directory
+|   ├── checksum_comparer.py       # checksum for py and cpp in same directory 
 │   ├── crossref_from_csv.py       # Cross-reference solutions
-│   ├── get_python_ans.py          # Extract Python answers
-│   ├── getting_test_cases.py      # Fetch LeetCode test cases
+│   ├── get_python_ans.py          # Translating Cpp test cases to python
+│   ├── getting_test_cases.py      # Generating Cpp test cases 
+│   ├── fs\v2_get_python_solutions.py # Translates from Python to C++
 │   ├── pull_whiskwhite_problems.py # Scrape LeetCode problems
 │   └── verify_on_leetcode.py      # LeetCode verification
 ├── csv/                            # Data and results (CSV files)
@@ -62,19 +66,19 @@ Aarz_GreenTranspilation/
 │   ├── batch_verify_results_cpp.csv # C++ verification results
 │   ├── batch_verify_results_py2_v2.csv # Python2 verification results
 │   ├── crossref_kamyu_v1.csv      # Kamyu solution cross-reference
-│   ├── energy_results_combined_v3.csv # Energy benchmark results
-│   ├── fin_energy_after.csv       # Final energy (after cutoff)
-│   ├── fin_energy_before_v2.csv   # Final energy (before cutoff)
+│   ├── FILTERED_AFTER_CHECKSUM_ENERGY_READING_FULL_V1.csv  # Final energy (after cutoff)
+│   ├── FILTERED_BEFOR_CHECKSUM_ENERGY_READING_FULL_V1.csv   # Final energy (before cutoff)
 │   ├── passed_python2_after.csv   # Passing Python2 solutions
 │   └── whisk_problems_v_fin.csv   # Scraped problem database
-├── transpiled_before/              # Problems before Sept 30, 2024 cutoff (120 problems)
-│   └── [slug]/                    # Each problem by slug (e.g., 123__best-time-to-buy-and-sell-stock-iii)
-│       └── cpp/                   # Contains .cpp, .py, and benchmark files
-├── transpiled_after/               # Problems after Sept 30, 2024 cutoff (41 feasible problems)
-│   └── [slug]/                    # Each problem by slug (e.g., check-if-dfs-strings-are-palindromes)
-│       └── cpp/                   # Contains .cpp, .py, and benchmark files
+├── cpp_before_energy & py_before_energy/  # Problems before Sept 30, 2024 cutoff 
+│   └── [slug]/                    # Each problem by slug (e.g., 123__best-time-to-buy-and-sell-stock-iii), Contains .cpp, .py, and test case files
+├── cpp_after_energy & py_after_energy/  # Problems after Sept 30, 2024 cutoff 
+│   └── [slug]/                    # Each problem by slug (e.g., check-if-dfs-strings-are-palindromes), Contains .cpp, .py, and benchmark files
+├── cpp_before_checksum & py_before_checksum/
+│   └── [slug]/                     # Each problem by slug (e.g., check-if-dfs-strings-are-palindromes), Contains .cpp, .py, and benchmark files
+├── cpp_before_checksum & py_before_checksum/
+│   └── [slug]/                     # Each problem by slug (e.g., check-if-dfs-strings-are-palindromes), Contains .cpp, .py, and benchmark files
 ├── jupyter/                        # Jupyter notebooks for analysis (21 notebooks)
-├── energy expenditure.png          # Energy consumption visualization
 └── README.md                       # This file
 ```
 
@@ -117,7 +121,15 @@ python src/batch_verify_on_leetcode.py \
   --sleep 12 --max-retries 4
 ```
 
-### 4. Verify C++ Solutions on LeetCode
+### 4. Generate C++ Solutions 
+
+```bash
+  python v2_get_python_solutions.py
+```
+
+
+
+### 5. Verify C++ Solutions on LeetCode
 
 ```bash
 python src/batch_verify_cpp.py \
@@ -126,37 +138,38 @@ python src/batch_verify_cpp.py \
   --out-csv csv/verify_results_cpp.csv \
   --sleep 15
 ```
-
-### 5. Run Energy Benchmarks
+### 6. Generate C++ test cases 
 
 ```bash
-# Requires sudo for powermetrics
-sudo bash run_benchmarks.sh
-
-# Results saved to csv/energy_results_combined.csv
+  python getting_test_cases.py
 ```
+
+### 7. Translate test cases from C++ to Python2  
+
+```bash
+  python get_python_ans.py
+```
+
+### 8. Run Checksum Comparison
+
+```bash
+  python checksum_comparer_two_direcs.py
+```
+
+### 9. Run Energy Benchmarks
+
+```bash
+  python combo_after_energy.py 
+```
+
 
 ## Energy Benchmarking Framework
 
 ### Methodology
 
-- **Tool**: macOS powermetrics (50ms sampling interval)
+- **Tool**: pyRAPL 
 - **Runs**: Multiple runs per language per benchmark
-- **Temperature Monitoring**: Stats.app smc tool for thermal control
 - **Thermal Control**: Automatic cooling pauses if temperature rises significantly
-- **Iteration Constraints**:
-  - C++ must run ≥0.5s (reliable powermetrics sampling)
-  - Python must run ≤50s (avoid OOM errors)
-  - Both languages use identical iterations per benchmark
-
-### Results Format
-
-CSV output includes:
-- `problem`: Benchmark name
-- `cpp_power_mw`, `cpp_time_s`, `cpp_energy_j`: C++ metrics
-- `py_power_mw`, `py_time_s`, `py_energy_j`: Python metrics
-- `power_ratio`, `time_ratio`, `energy_ratio`: Python/C++ ratios
-- `cpp_temp_c`, `py_temp_c`: Average CPU temperature (°C)
 
 ## Key Datasets
 
@@ -165,48 +178,10 @@ CSV output includes:
 - **[whisk_problems_v_fin.csv](csv/whisk_problems_v_fin.csv)**: Complete database of scraped LeetCode problems
 - **[batch_verify_results_cpp.csv](csv/batch_verify_results_cpp.csv)**: C++ verification results
 - **[batch_verify_results_py2_v2.csv](csv/batch_verify_results_py2_v2.csv)**: Python2 verification results
-- **[energy_results_combined_v3.csv](csv/energy_results_combined_v3.csv)**: Energy benchmark results
+- **[FILTERED_AFTER_CHECKSUM_ENERGY_READING_FULL_V1.csv](csv/FILTERED_AFTER_CHECKSUM_ENERGY_READING_FULL_V1.csv)**: Energy benchmark results
+- **[FILTERED_BEFOR_CHECKSUM_ENERGY_READING_FULL_V1.csv](csv/FILTERED_BEFOR_CHECKSUM_ENERGY_READING_FULL_V1.csv)**: Energy benchmark results
 - **[crossref_kamyu_v1.csv](csv/crossref_kamyu_v1.csv)**: Cross-reference with Kamyu's solutions
 - **[accepted_v2.csv](csv/accepted_v2.csv)**: Accepted solutions list
-
-## Troubleshooting
-
-### Powermetrics shows 0 J energy
-
-**Cause**: Program runs too fast (< 0.5s), powermetrics can't sample enough
-
-**Solution**: Increase iteration count in benchmark files
-
-### Python benchmark crashes (OOM)
-
-**Cause**: Python runs too long or uses too much memory
-
-**Solution**: Reduce iterations or exclude from benchmark set
-
-### Temperature warnings
-
-**Cause**: CPU temperature rises during benchmarking
-
-**Solution**:
-- Ensure good ventilation
-- Close other applications
-- Use built-in cooling pauses in scripts
-- Install Stats.app for temperature monitoring
-
-## Visualization
-
-See [energy expenditure.png](energy%20expenditure.png) for energy consumption visualization comparing Python and C++ implementations.
-
-## Requirements
-
-```
-selenium
-requests
-beautifulsoup4
-pandas
-numpy
-matplotlib
-```
 
 ## License
 

@@ -191,4 +191,5 @@ MIT License
 
 - [Kamyu's LeetCode Solutions](https://github.com/kamyu104/LeetCode-Solutions) - Python solution source
 - [LeetCode](https://leetcode.com) - Problem platform
-- OpenAI GPT-4 - Python → C++ translation assistance
+- OpenAI GPT-5 - Python → C++ translation assistance
+

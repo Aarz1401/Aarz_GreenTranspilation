@@ -1,0 +1,50 @@
+# Time:  O((logn)^2)
+# Space: O(1)
+
+class Solution(object):
+    def preimageSizeFZF(self, K):
+        """
+        :type K: int
+        :rtype: int
+        """
+        def count_of_factorial_primes(n, p):
+            cnt = 0
+            while n > 0:
+                cnt += n//p
+                n //= p
+            return cnt
+
+        p = 5
+        left, right = 0, p*K
+        while left <= right:
+            mid = left + (right-left)//2
+            if count_of_factorial_primes(mid, p) >= K:
+                right = mid-1
+            else:
+                left = mid+1
+        return p if count_of_factorial_primes(left, p) == K else 0
+
+if __name__ == "__main__":
+    tests = [
+        0,
+        1,
+        4,
+        5,
+        10,
+        25,
+        29,
+        30,
+        123456789,
+        1000000000
+    ]
+
+    s = Solution()
+    sink = 0
+
+    iterations = 1
+    for iter in xrange(iterations):
+        checksum = 0
+        for k in tests:
+            checksum += s.preimageSizeFZF(k)
+        sink += checksum
+    print(sink)

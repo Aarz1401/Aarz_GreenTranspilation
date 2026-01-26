@@ -1,0 +1,45 @@
+# Time:  O(nlogn)
+# Space: O(k), k is the number of courses you can take
+
+import collections
+import heapq
+
+
+class Solution(object):
+    def scheduleCourse(self, courses):
+        """
+        :type courses: List[List[int]]
+        :rtype: int
+        """
+        courses.sort(key=lambda t_end: t_end[1])
+        max_heap = []
+        now = 0
+        for t, end in courses:
+            now += t
+            heapq.heappush(max_heap, -t)
+            if now > end:
+                now += heapq.heappop(max_heap)
+        return len(max_heap)
+
+if __name__ == "__main__":
+    tests = [
+        [[100,200],[200,1300],[1000,1250],[2000,3200]],
+        [[1,2],[2,3],[3,4]],
+        [[5,5],[4,6],[2,6]],
+        [[5,4],[6,5],[7,6]],
+        [[1,1],[1,2],[1,3],[1,4],[1,5],[1,6],[1,7],[1,8],[1,9],[1,10]],
+        [[1000,1000],[1000,2000],[1000,3000],[1000,4000],[1000,5000]],
+        [[5,5],[4,5],[3,5],[2,5],[1,5]],
+        [[2,2]],
+        [[3,3],[2,2],[1,1],[4,4]],
+        [[7,17],[3,12],[10,20],[9,19],[12,25],[8,29],[6,18]]
+    ]
+
+    sol = Solution()
+
+    iterations = 1000
+    for iter in range(iterations):
+        #checksum = 0
+        for tc in tests:
+            r = sol.scheduleCourse(tc)
+        #sink = checksum
